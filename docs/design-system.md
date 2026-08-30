@@ -12,11 +12,11 @@ Defined as CSS custom properties (and mirrored in `theme.json` `settings.color.p
 
 ```css
 :root {
-  --color-background: #FAF8F4;   /* warm off-white, not clinical pure white */
-  --color-surface:    #FFFFFF;   /* cards, form fields, elevated panels */
+  --color-background: #FFFFFF;   /* pure white — the owner confirmed this over a warmed off-white */
+  --color-surface:    #F7F7F5;   /* cards, form fields, elevated panels */
   --color-text:       #1B1D1F;   /* near-black, warmer than the logo's #212121 to avoid a cold/blue-black cast */
-  --color-muted:      #6E7377;   /* secondary text, captions, meta labels */
-  --color-border:     #E2E1DC;   /* hairlines, dividers, card borders */
+  --color-muted:      #72777C;   /* secondary text, captions, meta labels */
+  --color-border:     #DFE1E2;   /* hairlines, dividers, card borders */
   --color-accent:     #4B6070;   /* architectural blue-grey — one accent only */
   --color-accent-ink: #FFFFFF;   /* text placed on the accent color */
 }

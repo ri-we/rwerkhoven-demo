@@ -1,6 +1,6 @@
 # Design Decision — Visual Direction
 
-**Status: confirmed.** Direction C (Technical Editorial), warmed with Direction B's material focus, is locked in as the visual identity for the rebuild. All Phase 4 onward theme code should implement the tokens and structure in this document.
+**Status: confirmed.** Direction C (Technical Editorial) is locked in as the visual identity for the rebuild, **unmodified** — the owner reviewed the "warmed with B's material focus" variant (a dedicated materials band borrowed from Direction B) and rejected it in favour of pure Direction C. All Phase 4 onward theme code should implement pure Direction C's tokens and structure below, without a materials band.
 
 Companion to `docs/design-system.md`. Three representative directions were built as real UI (not full sites) using the studio's own photography and one of its actual archived technical drawings — no stock imagery, no fabricated drawings. Reviewable at: the "Richtingenwand" artifact published this session.
 
@@ -28,7 +28,7 @@ White/charcoal base, one restrained architectural blue-grey, Archivo Narrow for 
 
 **Read:** the most distinctive and the most directly tied to what Ron Werkhoven actually sells — not architectural concepts, but *accurate, buildable technical drawings and permit documentation*. Precision-as-visual-language is a direct translation of "creativiteit, snelheid en betrouwbaarheid," and it's built from an asset (the real drawing archive) a generic competitor site can't replicate. The risk is feeling cold/corporate if the technical elements are overused.
 
-## Decision: Direction C, warmed
+## Decision: Direction C
 
 **Direction C is the recommendation**, evaluated against the eight criteria from the brief:
 
@@ -37,20 +37,22 @@ White/charcoal base, one restrained architectural blue-grey, Archivo Narrow for 
 | Vertrouwen (trust) | Good | Good | **Best** — precision cues match a technical-documentation service |
 | Professionaliteit | Good | Good | **Best** |
 | Architectonisch karakter | Fair | Good | **Best** |
-| Persoonlijk gevoel | Fair | **Best** | Good (with the adjustment below) |
+| Persoonlijk gevoel | Fair | **Best** | Fair — the weakest of the three on this axis, accepted as a trade-off |
 | Conversie | Good | Good | Good |
 | Tijdloosheid | **Best** (but generic) | Fair — serif-editorial is a current trend | Good — fine-line/technical editorial has stayed current for decades |
 | Performance | **Best** (1 typeface) | Good (2 families) | Fair (3 families, mitigated — Plex Mono loads only 2 weights, used sparingly) |
 | Onderscheidend vermogen | Fair | Good | **Best** — the drawing archive is a genuine, uncopyable asset |
 
-C wins on the criteria that matter most for this specific business (trust in technical competence, architectural character, distinctiveness) and loses narrowly on the two where B or A lead (personal warmth, raw performance). Both gaps are closeable without switching direction:
+C wins on the criteria that matter most for this specific business (trust in technical competence, architectural character, distinctiveness) and loses narrowly on the two where B or A lead (personal warmth, raw performance).
 
-- **Warmth fix:** don't build C on clinical pure white. Shift the background token warmer (a soft warm-white rather than paper-white, see updated tokens below), keep photography at least as large as any technical element on every page, and cap the accent colour to labels/captions/hairlines — it never fills a background or a button in a way that reads corporate-cold.
-- **Performance fix:** IBM Plex Mono loads only for short caption/label text at one weight (400) — its total weight is small relative to Plex Sans and Archivo Narrow; measure actual impact once real font-loading is implemented in Phase 5 and drop it if it's not paying for itself.
+**An intermediate option — Direction C with a materials band borrowed from B — was built and shown as a homepage example, and explicitly rejected by the owner.** Direction C is implemented as originally shown on the Richtingenwand board: pure white/charcoal/blue-grey, no materials band, no background-warmth adjustment. The personal-warmth gap this leaves is accepted as a known trade-off rather than patched with borrowed elements from another direction — it should instead be addressed later, on its own terms, through things that are native to Direction C itself (e.g. a genuine "Het Bureau" portrait treatment, the tone of voice in copy) rather than through a colour/layout compromise.
+
+The performance gap (three type families vs. one) stays: IBM Plex Mono loads only for short caption/label text at one weight (400) — its total weight is small relative to Plex Sans and Archivo Narrow; measure actual impact once real font-loading is implemented in Phase 5 and drop it if it's not paying for itself.
 
 ### Rejected
 - **Direction A** — rejected as the primary direction because it discards the one asset (the drawing archive) that most directly proves architectural competence, and because unrelieved minimalism is currently one of the most common web-design defaults, undercutting the brief's distinctiveness requirement (§8).
-- **Direction B** — rejected as primary, but its lesson is kept: warmth is a real requirement (brief §2, §4 — "warm rather than clinical"), so Direction C's final tokens borrow B's instinct without borrowing its palette or serif.
+- **Direction B** — rejected as primary.
+- **Direction C + B's materials band (the "warmed" variant)** — built as a homepage example and rejected. Pure Direction C stands.
 
 ## Typography — final choice
 
@@ -60,19 +62,19 @@ C wins on the criteria that matter most for this specific business (trust in tec
 
 This supersedes the placeholder serif direction floated in `docs/design-system.md` §3 — that document should be updated to point here rather than carrying two competing typographic proposals.
 
-## Colour — final tokens (revised from the pure-white board shown in the artifact)
+## Colour — final tokens (as shown on the Richtingenwand board, unmodified)
 
 ```css
---color-background: #FAF8F4;  /* warm off-white, not clinical white */
---color-surface:    #FFFFFF;
+--color-background: #FFFFFF;
+--color-surface:    #F7F7F5;
 --color-text:       #1B1D1F;
---color-muted:      #6E7377;
---color-border:     #E2E1DC;
+--color-muted:      #72777C;
+--color-border:     #DFE1E2;
 --color-accent:     #4B6070;  /* architectural blue-grey — labels, hairlines, links, never a fill */
 --color-accent-ink: #FFFFFF;
 ```
 
-The one deliberate departure from a "neutral + one warm earthy accent" reading (brief §4's suggested direction) is choosing blue-grey over terracotta/bronze/green: it reads as technical/precise rather than material/organic, which fits Direction C's concept. Warmth is carried by the *background* tone and by photography, not by the accent hue.
+The one deliberate departure from a "neutral + one warm earthy accent" reading (brief §4's suggested direction) is choosing blue-grey over terracotta/bronze/green: it reads as technical/precise rather than material/organic, which fits Direction C's concept. Warmth is not carried by the background tone (the owner confirmed white over warmed off-white) — it has to come from photography and copy tone instead, which raises the bar on both.
 
 ## Image strategy
 
