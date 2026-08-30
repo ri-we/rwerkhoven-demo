@@ -1,5 +1,7 @@
 # Design Decision — Visual Direction
 
+**Status: confirmed.** Direction C (Technical Editorial), warmed with Direction B's material focus, is locked in as the visual identity for the rebuild. All Phase 4 onward theme code should implement the tokens and structure in this document.
+
 Companion to `docs/design-system.md`. Three representative directions were built as real UI (not full sites) using the studio's own photography and one of its actual archived technical drawings — no stock imagery, no fabricated drawings. Reviewable at: the "Richtingenwand" artifact published this session.
 
 All three boards render **identical content** — same headline ("Bouwkundig ontwerp dat klopt."), same three sample services, same featured project (Uitbreiding Villa Bilthoven) — so the comparison isolates the visual system, not the copy.
