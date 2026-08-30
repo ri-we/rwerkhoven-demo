@@ -23,6 +23,9 @@ services:
       WORDPRESS_DB_USER: ${WORDPRESS_DB_USER}
       WORDPRESS_DB_PASSWORD: ${WORDPRESS_DB_PASSWORD}
       WORDPRESS_DEBUG: 1
+      # Keeps WordPress from caching the theme's patterns/*.php scan across edits
+      # (WP_Theme::get_block_patterns() otherwise caches it indefinitely).
+      WORDPRESS_CONFIG_EXTRA: "define('WP_DEVELOPMENT_MODE', 'theme');"
     volumes:
       - wp_core:/var/www/html
       - ./wp-content/themes/rwerkhoven:/var/www/html/wp-content/themes/rwerkhoven

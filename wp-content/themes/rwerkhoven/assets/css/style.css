@@ -98,3 +98,86 @@
 	color: var(--wp--preset--color--muted);
 	letter-spacing: 0.02em;
 }
+
+/* Homepage hero */
+.rwerkhoven-hero-eyebrow {
+	font-family: var(--wp--preset--font-family--mono);
+	font-size: 0.71875rem;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	color: var(--wp--preset--color--accent);
+}
+
+.rwerkhoven-hero-media img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.rwerkhoven-hero-text > * {
+		opacity: 0;
+		animation: rwerkhoven-rise 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) forwards;
+	}
+
+	.rwerkhoven-hero-text > *:nth-child(1) { animation-delay: 0.05s; }
+	.rwerkhoven-hero-text > *:nth-child(2) { animation-delay: 0.15s; }
+	.rwerkhoven-hero-text > *:nth-child(3) { animation-delay: 0.28s; }
+	.rwerkhoven-hero-text > *:nth-child(4) { animation-delay: 0.4s; }
+
+	@keyframes rwerkhoven-rise {
+		from { opacity: 0; transform: translateY(14px); }
+		to { opacity: 1; transform: translateY(0); }
+	}
+
+	.rwerkhoven-hero-media img {
+		animation: rwerkhoven-zoom-out 1.1s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+	}
+
+	@keyframes rwerkhoven-zoom-out {
+		from { transform: scale(1.05); }
+		to { transform: scale(1); }
+	}
+}
+
+/* Editor visibility: entrance-animated elements must not start invisible in the block editor */
+.editor-styles-wrapper .rwerkhoven-hero-text > *,
+.editor-styles-wrapper .rwerkhoven-hero-media img {
+	opacity: 1 !important;
+	animation: none !important;
+	transform: none !important;
+}
+
+/* Trust section */
+.rwerkhoven-trust {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	gap: var(--wp--preset--spacing--40) var(--wp--preset--spacing--30);
+}
+
+.rwerkhoven-trust > * {
+	border-top: 1px solid var(--wp--preset--color--border);
+	padding-top: var(--wp--preset--spacing--20);
+}
+
+/* Process timeline */
+.rwerkhoven-process-step {
+	border-top: 2px solid var(--wp--preset--color--border);
+	padding-top: var(--wp--preset--spacing--20) !important;
+}
+
+.rwerkhoven-process-num {
+	font-family: var(--wp--preset--font-family--mono);
+	font-size: 0.8125rem;
+	color: var(--wp--preset--color--accent);
+	margin-bottom: var(--wp--preset--spacing--10) !important;
+}
+
+.rwerkhoven-final-cta a {
+	text-decoration: none;
+}
+
+.rwerkhoven-final-cta a:hover {
+	color: var(--wp--preset--color--accent);
+}
