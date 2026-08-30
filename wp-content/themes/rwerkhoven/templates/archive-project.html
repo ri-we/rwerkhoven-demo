@@ -1,0 +1,37 @@
+<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
+<main id="main-content" class="wp-block-group" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--60)">
+
+	<!-- wp:heading {"level":1,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}}} -->
+	<h1 style="margin-bottom:var(--wp--preset--spacing--40)">Projecten</h1>
+	<!-- /wp:heading -->
+
+	<!-- wp:query {"query":{"postType":"project","perPage":12,"inherit":true},"layout":{"type":"default"}} -->
+	<div class="wp-block-query">
+		<!-- wp:post-template {"layout":{"type":"grid","columnCount":2}} -->
+			<!-- wp:group {"className":"rwerkhoven-project-card","layout":{"type":"constrained"}} -->
+			<div class="wp-block-group rwerkhoven-project-card">
+				<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"4/3"} /-->
+
+				<!-- wp:post-title {"level":3,"isLink":true,"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}}}} /-->
+
+				<!-- wp:rwerkhoven/project-meta /-->
+			</div>
+			<!-- /wp:group -->
+		<!-- /wp:post-template -->
+
+		<!-- wp:query-pagination {"fontSize":"small"} -->
+			<!-- wp:query-pagination-previous {"label":"Vorige"} /-->
+
+			<!-- wp:query-pagination-numbers /-->
+
+			<!-- wp:query-pagination-next {"label":"Volgende"} /-->
+		<!-- /wp:query-pagination -->
+	</div>
+	<!-- /wp:query -->
+
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->

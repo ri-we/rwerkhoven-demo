@@ -1,0 +1,100 @@
+/*
+ * Hand-written CSS for the few things theme.json can't express.
+ * Tokens (colour/type/spacing) come from theme.json — do not hard-code
+ * colours or sizes here; reference the --wp--preset--* custom properties.
+ */
+
+/* Skip link (brief §17 accessibility) */
+.skip-link {
+	position: absolute;
+	left: -9999px;
+	top: 0;
+	z-index: 100000;
+	background: var(--wp--preset--color--text);
+	color: var(--wp--preset--color--accent-ink);
+	padding: 0.75rem 1.25rem;
+	font-family: var(--wp--preset--font-family--mono);
+	font-size: 0.8125rem;
+}
+
+.skip-link:focus {
+	left: 0.5rem;
+	top: 0.5rem;
+}
+
+/* Visible focus state everywhere, including inside the block editor's front-end render */
+:focus-visible {
+	outline: 2px solid var(--wp--preset--color--accent);
+	outline-offset: 3px;
+}
+
+/* Reduced motion: kill all theme-authored motion outright */
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.001ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.001ms !important;
+		scroll-behavior: auto !important;
+	}
+}
+
+/* Editorial services list (see patterns/service-list.php) */
+.rwerkhoven-service-row {
+	display: grid;
+	grid-template-columns: 3.5rem 1fr auto;
+	gap: var(--wp--preset--spacing--30);
+	align-items: baseline;
+	padding: var(--wp--preset--spacing--20) 0;
+	border-top: 1px solid var(--wp--preset--color--border);
+}
+
+.rwerkhoven-service-row:last-child {
+	border-bottom: 1px solid var(--wp--preset--color--border);
+}
+
+.rwerkhoven-service-row .rwerkhoven-service-num {
+	font-family: var(--wp--preset--font-family--mono);
+	font-size: 0.8125rem;
+	color: var(--wp--preset--color--accent);
+}
+
+.rwerkhoven-service-row .rwerkhoven-service-arrow {
+	font-family: var(--wp--preset--font-family--mono);
+	color: var(--wp--preset--color--muted);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.rwerkhoven-service-row .rwerkhoven-service-arrow {
+		transition: transform 0.25s ease;
+	}
+
+	.rwerkhoven-service-row:hover .rwerkhoven-service-arrow {
+		transform: translateX(6px);
+	}
+
+	.rwerkhoven-project-card img {
+		transition: transform 0.35s cubic-bezier(0.2, 0.7, 0.2, 1);
+	}
+
+	.rwerkhoven-project-card:hover img {
+		transform: scale(1.03);
+	}
+}
+
+.rwerkhoven-project-card {
+	overflow: hidden;
+}
+
+.rwerkhoven-project-card img {
+	display: block;
+	width: 100%;
+}
+
+.rwerkhoven-project-meta {
+	font-family: var(--wp--preset--font-family--mono);
+	font-size: 0.8125rem;
+	color: var(--wp--preset--color--muted);
+	letter-spacing: 0.02em;
+}

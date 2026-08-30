@@ -1,0 +1,10 @@
+# Local environment secrets
+.env
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/

@@ -1,0 +1,146 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Ron Werkhoven",
+	"settings": {
+		"appearanceTools": true,
+		"layout": {
+			"contentSize": "1200px",
+			"wideSize": "1400px"
+		},
+		"useRootPaddingAwareAlignments": true,
+		"color": {
+			"custom": false,
+			"customDuotone": false,
+			"customGradient": false,
+			"defaultPalette": false,
+			"defaultGradients": false,
+			"defaultDuotone": false,
+			"palette": [
+				{ "slug": "background", "name": "Achtergrond", "color": "#FFFFFF" },
+				{ "slug": "surface", "name": "Oppervlak", "color": "#F7F7F5" },
+				{ "slug": "text", "name": "Tekst", "color": "#1B1D1F" },
+				{ "slug": "muted", "name": "Gedempt", "color": "#72777C" },
+				{ "slug": "border", "name": "Lijn", "color": "#DFE1E2" },
+				{ "slug": "accent", "name": "Accent", "color": "#4B6070" },
+				{ "slug": "accent-ink", "name": "Tekst op accent", "color": "#FFFFFF" }
+			]
+		},
+		"typography": {
+			"customFontSize": false,
+			"fontFamilies": [
+				{
+					"slug": "display",
+					"name": "Archivo Narrow",
+					"fontFamily": "\"Archivo Narrow\", -apple-system, \"Segoe UI\", sans-serif"
+				},
+				{
+					"slug": "body",
+					"name": "IBM Plex Sans",
+					"fontFamily": "\"IBM Plex Sans\", -apple-system, \"Segoe UI\", sans-serif"
+				},
+				{
+					"slug": "mono",
+					"name": "IBM Plex Mono",
+					"fontFamily": "\"IBM Plex Mono\", ui-monospace, \"SFMono-Regular\", Menlo, monospace"
+				}
+			],
+			"fontSizes": [
+				{ "slug": "small", "name": "Klein", "size": "0.875rem" },
+				{ "slug": "medium", "name": "Body", "size": "1.0625rem" },
+				{ "slug": "large", "name": "H3", "size": "clamp(1.25rem, 1.1rem + 0.8vw, 1.75rem)" },
+				{ "slug": "x-large", "name": "H2", "size": "clamp(1.75rem, 1.4rem + 1.6vw, 2.75rem)" },
+				{ "slug": "xx-large", "name": "H1", "size": "clamp(2.25rem, 1.6rem + 3vw, 4rem)" }
+			],
+			"lineHeight": true
+		},
+		"spacing": {
+			"customSpacingSize": false,
+			"units": ["px", "rem", "vw", "%"],
+			"spacingSizes": [
+				{ "slug": "10", "name": "1", "size": "0.5rem" },
+				{ "slug": "20", "name": "2", "size": "1rem" },
+				{ "slug": "30", "name": "3", "size": "1.5rem" },
+				{ "slug": "40", "name": "4", "size": "2.5rem" },
+				{ "slug": "50", "name": "5", "size": "4rem" },
+				{ "slug": "60", "name": "6", "size": "6rem" }
+			]
+		}
+	},
+	"styles": {
+		"color": {
+			"background": "var(--wp--preset--color--background)",
+			"text": "var(--wp--preset--color--text)"
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--body)",
+			"fontSize": "var(--wp--preset--font-size--medium)",
+			"lineHeight": "1.6"
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--display)",
+					"fontWeight": "700",
+					"lineHeight": "1.1",
+					"letterSpacing": "-0.005em"
+				}
+			},
+			"h1": {
+				"typography": { "fontSize": "var(--wp--preset--font-size--xx-large)" }
+			},
+			"h2": {
+				"typography": { "fontSize": "var(--wp--preset--font-size--x-large)" }
+			},
+			"h3": {
+				"typography": { "fontSize": "var(--wp--preset--font-size--large)" }
+			},
+			"link": {
+				"color": { "text": "var(--wp--preset--color--text)" },
+				":hover": {
+					"color": { "text": "var(--wp--preset--color--accent)" }
+				}
+			},
+			"button": {
+				"color": {
+					"background": "var(--wp--preset--color--text)",
+					"text": "var(--wp--preset--color--accent-ink)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--mono)",
+					"fontSize": "var(--wp--preset--font-size--small)"
+				},
+				"border": { "radius": "2px" },
+				":hover": {
+					"color": {
+						"background": "var(--wp--preset--color--accent)",
+						"text": "var(--wp--preset--color--accent-ink)"
+					}
+				}
+			}
+		},
+		"blocks": {
+			"core/site-title": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--mono)",
+					"fontSize": "0.8125rem",
+					"letterSpacing": "0.04em"
+				}
+			},
+			"core/navigation": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--mono)",
+					"fontSize": "0.8125rem",
+					"letterSpacing": "0.04em"
+				}
+			}
+		}
+	},
+	"templateParts": [
+		{ "name": "header", "title": "Koptekst", "area": "header" },
+		{ "name": "footer", "title": "Voettekst", "area": "footer" }
+	],
+	"customTemplates": [
+		{ "name": "page-no-title", "title": "Pagina zonder titelblok", "postTypes": ["page"] }
+	]
+}
