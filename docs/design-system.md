@@ -6,32 +6,35 @@ The existing logo (`ron_werkhoven_logo.svg`) is a single-color wordmark/mark usi
 
 ## 2. Colour tokens
 
-Defined as CSS custom properties (and mirrored in `theme.json` `settings.color.palette`), light-mode only for now — this is a business site, not an app; a dark mode isn't a brief requirement and would dilute the "premium architectural print" feel the brief asks for. Tokens are structured so dark mode could be added later without touching component CSS.
+**Superseded by `docs/design-decision.md`** — after building and comparing three real-content visual directions, the accent moved from terracotta to a restrained architectural blue-grey (see that document for the full rationale and the rejected alternatives). The tokens below are the current, final values; treat this section as the live reference and `design-decision.md` as the "why."
+
+Defined as CSS custom properties (and mirrored in `theme.json` `settings.color.palette`), light-mode only — this is a business site, not an app; a dark mode isn't a brief requirement and would dilute the "premium architectural print" feel the brief asks for. Tokens are structured so dark mode could be added later without touching component CSS.
 
 ```css
 :root {
-  --color-background: #FAF8F5;   /* warm off-white, not clinical pure white */
+  --color-background: #FAF8F4;   /* warm off-white, not clinical pure white */
   --color-surface:    #FFFFFF;   /* cards, form fields, elevated panels */
-  --color-text:       #1C1B19;   /* near-black, warmer than the logo's #212121 to avoid a cold/blue-black cast */
-  --color-muted:      #6B6862;   /* secondary text, captions, meta labels */
-  --color-border:     #E3DFD8;   /* hairlines, dividers, card borders */
-  --color-accent:     #A6462B;   /* muted terracotta/brick — one accent only */
+  --color-text:       #1B1D1F;   /* near-black, warmer than the logo's #212121 to avoid a cold/blue-black cast */
+  --color-muted:      #6E7377;   /* secondary text, captions, meta labels */
+  --color-border:     #E2E1DC;   /* hairlines, dividers, card borders */
+  --color-accent:     #4B6070;   /* architectural blue-grey — one accent only */
   --color-accent-ink: #FFFFFF;   /* text placed on the accent color */
 }
 ```
 
-Rationale for the accent: a muted, desaturated terracotta reads as "brick/clay" — an actual building material — rather than a generic corporate or safety-orange, staying architectural without slipping into construction-site cliché. Used sparingly: primary CTA buttons, link hover, active nav state, the "01–05" process numerals, and small accent rules under headings. It never fills large areas.
+Rationale for the accent: a desaturated blue-grey reads as precise/technical rather than material/organic — it reinforces Direction C's core idea that this business sells accurate, buildable documentation, not just architectural concepts. It is used only for labels, hairlines, links and small measurement-style captions — it never fills a button background or a large surface; warmth comes from the off-white background and from photography, not from the accent hue.
 
 No secondary accent, no gradients. Photography supplies the visual richness; the palette stays quiet so projects and drawings stand out.
 
 ## 3. Typography
 
-- **Display/heading font:** a well-crafted serif or humanist sans with a tall x-height for architectural gravitas — recommend a system-adjacent, self-hosted variable font to keep the "minimal font files" rule from §15 (single variable-font file covering the weight range, subset for Latin + Dutch diacritics). Placeholder: `"Fraunces", Georgia, "Times New Roman", serif` for headings if a serif direction is chosen during Phase 5, evaluated against a clean sans alternative (`"General Sans"`/system stack) at build time — final pick documented as a decision, not assumed here.
-- **Body/UI font:** system font stack for guaranteed speed and full Dutch character support, avoiding any webfont weight beyond the display face:
-  ```css
-  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  ```
-- Load at most **two font weights** of the display face (e.g. 400 and 600) if a webfont is used at all; body text stays on the system stack with zero additional network requests.
+**Superseded by `docs/design-decision.md`** — final pick, made after comparing three real-content directions:
+
+- **Display (H1/H2 only):** Archivo Narrow, weights 600/700 — a condensed grotesk with a title-block, technical-drawing character.
+- **Body/UI:** IBM Plex Sans, weights 400/500/600 — designed for technical documentation, strong Dutch diacritic support, pairs cleanly with the condensed display face.
+- **Labels/captions/measurements only:** IBM Plex Mono, weights 400/500, small sizes — service numbers, project meta lines, drawing captions. Never used for running body copy.
+
+Three webfont families is more than the original "system stack only" plan in this document, justified because Plex Mono loads a single weight at small caption sizes only and Plex Sans/Archivo Narrow together still stay within a modest total weight budget. Measure actual font-loading cost once Phase 5 implements this and drop Plex Mono in favour of a body-font fallback for labels if it isn't paying for itself.
 
 ### Scale (fluid, `clamp()`-based to avoid separate mobile/desktop overrides)
 
