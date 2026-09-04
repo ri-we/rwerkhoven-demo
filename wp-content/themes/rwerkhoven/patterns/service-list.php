@@ -22,9 +22,6 @@
 		</div>
 		<!-- /wp:group -->
 
-		<!-- wp:paragraph {"className":"rwerkhoven-service-arrow"} -->
-		<p class="rwerkhoven-service-arrow">→</p>
-		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->
 
@@ -42,9 +39,6 @@
 		</div>
 		<!-- /wp:group -->
 
-		<!-- wp:paragraph {"className":"rwerkhoven-service-arrow"} -->
-		<p class="rwerkhoven-service-arrow">→</p>
-		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->
 
@@ -62,9 +56,6 @@
 		</div>
 		<!-- /wp:group -->
 
-		<!-- wp:paragraph {"className":"rwerkhoven-service-arrow"} -->
-		<p class="rwerkhoven-service-arrow">→</p>
-		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->
 
@@ -82,9 +73,6 @@
 		</div>
 		<!-- /wp:group -->
 
-		<!-- wp:paragraph {"className":"rwerkhoven-service-arrow"} -->
-		<p class="rwerkhoven-service-arrow">→</p>
-		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->
 
@@ -102,9 +90,6 @@
 		</div>
 		<!-- /wp:group -->
 
-		<!-- wp:paragraph {"className":"rwerkhoven-service-arrow"} -->
-		<p class="rwerkhoven-service-arrow">→</p>
-		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->
 
@@ -122,9 +107,6 @@
 		</div>
 		<!-- /wp:group -->
 
-		<!-- wp:paragraph {"className":"rwerkhoven-service-arrow"} -->
-		<p class="rwerkhoven-service-arrow">→</p>
-		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->
 

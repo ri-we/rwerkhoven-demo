@@ -42,10 +42,6 @@
 
 /* Editorial services list (see patterns/service-list.php) */
 .rwerkhoven-service-row {
-	display: grid;
-	grid-template-columns: 1fr auto;
-	gap: var(--wp--preset--spacing--30);
-	align-items: baseline;
 	padding: var(--wp--preset--spacing--20) 0;
 	border-top: 1px solid var(--wp--preset--color--border);
 }
@@ -54,20 +50,7 @@
 	border-bottom: 1px solid var(--wp--preset--color--border);
 }
 
-.rwerkhoven-service-row .rwerkhoven-service-arrow {
-	font-family: var(--wp--preset--font-family--mono);
-	color: var(--wp--preset--color--muted);
-}
-
 @media (prefers-reduced-motion: no-preference) {
-	.rwerkhoven-service-row .rwerkhoven-service-arrow {
-		transition: transform 0.25s ease;
-	}
-
-	.rwerkhoven-service-row:hover .rwerkhoven-service-arrow {
-		transform: translateX(6px);
-	}
-
 	.rwerkhoven-project-card img {
 		transition: transform 0.35s cubic-bezier(0.2, 0.7, 0.2, 1);
 	}
@@ -207,6 +190,69 @@
 .rwerkhoven-process-step {
 	border-top: 2px solid var(--wp--preset--color--border);
 	padding-top: var(--wp--preset--spacing--20) !important;
+}
+
+/* Projectgalerij als carousel (klassen komen uit assets/js/gallery-carousel.js;
+   zonder JS blijft het core Gallery-blok een gewone galerij) */
+.rwerkhoven-carousel {
+	display: flex !important;
+	flex-wrap: nowrap !important;
+	gap: 0 !important;
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	scrollbar-width: none;
+}
+
+.rwerkhoven-carousel::-webkit-scrollbar {
+	display: none;
+}
+
+.rwerkhoven-carousel > figure,
+.rwerkhoven-carousel > .wp-block-image {
+	flex: 0 0 100% !important;
+	width: 100% !important;
+	margin: 0 !important;
+	scroll-snap-align: start;
+}
+
+.rwerkhoven-carousel img {
+	width: 100%;
+	height: auto;
+	aspect-ratio: 3 / 2;
+	object-fit: cover;
+	display: block;
+}
+
+.rwerkhoven-carousel-controls {
+	display: flex;
+	align-items: center;
+	gap: var(--wp--preset--spacing--20);
+	margin-top: var(--wp--preset--spacing--10);
+	font-family: var(--wp--preset--font-family--mono);
+	font-size: 0.8125rem;
+}
+
+.rwerkhoven-carousel-btn {
+	border: 1px solid var(--wp--preset--color--border);
+	background: var(--wp--preset--color--background);
+	color: var(--wp--preset--color--text);
+	font: inherit;
+	padding: 0.4rem 0.9rem;
+	cursor: pointer;
+}
+
+.rwerkhoven-carousel-btn:hover:not(:disabled) {
+	border-color: var(--wp--preset--color--accent);
+	color: var(--wp--preset--color--accent);
+}
+
+.rwerkhoven-carousel-btn:disabled {
+	opacity: 0.4;
+	cursor: default;
+}
+
+.rwerkhoven-carousel-counter {
+	color: var(--wp--preset--color--muted);
 }
 
 .rwerkhoven-final-cta a {
