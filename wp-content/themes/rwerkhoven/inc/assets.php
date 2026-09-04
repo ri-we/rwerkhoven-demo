@@ -27,6 +27,16 @@ add_action(
 			array( 'rwerkhoven-fonts' ),
 			(string) filemtime( RWERKHOVEN_DIR . '/assets/css/style.css' )
 		);
+
+		if ( is_singular( 'project' ) ) {
+			wp_enqueue_script(
+				'rwerkhoven-gallery-carousel',
+				RWERKHOVEN_URI . '/assets/js/gallery-carousel.js',
+				array(),
+				(string) filemtime( RWERKHOVEN_DIR . '/assets/js/gallery-carousel.js' ),
+				array( 'in_footer' => true )
+			);
+		}
 	}
 );
 
