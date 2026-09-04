@@ -76,3 +76,17 @@ add_action(
 		}
 	}
 );
+
+/**
+ * The project archive shows every project on one page, like the original site.
+ * (The Query block inherits the main query, which would otherwise paginate
+ * at the global posts_per_page of 10.)
+ */
+add_action(
+	'pre_get_posts',
+	function ( $query ) {
+		if ( ! is_admin() && $query->is_main_query() && $query->is_post_type_archive( 'project' ) ) {
+			$query->set( 'posts_per_page', -1 );
+		}
+	}
+);
