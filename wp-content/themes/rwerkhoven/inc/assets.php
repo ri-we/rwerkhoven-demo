@@ -19,11 +19,13 @@ add_action(
 			null
 		);
 
+		// Version by file modification time so browsers pick up every edit
+		// immediately; the static theme version alone let stale CSS linger.
 		wp_enqueue_style(
 			'rwerkhoven-style',
 			RWERKHOVEN_URI . '/assets/css/style.css',
 			array( 'rwerkhoven-fonts' ),
-			RWERKHOVEN_VERSION
+			(string) filemtime( RWERKHOVEN_DIR . '/assets/css/style.css' )
 		);
 	}
 );
