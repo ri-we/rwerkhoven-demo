@@ -14,7 +14,7 @@ add_action(
 	function () {
 		wp_enqueue_style(
 			'rwerkhoven-fonts',
-			'https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap',
+			'https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap',
 			array(),
 			null
 		);
@@ -58,7 +58,7 @@ add_action(
 	function () {
 		add_editor_style(
 			array(
-				'https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap',
+				'https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap',
 				'assets/css/style.css',
 			)
 		);

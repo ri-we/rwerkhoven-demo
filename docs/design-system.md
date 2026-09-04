@@ -32,7 +32,7 @@ No secondary accent, no gradients. Photography supplies the visual richness; the
 
 - **Display (H1/H2 only):** Archivo Narrow, weights 600/700 — a condensed grotesk with a title-block, technical-drawing character.
 - **Body/UI:** IBM Plex Sans, weights 400/500/600 — designed for technical documentation, strong Dutch diacritic support, pairs cleanly with the condensed display face.
-- **Labels/captions/measurements only:** IBM Plex Mono, weights 400/500, small sizes — service numbers, project meta lines, drawing captions. Never used for running body copy.
+- **Labels/captions:** IBM Plex Mono is vervallen (besluit eigenaar 2026-09-04): alle labels en UI-tekst gebruiken IBM Plex Sans. Zie design-decision.md.
 
 Three webfont families is more than the original "system stack only" plan in this document, justified because Plex Mono loads a single weight at small caption sizes only and Plex Sans/Archivo Narrow together still stay within a modest total weight budget. Measure actual font-loading cost once Phase 5 implements this and drop Plex Mono in favour of a body-font fallback for labels if it isn't paying for itself.
 

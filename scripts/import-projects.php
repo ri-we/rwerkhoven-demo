@@ -89,9 +89,13 @@ foreach ( $projects as $project ) {
 	$paragraphs = array();
 	foreach ( $xpath->query( '//div[contains(@class,"columnblock")]//div[@class="text"]/p' ) as $p ) {
 		$text = trim( preg_replace( '/\s+/u', ' ', $p->textContent ) );
-		if ( '' !== $text ) {
-			$paragraphs[] = $text;
+
+		// The old site lists photo captions ("Foto 1 …") as text; skip those.
+		if ( '' === $text || preg_match( '/^foto\s*\d+/i', $text ) ) {
+			continue;
 		}
+
+		$paragraphs[] = $text;
 	}
 
 	// Slider images; strip the -WxH size suffix to get the original file.

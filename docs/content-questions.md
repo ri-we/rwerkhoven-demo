@@ -29,3 +29,7 @@ Compiled during the site audit and architecture phases (`docs/site-audit.md`, `d
 ## Hosting / deployment
 
 16. This repository currently has no WordPress install, and admin/FTP access to the live Plesk-hosted site isn't available in this environment. Development will proceed on a local WordPress instance; a `docs/deployment.md` (final-phase deliverable) will describe how to move the finished theme to the live Plesk site, but actually performing that deployment will require credentials or hands-on-keyboard access from Ron Werkhoven or whoever manages hosting.
+
+## Inhoudelijk te verifiëren door Ron (toegevoegd 2026-09-04)
+
+17. **Omgevingsvergunning-tekst geactualiseerd.** De oude sitetekst ("de omgevingsvergunning vervangt sinds 2010 …", EPN-berekeningen) was gebaseerd op de situatie vóór de Omgevingswet. De nieuwe pagina `/diensten/omgevingsvergunning/` beschrijft nu: Omgevingswet per 1-1-2024, aanvragen via het Omgevingsloket, de knip tussen omgevingsplan-toets en technische bouwregels, de Wet kwaliteitsborging voor het bouwen (kwaliteitsborger bij bepaalde nieuwbouw), en BENG i.p.v. EPN. **Graag vakinhoudelijk checken**: kloppen de genoemde drempels bij brandveilig gebruik (nachtverblijf > 10 personen; gebruiksmelding > 50 personen) nog met de huidige Bbl-regels, en dekt de Wkb-formulering de praktijk van het bureau?

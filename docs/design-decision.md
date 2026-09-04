@@ -58,7 +58,7 @@ The performance gap (three type families vs. one) stays: IBM Plex Mono loads onl
 
 - **Display:** Archivo Narrow (600/700) — a condensed grotesk with a title-block, technical-drawing character, used only for H1/H2.
 - **Body:** IBM Plex Sans (400/500/600) — designed for technical/engineering documentation, excellent Latin/Dutch diacritic coverage, pairs cleanly with the condensed display face without competing.
-- **Labels/captions/measurements:** IBM Plex Mono (400/500), small sizes only — service numbers, project meta lines, drawing captions.
+- **Labels/captions/measurements:** ~~IBM Plex Mono~~ — vervallen op verzoek van de eigenaar (2026-09-04, "gebruik consistent een lettertype"): alle UI-/labeltekst gebruikt nu IBM Plex Sans; alleen Archivo Narrow blijft als tweede familie voor koppen. De `mono`-preset in theme.json wijst naar de Plex Sans-stack zodat bestaande content blijft werken.
 
 This supersedes the placeholder serif direction floated in `docs/design-system.md` §3 — that document should be updated to point here rather than carrying two competing typographic proposals.
 

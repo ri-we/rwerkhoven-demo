@@ -41,8 +41,8 @@
 				},
 				{
 					"slug": "mono",
-					"name": "IBM Plex Mono",
-					"fontFamily": "\"IBM Plex Mono\", ui-monospace, \"SFMono-Regular\", Menlo, monospace"
+					"name": "IBM Plex Sans (accent)",
+					"fontFamily": "\"IBM Plex Sans\", -apple-system, \"Segoe UI\", sans-serif"
 				}
 			],
 			"fontSizes": [
