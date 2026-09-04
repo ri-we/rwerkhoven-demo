@@ -182,6 +182,9 @@
 }
 
 .rwerkhoven-trust > * {
+	/* WordPress' flow spacing geeft alle items behalve het eerste een
+	   margin-top; in een grid zet dat de kolommen ongelijk. */
+	margin-block-start: 0;
 	border-top: 1px solid var(--wp--preset--color--border);
 	padding-top: var(--wp--preset--spacing--20);
 }
