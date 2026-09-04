@@ -10,10 +10,6 @@
 
 	<!-- wp:group {"className":"rwerkhoven-service-row","layout":{"type":"default"}} -->
 	<div class="wp-block-group rwerkhoven-service-row">
-		<!-- wp:paragraph {"className":"rwerkhoven-service-num"} -->
-		<p class="rwerkhoven-service-num">01</p>
-		<!-- /wp:paragraph -->
-
 		<!-- wp:group {"layout":{"type":"constrained"}} -->
 		<div class="wp-block-group">
 			<!-- wp:heading {"level":3} -->
@@ -34,10 +30,6 @@
 
 	<!-- wp:group {"className":"rwerkhoven-service-row","layout":{"type":"default"}} -->
 	<div class="wp-block-group rwerkhoven-service-row">
-		<!-- wp:paragraph {"className":"rwerkhoven-service-num"} -->
-		<p class="rwerkhoven-service-num">02</p>
-		<!-- /wp:paragraph -->
-
 		<!-- wp:group {"layout":{"type":"constrained"}} -->
 		<div class="wp-block-group">
 			<!-- wp:heading {"level":3} -->
@@ -58,10 +50,6 @@
 
 	<!-- wp:group {"className":"rwerkhoven-service-row","layout":{"type":"default"}} -->
 	<div class="wp-block-group rwerkhoven-service-row">
-		<!-- wp:paragraph {"className":"rwerkhoven-service-num"} -->
-		<p class="rwerkhoven-service-num">03</p>
-		<!-- /wp:paragraph -->
-
 		<!-- wp:group {"layout":{"type":"constrained"}} -->
 		<div class="wp-block-group">
 			<!-- wp:heading {"level":3} -->
@@ -82,10 +70,6 @@
 
 	<!-- wp:group {"className":"rwerkhoven-service-row","layout":{"type":"default"}} -->
 	<div class="wp-block-group rwerkhoven-service-row">
-		<!-- wp:paragraph {"className":"rwerkhoven-service-num"} -->
-		<p class="rwerkhoven-service-num">04</p>
-		<!-- /wp:paragraph -->
-
 		<!-- wp:group {"layout":{"type":"constrained"}} -->
 		<div class="wp-block-group">
 			<!-- wp:heading {"level":3} -->
@@ -106,10 +90,6 @@
 
 	<!-- wp:group {"className":"rwerkhoven-service-row","layout":{"type":"default"}} -->
 	<div class="wp-block-group rwerkhoven-service-row">
-		<!-- wp:paragraph {"className":"rwerkhoven-service-num"} -->
-		<p class="rwerkhoven-service-num">05</p>
-		<!-- /wp:paragraph -->
-
 		<!-- wp:group {"layout":{"type":"constrained"}} -->
 		<div class="wp-block-group">
 			<!-- wp:heading {"level":3} -->
@@ -130,10 +110,6 @@
 
 	<!-- wp:group {"className":"rwerkhoven-service-row","layout":{"type":"default"}} -->
 	<div class="wp-block-group rwerkhoven-service-row">
-		<!-- wp:paragraph {"className":"rwerkhoven-service-num"} -->
-		<p class="rwerkhoven-service-num">06</p>
-		<!-- /wp:paragraph -->
-
 		<!-- wp:group {"layout":{"type":"constrained"}} -->
 		<div class="wp-block-group">
 			<!-- wp:heading {"level":3} -->

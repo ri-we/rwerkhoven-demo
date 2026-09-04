@@ -10,10 +10,6 @@
 
 	<!-- wp:column {"className":"rwerkhoven-process-step"} -->
 	<div class="wp-block-column rwerkhoven-process-step">
-		<!-- wp:paragraph {"className":"rwerkhoven-process-num"} -->
-		<p class="rwerkhoven-process-num">01</p>
-		<!-- /wp:paragraph -->
-
 		<!-- wp:heading {"level":3,"fontSize":"medium"} -->
 		<h3 class="wp-block-heading has-medium-font-size">Kennismaken</h3>
 		<!-- /wp:heading -->
@@ -26,10 +22,6 @@
 
 	<!-- wp:column {"className":"rwerkhoven-process-step"} -->
 	<div class="wp-block-column rwerkhoven-process-step">
-		<!-- wp:paragraph {"className":"rwerkhoven-process-num"} -->
-		<p class="rwerkhoven-process-num">02</p>
-		<!-- /wp:paragraph -->
-
 		<!-- wp:heading {"level":3,"fontSize":"medium"} -->
 		<h3 class="wp-block-heading has-medium-font-size">Ontwerpen</h3>
 		<!-- /wp:heading -->
@@ -42,10 +34,6 @@
 
 	<!-- wp:column {"className":"rwerkhoven-process-step"} -->
 	<div class="wp-block-column rwerkhoven-process-step">
-		<!-- wp:paragraph {"className":"rwerkhoven-process-num"} -->
-		<p class="rwerkhoven-process-num">03</p>
-		<!-- /wp:paragraph -->
-
 		<!-- wp:heading {"level":3,"fontSize":"medium"} -->
 		<h3 class="wp-block-heading has-medium-font-size">Uitwerken</h3>
 		<!-- /wp:heading -->
@@ -58,10 +46,6 @@
 
 	<!-- wp:column {"className":"rwerkhoven-process-step"} -->
 	<div class="wp-block-column rwerkhoven-process-step">
-		<!-- wp:paragraph {"className":"rwerkhoven-process-num"} -->
-		<p class="rwerkhoven-process-num">04</p>
-		<!-- /wp:paragraph -->
-
 		<!-- wp:heading {"level":3,"fontSize":"medium"} -->
 		<h3 class="wp-block-heading has-medium-font-size">Vergunning</h3>
 		<!-- /wp:heading -->
@@ -74,10 +58,6 @@
 
 	<!-- wp:column {"className":"rwerkhoven-process-step"} -->
 	<div class="wp-block-column rwerkhoven-process-step">
-		<!-- wp:paragraph {"className":"rwerkhoven-process-num"} -->
-		<p class="rwerkhoven-process-num">05</p>
-		<!-- /wp:paragraph -->
-
 		<!-- wp:heading {"level":3,"fontSize":"medium"} -->
 		<h3 class="wp-block-heading has-medium-font-size">Realisatie</h3>
 		<!-- /wp:heading -->

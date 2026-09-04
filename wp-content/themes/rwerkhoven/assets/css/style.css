@@ -43,7 +43,7 @@
 /* Editorial services list (see patterns/service-list.php) */
 .rwerkhoven-service-row {
 	display: grid;
-	grid-template-columns: 3.5rem 1fr auto;
+	grid-template-columns: 1fr auto;
 	gap: var(--wp--preset--spacing--30);
 	align-items: baseline;
 	padding: var(--wp--preset--spacing--20) 0;
@@ -52,12 +52,6 @@
 
 .rwerkhoven-service-row:last-child {
 	border-bottom: 1px solid var(--wp--preset--color--border);
-}
-
-.rwerkhoven-service-row .rwerkhoven-service-num {
-	font-family: var(--wp--preset--font-family--mono);
-	font-size: 0.8125rem;
-	color: var(--wp--preset--color--accent);
 }
 
 .rwerkhoven-service-row .rwerkhoven-service-arrow {
@@ -213,13 +207,6 @@
 .rwerkhoven-process-step {
 	border-top: 2px solid var(--wp--preset--color--border);
 	padding-top: var(--wp--preset--spacing--20) !important;
-}
-
-.rwerkhoven-process-num {
-	font-family: var(--wp--preset--font-family--mono);
-	font-size: 0.8125rem;
-	color: var(--wp--preset--color--accent);
-	margin-bottom: var(--wp--preset--spacing--10) !important;
 }
 
 .rwerkhoven-final-cta a {
