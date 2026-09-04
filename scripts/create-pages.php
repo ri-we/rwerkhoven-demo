@@ -323,6 +323,26 @@ $bureau_content = <<<'HTML'
 <!-- /wp:list-item --></ul>
 <!-- /wp:list -->
 
+<!-- wp:heading {"level":2,"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Wat opdrachtgevers zeggen</h2>
+<!-- /wp:heading -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><!-- wp:paragraph -->
+<p>„Kan zeer zelfstandig en accuraat werken. Komt zijn afspraken na. Coop Supermarkten maakt al vele jaren gebruik van zijn diensten."</p>
+<!-- /wp:paragraph --><cite>Gerard van Elswijk — Hoofd Bouwbureau, Coop Supermarkten</cite></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><!-- wp:paragraph -->
+<p>„Van vergunningen tot complete lay-outs: als u iemand zoekt voor tekenwerk, bent u bij Ron aan het goede adres."</p>
+<!-- /wp:paragraph --><cite>Jeroen Vonck — JEZZ Projectmanagement</cite></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:paragraph -->
+<p>Meer ervaringen leest u bij de <a href="https://www.linkedin.com/in/ron-werkhoven-2594881a" rel="noopener" target="_blank">aanbevelingen op LinkedIn</a> en de <a href="https://g.page/r/Cf3-IzqPxu_8EAc" rel="noopener" target="_blank">reviews op Google</a>.</p>
+<!-- /wp:paragraph -->
+
 <!-- wp:social-links {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
 <ul class="wp-block-social-links" style="margin-top:var(--wp--preset--spacing--30)"><!-- wp:social-link {"url":"https://www.linkedin.com/in/ron-werkhoven-2594881a","service":"linkedin","label":"LinkedIn"} /--></ul>
 <!-- /wp:social-links -->
