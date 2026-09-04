@@ -68,6 +68,12 @@
 		}
 	},
 	"styles": {
+		"spacing": {
+			"padding": {
+				"left": "var:preset|spacing|30",
+				"right": "var:preset|spacing|30"
+			}
+		},
 		"color": {
 			"background": "var(--wp--preset--color--background)",
 			"text": "var(--wp--preset--color--text)"
