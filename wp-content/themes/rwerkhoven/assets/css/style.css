@@ -255,6 +255,65 @@
 	color: var(--wp--preset--color--muted);
 }
 
+/* Contactformulier (inc/contact-form.php) */
+.rwerkhoven-contact-form label {
+	display: block;
+	font-family: var(--wp--preset--font-family--mono);
+	font-size: 0.8125rem;
+	letter-spacing: 0.04em;
+	margin-bottom: 0.35rem;
+}
+
+.rwerkhoven-contact-form input[type="text"],
+.rwerkhoven-contact-form input[type="email"],
+.rwerkhoven-contact-form input[type="tel"],
+.rwerkhoven-contact-form textarea {
+	width: 100%;
+	padding: 0.6rem 0.75rem;
+	border: 1px solid var(--wp--preset--color--border);
+	border-radius: 2px;
+	background: var(--wp--preset--color--background);
+	color: var(--wp--preset--color--text);
+	font: inherit;
+}
+
+.rwerkhoven-contact-form input:focus-visible,
+.rwerkhoven-contact-form textarea:focus-visible {
+	outline: 2px solid var(--wp--preset--color--accent);
+	outline-offset: 1px;
+	border-color: var(--wp--preset--color--accent);
+}
+
+.rwerkhoven-contact-form .rwerkhoven-consent label {
+	display: flex;
+	gap: 0.6rem;
+	align-items: baseline;
+	font-family: var(--wp--preset--font-family--body);
+	font-size: 0.875rem;
+	letter-spacing: 0;
+}
+
+.rwerkhoven-contact-form .rwerkhoven-form-privacy {
+	font-size: 0.8125rem;
+	color: var(--wp--preset--color--muted);
+}
+
+.rwerkhoven-form-error {
+	border-left: 3px solid var(--wp--preset--color--accent);
+	background: var(--wp--preset--color--surface);
+	padding: var(--wp--preset--spacing--20);
+	font-size: 0.9375rem;
+}
+
+/* Honeypot: visueel en voor toetsenbord verborgen, wel aanwezig voor bots */
+.rwerkhoven-contact-form .rwerkhoven-hp {
+	position: absolute !important;
+	left: -9999px !important;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
 .rwerkhoven-final-cta a {
 	text-decoration: none;
 }

@@ -16,4 +16,5 @@ require RWERKHOVEN_DIR . '/inc/assets.php';
 require RWERKHOVEN_DIR . '/inc/post-types.php';
 require RWERKHOVEN_DIR . '/inc/taxonomies.php';
 require RWERKHOVEN_DIR . '/inc/blocks.php';
+require RWERKHOVEN_DIR . '/inc/contact-form.php';
 require RWERKHOVEN_DIR . '/inc/patterns.php';

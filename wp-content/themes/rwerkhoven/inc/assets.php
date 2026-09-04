@@ -41,6 +41,19 @@ add_action(
 );
 
 add_action(
+	'enqueue_block_editor_assets',
+	function () {
+		wp_enqueue_script(
+			'rwerkhoven-editor-blocks',
+			RWERKHOVEN_URI . '/assets/js/editor-blocks.js',
+			array( 'wp-blocks', 'wp-element' ),
+			(string) filemtime( RWERKHOVEN_DIR . '/assets/js/editor-blocks.js' ),
+			true
+		);
+	}
+);
+
+add_action(
 	'admin_init',
 	function () {
 		add_editor_style(
