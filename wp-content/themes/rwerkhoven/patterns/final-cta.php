@@ -5,8 +5,8 @@
  * Categories: rwerkhoven
  */
 ?>
-<!-- wp:group {"className":"rwerkhoven-final-cta","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}},"border":{"top":{"width":"1px","color":"var:preset|color|border"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group rwerkhoven-final-cta" style="border-top-color:var(--wp--preset--color--border);border-top-width:1px;padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"className":"rwerkhoven-final-cta","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}},"border":{"top":{"width":"1px","color":"var:preset|color|border"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group rwerkhoven-final-cta" style="border-top-color:var(--wp--preset--color--border);border-top-width:1px;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--40)">
 
 	<!-- wp:heading {"level":2,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}}} -->
 	<h2 class="wp-block-heading" style="margin-bottom:var(--wp--preset--spacing--20)">Heeft u bouw- of verbouwplannen?</h2>
