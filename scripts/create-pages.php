@@ -1,12 +1,13 @@
 <?php
 /**
  * Creates (or updates) the site's pages: Contact, Bedankt, Diensten (+ six
- * child pages), Het bureau and Werkwijze.
+ * child pages), Het bureau and Werkwijze — including per-page SEO meta
+ * (rwerkhoven_seo_title / rwerkhoven_seo_description, see inc/seo.php).
  *
- * Texts are based on the original site's content, edited for clarity and
- * brought up to date (the permit pages now describe the situation under the
- * Omgevingswet, in force since 1 January 2024 — flagged in
- * docs/content-questions.md for the owner to verify).
+ * Copy follows the tone-of-voice brief (2026-09-04): professional,
+ * approachable, active voice, scannable, offer-oriented CTAs. Facts come
+ * from the owner's existing site; permit texts follow the Omgevingswet
+ * situation since 1-1-2024 (verification flagged in docs/content-questions.md).
  *
  * Run inside the wpcli container:
  *   docker compose cp scripts/create-pages.php wpcli:/tmp/create-pages.php
@@ -19,13 +20,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 $cta = <<<'HTML'
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} -->
-<p style="margin-top:var(--wp--preset--spacing--40)">Heeft u bouw- of verbouwplannen? <a href="/contact/">Neem vrijblijvend contact op</a>.</p>
+<p style="margin-top:var(--wp--preset--spacing--40)">Benieuwd wat dit voor uw plannen betekent? <a href="/contact/">Vraag een vrijblijvende offerte aan</a> — u ontvangt snel een reactie.</p>
 <!-- /wp:paragraph -->
 HTML;
 
 $contact_content = <<<'HTML'
 <!-- wp:paragraph {"fontSize":"large"} -->
-<p class="has-large-font-size">Heeft u vragen, of wilt u vrijblijvend een afspraak maken? Neem gerust contact op via e-mail of telefoon, of stuur een bericht via het formulier.</p>
+<p class="has-large-font-size">Wilt u weten wat er mogelijk is met uw woning of bedrijfspand? Vertel kort iets over uw plannen — u krijgt snel een reactie en desgewenst een vrijblijvende offerte.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:columns {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} -->
@@ -41,8 +42,8 @@ $contact_content = <<<'HTML'
 		<p>Ron Werkhoven Bouwkundig Ontwerp- en Tekenbureau<br>Hofstedering 65<br>3763 XB Soest</p>
 		<!-- /wp:paragraph -->
 
-		<!-- wp:paragraph {"fontFamily":"mono","fontSize":"small"} -->
-		<p class="has-mono-font-family has-small-font-size"><a href="tel:0613645507">06-13645507</a><br><a href="mailto:info@rwerkhoven.nl">info@rwerkhoven.nl</a></p>
+		<!-- wp:paragraph {"fontSize":"small"} -->
+		<p class="has-small-font-size"><a href="tel:0613645507">06-13645507</a><br><a href="mailto:info@rwerkhoven.nl">info@rwerkhoven.nl</a></p>
 		<!-- /wp:paragraph -->
 
 		<!-- wp:social-links -->
@@ -50,7 +51,7 @@ $contact_content = <<<'HTML'
 		<!-- /wp:social-links -->
 
 		<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
-		<p style="margin-top:var(--wp--preset--spacing--30)">Wilt u een review geven? <a href="https://g.page/r/Cf3-IzqPxu_8EAc" rel="noopener" target="_blank">Klik hier</a>.</p>
+		<p style="margin-top:var(--wp--preset--spacing--30)">Benieuwd naar ervaringen van eerdere opdrachtgevers? <a href="https://g.page/r/Cf3-IzqPxu_8EAc" rel="noopener" target="_blank">Lees de reviews op Google</a> — of laat er zelf een achter.</p>
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:column -->
@@ -58,7 +59,7 @@ $contact_content = <<<'HTML'
 	<!-- wp:column {"width":"60%"} -->
 	<div class="wp-block-column" style="flex-basis:60%">
 		<!-- wp:heading {"level":2,"fontSize":"large"} -->
-		<h2 class="wp-block-heading has-large-font-size">Stuur een bericht</h2>
+		<h2 class="wp-block-heading has-large-font-size">Vraag een vrijblijvende offerte aan</h2>
 		<!-- /wp:heading -->
 
 		<!-- wp:rwerkhoven/contact-form /-->
@@ -75,13 +76,13 @@ $bedankt_content = <<<'HTML'
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="/">Terug naar de homepage</a></p>
+<p>Bekijk in de tussentijd gerust de <a href="/projecten/">projecten</a>, of ga <a href="/">terug naar de homepage</a>.</p>
 <!-- /wp:paragraph -->
 HTML;
 
 $diensten_content = <<<'HTML'
 <!-- wp:paragraph {"fontSize":"large"} -->
-<p class="has-large-font-size">Ron Werkhoven verzorgt bouwkundig ontwerp, tekenwerk en vergunningaanvragen — van eerste schets tot en met de uitvoering. Hieronder staat per dienst wat u kunt verwachten.</p>
+<p class="has-large-font-size">Alles wat er nodig is om van een idee een gerealiseerd bouwplan te maken: ontwerp, tekenwerk en de complete vergunningaanvraag. Voor particulieren én zakelijke opdrachtgevers, altijd met één aanspreekpunt.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}},"layout":{"type":"constrained"}} -->
@@ -93,16 +94,24 @@ HTML;
 
 $ontwerp_content = <<<'HTML'
 <!-- wp:paragraph {"fontSize":"large"} -->
-<p class="has-large-font-size">Elk bouwplan begint met een ontwerp dat klopt: ruimtelijk, technisch en binnen de regels. Ron Werkhoven vertaalt uw wensen naar een concreet bouwkundig ontwerp voor verbouw, uitbreiding of nieuwbouw.</p>
+<p class="has-large-font-size">Elk goed bouwplan begint op papier. Ron Werkhoven vertaalt uw wensen naar een ontwerp dat klopt: ruimtelijk aantrekkelijk, technisch doordacht en uitvoerbaar binnen de regels én uw budget.</p>
 <!-- /wp:paragraph -->
 
+<!-- wp:heading {"level":2,"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Schetsontwerp: eerst verkennen, dan beslissen</h2>
+<!-- /wp:heading -->
+
 <!-- wp:paragraph -->
-<p>Het ontwerp wordt in nauw overleg met u gemaakt en stap voor stap aangescherpt, tot er een plan ligt dat uitvoerbaar is en past bij de bestaande situatie.</p>
+<p>Het begint met een schetsontwerp. In een of meer varianten wordt zichtbaar wat er kan met uw woning, kavel of pand — zodat u keuzes maakt op basis van beeld, niet op basis van aannames. Pas als de richting staat, wordt het ontwerp technisch uitgewerkt.</p>
 <!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2,"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Wat u kunt verwachten</h2>
+<!-- /wp:heading -->
 
 <!-- wp:list -->
 <ul class="wp-block-list"><!-- wp:list-item -->
-<li>Schetsontwerp en varianten om de mogelijkheden te verkennen</li>
+<li>Schetsontwerp met varianten om de mogelijkheden te verkennen</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
@@ -114,14 +123,14 @@ $ontwerp_content = <<<'HTML'
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>Uitwerking tot vergunnings- en werktekeningen</li>
+<li>Doorwerking tot vergunnings- en werktekeningen — alles in één hand</li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list -->
 HTML;
 
 $tekeningen_content = <<<'HTML'
 <!-- wp:paragraph {"fontSize":"large"} -->
-<p class="has-large-font-size">Heldere, nauwkeurige tekeningen vormen de basis van elk bouwproject: voor de vergunningaanvraag, het overleg met aannemer en adviseurs, en de uitvoering op de bouwplaats.</p>
+<p class="has-large-font-size">Goede tekeningen zijn de taal van de bouw: de gemeente toetst erop, de aannemer bouwt ermee en u weet precies wat u krijgt. Ron Werkhoven levert tekenwerk dat nauwkeurig, compleet en direct bruikbaar is.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"fontSize":"large"} -->
@@ -133,11 +142,11 @@ $tekeningen_content = <<<'HTML'
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"fontSize":"large"} -->
-<h2 class="wp-block-heading has-large-font-size">Werktekeningen</h2>
+<h2 class="wp-block-heading has-large-font-size">Werk- en bestektekeningen</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Gedetailleerde tekeningen op grote schaal, met volledige maatvoering. Bij grotere of complexere projecten voorkomen goede werktekeningen vertraging en fouten in de uitvoering.</p>
+<p>Gedetailleerde tekeningen op grote schaal, met volledige maatvoering en materiaalgegevens. Bij grotere of complexere projecten voorkomen goede werktekeningen discussie, vertraging en fouten in de uitvoering.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"fontSize":"large"} -->
@@ -153,18 +162,36 @@ $tekeningen_content = <<<'HTML'
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Bestaande gebouwen worden ingemeten en digitaal uitgewerkt naar de actuele situatie. Het detail- en materialisatieniveau bepalen we samen, op basis van het doel van de tekeningen.</p>
+<p>Van bestaande gebouwen worden de actuele maten opgenomen en digitaal uitgewerkt. Het detailniveau stemmen we vooraf af op het doel van de tekeningen — van globale plattegrond tot volledig gedetailleerd model.</p>
 <!-- /wp:paragraph -->
 HTML;
 
 $verbouwing_content = <<<'HTML'
 <!-- wp:paragraph {"fontSize":"large"} -->
-<p class="has-large-font-size">Bij een verbouwing of renovatie komt veel samen: de bestaande constructie, de nieuwe indeling, de regelgeving en de uitvoering. Ron Werkhoven begeleidt dit van eerste schets tot een uitvoeringsgereed plan.</p>
+<p class="has-large-font-size">Bij een verbouwing of renovatie komt alles samen: de bestaande constructie, de nieuwe indeling, de regelgeving en de uitvoering. Ron Werkhoven begeleidt dat traject van eerste schets tot een plan waarmee de aannemer direct aan de slag kan.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-<p>Het begint met een goede opname: de bestaande situatie wordt ingemeten en digitaal vastgelegd. Daarna volgt het ontwerp voor de nieuwe situatie, uitgewerkt in duidelijke tekeningen — en waar nodig de aanvraag van de omgevingsvergunning.</p>
-<!-- /wp:paragraph -->
+<!-- wp:heading {"level":2,"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Zo pakt het aan</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><strong>Opname</strong> — de bestaande situatie wordt ingemeten en digitaal vastgelegd</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><strong>Ontwerp</strong> — de nieuwe indeling, in overleg met u aangescherpt</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><strong>Uitwerking</strong> — duidelijke tekeningen voor vergunning en uitvoering</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><strong>Vergunning</strong> — waar nodig wordt de omgevingsvergunning volledig verzorgd</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
 
 <!-- wp:paragraph -->
 <p>Voorbeelden van verbouwingen staan bij de <a href="/projecten/">projecten</a>.</p>
@@ -173,11 +200,15 @@ HTML;
 
 $aanbouw_content = <<<'HTML'
 <!-- wp:paragraph {"fontSize":"large"} -->
-<p class="has-large-font-size">Meer ruimte in of om uw woning: een aanbouw, uitbouw, dakkapel, erker, garage of carport. Ron Werkhoven ontwerpt en tekent uitbreidingen die passen bij de bestaande woning.</p>
+<p class="has-large-font-size">Meer ruimte zonder te verhuizen: een aanbouw, uitbouw, dakkapel, erker, garage of carport. Ron Werkhoven ontwerpt en tekent uitbreidingen die aanvoelen als een vanzelfsprekend deel van uw woning — geen aangeplakte doos.</p>
 <!-- /wp:paragraph -->
 
+<!-- wp:heading {"level":2,"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Vergunningvrij of vergunningplichtig?</h2>
+<!-- /wp:heading -->
+
 <!-- wp:paragraph -->
-<p>Niet elke uitbreiding is vergunningplichtig. Wat vergunningvrij kan en waarvoor een omgevingsvergunning nodig is, wordt vooraf voor u uitgezocht — zodat u niet voor verrassingen komt te staan.</p>
+<p>Niet elke uitbreiding heeft een vergunning nodig. Wat vergunningvrij kan en waarvoor een omgevingsvergunning vereist is, wordt vooraf voor u uitgezocht — zodat u niet halverwege voor verrassingen komt te staan.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -187,15 +218,19 @@ HTML;
 
 $vergunning_content = <<<'HTML'
 <!-- wp:paragraph {"fontSize":"large"} -->
-<p class="has-large-font-size">Voor veel bouw- en verbouwplannen is een omgevingsvergunning nodig. Ron Werkhoven maakt de benodigde tekeningen en stukken en verzorgt de volledige aanvraag, inclusief de afstemming met de gemeente.</p>
+<p class="has-large-font-size">Voor veel bouw- en verbouwplannen is een omgevingsvergunning nodig. Ron Werkhoven verzorgt de complete aanvraag: de tekeningen, de bijbehorende stukken, de indiening via het Omgevingsloket en de afstemming met de gemeente. U hoeft er niet zelf achteraan.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2,"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Hoe werkt het sinds de Omgevingswet?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Sinds 1 januari 2024 geldt de Omgevingswet. Aanvragen verlopen via het digitale <a href="https://omgevingswet.overheid.nl/" rel="noopener" target="_blank">Omgevingsloket</a>, en een bouwplan wordt apart beoordeeld op het omgevingsplan van de gemeente en op de landelijke technische bouwregels. Voor bepaalde nieuwbouwprojecten geldt daarnaast de Wet kwaliteitsborging voor het bouwen, waarbij een onafhankelijke kwaliteitsborger de technische toets uitvoert.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Sinds 1 januari 2024 geldt de Omgevingswet. Aanvragen verlopen via het digitale Omgevingsloket, en een bouwplan wordt apart beoordeeld op het omgevingsplan van de gemeente en op de landelijke technische bouwregels. Voor bepaalde nieuwbouwprojecten geldt daarnaast de Wet kwaliteitsborging voor het bouwen, waarbij een onafhankelijke kwaliteitsborger de technische toets uitvoert.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Voor constructieberekeningen en energieprestatieberekeningen (BENG) wordt samengewerkt met externe adviseurs.</p>
+<p>Voor constructieberekeningen en energieprestatieberekeningen (BENG) wordt samengewerkt met vaste externe adviseurs — ook dat loopt via één aanspreekpunt.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"fontSize":"large"} -->
@@ -223,12 +258,30 @@ HTML;
 
 $bedrijfspanden_content = <<<'HTML'
 <!-- wp:paragraph {"fontSize":"large"} -->
-<p class="has-large-font-size">Voor winkels, horeca en bedrijfsruimten verzorgt Ron Werkhoven het bouwkundig tekenwerk en de bijbehorende aanvragen: herindelingen, verbouwingen, herbestemmingen en gevelreclame.</p>
+<p class="has-large-font-size">Voor winkels, horeca en bedrijfsruimten telt maar één ding: dat de verbouwing snel, goed en volgens de regels gebeurt — elke week vertraging kost omzet. Ron Werkhoven verzorgt het bouwkundig tekenwerk en de bijbehorende aanvragen, van eenmalige verbouwing tot landelijke uitrol.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-<p>Ook de stukken rond brandveilig gebruik — de vergunning, de gebruiksmelding en ontruimingsplattegronden — worden verzorgd.</p>
-<!-- /wp:paragraph -->
+<!-- wp:heading {"level":2,"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Wat wordt er verzorgd</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Herindelingen, verbouwingen en herbestemmingen van bedrijfspanden</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Vergunningaanvragen, inclusief gevelreclame</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Stukken rond brandveilig gebruik: vergunning, gebruiksmelding en ontruimingsplattegronden</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Inmeten en digitaliseren van bestaande panden</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
 
 <!-- wp:paragraph -->
 <p>Voorbeelden staan bij de <a href="/projecten/">projecten</a>: van winkelketens tot de herbestemming van een bankgebouw.</p>
@@ -237,16 +290,38 @@ HTML;
 
 $bureau_content = <<<'HTML'
 <!-- wp:paragraph {"fontSize":"large"} -->
-<p class="has-large-font-size">Ron Werkhoven Bouwkundig Ontwerp- en Tekenbureau is in 2010 opgericht en gevestigd in Soest.</p>
+<p class="has-large-font-size">Achter het bureau staat één man: Ron Werkhoven. Sinds 2010 verzorgt hij vanuit Soest bouwkundig ontwerp, tekenwerk en vergunningaanvragen — voor particulieren die willen verbouwen én voor aannemers, vastgoedbeheerders en architectenbureaus die op zijn tekenwerk bouwen.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-<p>Het bureau verzorgt bouwkundig ontwerp, tekenwerk en omgevingsvergunningaanvragen voor particulieren, bedrijven, aannemers, vastgoedbeheerders en architecten- en adviesbureaus. Het werk loopt uiteen van verbouw, uitbreiding en herinrichting van woningen tot winkels en bedrijfsruimten.</p>
-<!-- /wp:paragraph -->
+<!-- wp:heading {"level":2,"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Eén aanspreekpunt, van schets tot oplevering</h2>
+<!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>De werkzaamheden worden in nauw overleg met de opdrachtgever uitgevoerd en afgestemd op diens wensen. De dienstverlening kenmerkt zich door creativiteit, snelheid en betrouwbaarheid — en van ontwerp tot realisatie heeft u één aanspreekpunt.</p>
+<p>Bij veel bouwtrajecten raken opdrachtgevers verstrikt tussen ontwerper, tekenaar, adviseurs en gemeente. Hier niet: u heeft van begin tot eind met dezelfde persoon te maken. Dat betekent korte lijnen, geen informatie die tussen partijen verloren gaat, en iemand die het hele plan kent — van het eerste schetsje tot het laatste detail op de werktekening.</p>
 <!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2,"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Werkwijze in het kort</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>De werkzaamheden worden in nauw overleg met u uitgevoerd en afgestemd op uw wensen. De dienstverlening kenmerkt zich door creativiteit, snelheid en betrouwbaarheid: afspraken worden nagekomen en tekenwerk wordt op tijd geleverd. Hoe een project stap voor stap verloopt, leest u bij de <a href="/werkwijze/">werkwijze</a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2,"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Voor wie</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><strong>Particulieren</strong> — aanbouw, uitbouw, dakkapel, complete woningverbouwing of nieuwbouw</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><strong>Zakelijke opdrachtgevers</strong> — aannemers, vastgoedbeheerders, winkelketens en architecten- en adviesbureaus die technisch tekenwerk uitbesteden</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
 
 <!-- wp:social-links {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
 <ul class="wp-block-social-links" style="margin-top:var(--wp--preset--spacing--30)"><!-- wp:social-link {"url":"https://www.linkedin.com/in/ron-werkhoven-2594881a","service":"linkedin","label":"LinkedIn"} /--></ul>
@@ -265,23 +340,89 @@ $werkwijze_content = <<<'HTML'
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} -->
-<p style="margin-top:var(--wp--preset--spacing--40)">Afhankelijk van het project kunnen stappen samenvallen of vervallen — bij een klein plan is soms alleen tekenwerk nodig. Wat er in uw situatie nodig is, bespreken we in het eerste gesprek.</p>
+<p style="margin-top:var(--wp--preset--spacing--40)">Afhankelijk van het project kunnen stappen samenvallen of vervallen — bij een klein plan is soms alleen tekenwerk nodig. Wat er in uw situatie nodig is, hoort u direct in het eerste gesprek, inclusief een heldere prijsopgave.</p>
 <!-- /wp:paragraph -->
 HTML;
 
 // Order matters: parents before children.
 $pages = array(
-	'contact'                        => array( 'title' => 'Contact', 'content' => $contact_content, 'cta' => false ),
-	'bedankt'                        => array( 'title' => 'Bedankt', 'content' => $bedankt_content, 'cta' => false ),
-	'diensten'                       => array( 'title' => 'Diensten', 'content' => $diensten_content, 'cta' => true ),
-	'diensten/bouwkundig-ontwerp'    => array( 'title' => 'Bouwkundig ontwerp', 'content' => $ontwerp_content, 'cta' => true ),
-	'diensten/bouwkundige-tekeningen' => array( 'title' => 'Bouwkundige tekeningen', 'content' => $tekeningen_content, 'cta' => true ),
-	'diensten/verbouwing-renovatie'  => array( 'title' => 'Verbouwing & renovatie', 'content' => $verbouwing_content, 'cta' => true ),
-	'diensten/aanbouw-uitbouw'       => array( 'title' => 'Aanbouw & uitbouw', 'content' => $aanbouw_content, 'cta' => true ),
-	'diensten/omgevingsvergunning'   => array( 'title' => 'Omgevingsvergunning', 'content' => $vergunning_content, 'cta' => true ),
-	'diensten/bedrijfspanden'        => array( 'title' => 'Bedrijfspanden', 'content' => $bedrijfspanden_content, 'cta' => true ),
-	'het-bureau'                     => array( 'title' => 'Het bureau', 'content' => $bureau_content, 'cta' => true ),
-	'werkwijze'                      => array( 'title' => 'Werkwijze', 'content' => $werkwijze_content, 'cta' => true ),
+	'contact'                        => array(
+		'title'    => 'Contact',
+		'content'  => $contact_content,
+		'cta'      => false,
+		'seo_t'    => 'Contact & vrijblijvende offerte | Ron Werkhoven Soest',
+		'seo_d'    => 'Neem contact op met Ron Werkhoven Bouwkundig Ontwerp- en Tekenbureau in Soest. Vraag een vrijblijvende offerte aan voor ontwerp, tekenwerk of een omgevingsvergunning.',
+	),
+	'bedankt'                        => array(
+		'title'    => 'Bedankt',
+		'content'  => $bedankt_content,
+		'cta'      => false,
+		'seo_t'    => '',
+		'seo_d'    => '',
+	),
+	'diensten'                       => array(
+		'title'    => 'Diensten',
+		'content'  => $diensten_content,
+		'cta'      => true,
+		'seo_t'    => 'Diensten: ontwerp, bouwtekeningen & vergunning | Ron Werkhoven',
+		'seo_d'    => 'Bouwkundig ontwerp, bouwtekeningen en omgevingsvergunningen — voor particulieren en bedrijven in Soest en regio Utrecht. Eén aanspreekpunt, van schets tot realisatie.',
+	),
+	'diensten/bouwkundig-ontwerp'    => array(
+		'title'    => 'Bouwkundig ontwerp',
+		'content'  => $ontwerp_content,
+		'cta'      => true,
+		'seo_t'    => 'Bouwkundig ontwerp & schetsontwerp | Ron Werkhoven Soest',
+		'seo_d'    => 'Van schetsontwerp tot uitvoerbaar bouwplan: bouwkundig ontwerp voor verbouw, aanbouw en nieuwbouw. Creatief, technisch doordacht en binnen de regels.',
+	),
+	'diensten/bouwkundige-tekeningen' => array(
+		'title'    => 'Bouwkundige tekeningen',
+		'content'  => $tekeningen_content,
+		'cta'      => true,
+		'seo_t'    => 'Bouwtekeningen: bouwaanvraag, werk- en bestektekeningen | Ron Werkhoven',
+		'seo_d'    => 'Nauwkeurige bouwtekeningen voor vergunning en uitvoering: bouwaanvraag-, werk-, bestek- en splitsingstekeningen, plus inmeten en digitaliseren van bestaande gebouwen.',
+	),
+	'diensten/verbouwing-renovatie'  => array(
+		'title'    => 'Verbouwing & renovatie',
+		'content'  => $verbouwing_content,
+		'cta'      => true,
+		'seo_t'    => 'Verbouwing & renovatie: van schets tot bouwplan | Ron Werkhoven',
+		'seo_d'    => 'Verbouwplannen? Van opname en ontwerp tot vergunning en uitvoeringsgerede tekeningen — begeleiding door één aanspreekpunt in Soest en regio Utrecht.',
+	),
+	'diensten/aanbouw-uitbouw'       => array(
+		'title'    => 'Aanbouw & uitbouw',
+		'content'  => $aanbouw_content,
+		'cta'      => true,
+		'seo_t'    => 'Aanbouw, uitbouw of dakkapel laten ontwerpen | Ron Werkhoven',
+		'seo_d'    => 'Meer ruimte met een aanbouw, uitbouw, dakkapel of erker. Ontwerp en tekenwerk dat past bij uw woning, inclusief uitzoeken of een vergunning nodig is.',
+	),
+	'diensten/omgevingsvergunning'   => array(
+		'title'    => 'Omgevingsvergunning',
+		'content'  => $vergunning_content,
+		'cta'      => true,
+		'seo_t'    => 'Omgevingsvergunning aanvragen (Omgevingswet) | Ron Werkhoven',
+		'seo_d'    => 'De complete aanvraag van uw omgevingsvergunning verzorgd: tekeningen, stukken en indiening via het Omgevingsloket, volgens de Omgevingswet. Ook brandveilig gebruik.',
+	),
+	'diensten/bedrijfspanden'        => array(
+		'title'    => 'Bedrijfspanden',
+		'content'  => $bedrijfspanden_content,
+		'cta'      => true,
+		'seo_t'    => 'Tekenwerk & vergunningen voor bedrijfspanden | Ron Werkhoven',
+		'seo_d'    => 'Bouwkundig tekenwerk voor winkels, horeca en bedrijfsruimten: herindeling, herbestemming, gevelreclame en brandveilig gebruik — van één pand tot landelijke uitrol.',
+	),
+	'het-bureau'                     => array(
+		'title'    => 'Het bureau',
+		'content'  => $bureau_content,
+		'cta'      => true,
+		'seo_t'    => 'Het bureau: één aanspreekpunt voor uw bouwplan | Ron Werkhoven',
+		'seo_d'    => 'Ron Werkhoven Bouwkundig Ontwerp- en Tekenbureau, sinds 2010 in Soest. Creatief, snel en betrouwbaar — met één aanspreekpunt van schets tot oplevering.',
+	),
+	'werkwijze'                      => array(
+		'title'    => 'Werkwijze',
+		'content'  => $werkwijze_content,
+		'cta'      => true,
+		'seo_t'    => 'Werkwijze: in vijf stappen van idee naar realisatie | Ron Werkhoven',
+		'seo_d'    => 'Zo verloopt uw project: kennismaken, ontwerpen, uitwerken, vergunning en realisatie. Overzichtelijke stappen en heldere afspraken, van begin tot eind.',
+	),
 );
 
 foreach ( $pages as $path => $page ) {
@@ -324,6 +465,13 @@ foreach ( $pages as $path => $page ) {
 	if ( is_wp_error( $post_id ) ) {
 		echo "FOUT bij {$path}: " . $post_id->get_error_message() . "\n";
 		continue;
+	}
+
+	if ( '' !== $page['seo_t'] ) {
+		update_post_meta( $post_id, 'rwerkhoven_seo_title', $page['seo_t'] );
+	}
+	if ( '' !== $page['seo_d'] ) {
+		update_post_meta( $post_id, 'rwerkhoven_seo_description', $page['seo_d'] );
 	}
 
 	echo "ok: /{$path}/ (post {$post_id})\n";

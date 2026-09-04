@@ -17,7 +17,7 @@
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"textColor":"muted","fontSize":"small"} -->
-			<p class="has-muted-color has-text-color has-small-font-size">Van eerste idee tot een technisch samenhangend ontwerp.</p>
+			<p class="has-muted-color has-text-color has-small-font-size">Van eerste schets tot een doordacht, uitvoerbaar ontwerp voor uw verbouwing of nieuwbouw.</p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
@@ -34,7 +34,7 @@
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"textColor":"muted","fontSize":"small"} -->
-			<p class="has-muted-color has-text-color has-small-font-size">Heldere, nauwkeurige tekeningen voor bouw, vergunning en overleg — inclusief werktekeningen en het inmeten van bestaande situaties.</p>
+			<p class="has-muted-color has-text-color has-small-font-size">Bouwaanvraag-, werk-, bestek- en splitsingstekeningen: nauwkeurig, compleet en direct bruikbaar.</p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
@@ -51,7 +51,7 @@
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"textColor":"muted","fontSize":"small"} -->
-			<p class="has-muted-color has-text-color has-small-font-size">Begeleiding bij verbouwingen, van eerste schets tot een uitvoeringsgereed plan.</p>
+			<p class="has-muted-color has-text-color has-small-font-size">Van opname van de bestaande situatie tot een uitvoeringsgereed verbouwingsplan.</p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
@@ -68,7 +68,7 @@
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"textColor":"muted","fontSize":"small"} -->
-			<p class="has-muted-color has-text-color has-small-font-size">Ontwerp en tekenwerk voor uitbreidingen aan bestaande woningen.</p>
+			<p class="has-muted-color has-text-color has-small-font-size">Meer ruimte met een aanbouw, uitbouw, dakkapel of erker — passend bij uw woning.</p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
@@ -85,7 +85,7 @@
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"textColor":"muted","fontSize":"small"} -->
-			<p class="has-muted-color has-text-color has-small-font-size">Begeleiding bij de tekeningen en stukken voor de vergunningaanvraag, inclusief brandveiligheid en gebruiksmeldingen.</p>
+			<p class="has-muted-color has-text-color has-small-font-size">De complete vergunningaanvraag verzorgd: van tekeningen tot indiening via het Omgevingsloket.</p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
@@ -102,7 +102,7 @@
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"textColor":"muted","fontSize":"small"} -->
-			<p class="has-muted-color has-text-color has-small-font-size">Bouwkundige en technische ondersteuning voor bedrijfspanden en bedrijfsruimten.</p>
+			<p class="has-muted-color has-text-color has-small-font-size">Tekenwerk, herindelingen en vergunningen voor winkels, horeca en bedrijfsruimten.</p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
