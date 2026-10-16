@@ -21,42 +21,30 @@ Deze map bevat alles om de site als klikbare demo te openen in [WordPress Playgr
 
 `content.json` en `uploads.zip` worden gemaakt door `scripts/export-playground.php`. Draai dat script opnieuw zodra de inhoud van de site verandert.
 
-## Publiceren in drie stappen
+## De link om te delen
 
-### 1. Zet de bestanden op GitHub
-
-Eenmalig inloggen, daarna een publieke repository aanmaken en deze map pushen:
-
-```bash
-gh auth login
-gh repo create rwerkhoven-demo --public --source=. --remote=demo --push
-```
-
-Wil je er geen hele repository voor gebruiken, dan volstaat elke plek die de bestanden publiek en met CORS serveert.
-
-### 2. Vul de basis-URL in
-
-Vervang de plaatshouder door de map waar de vier bestanden staan:
-
-```bash
-BASE="https://raw.githubusercontent.com/ri-we/rwerkhoven-demo/master/playground"
-sed -i "s#__BASE_URL__#$BASE#g" playground/blueprint.json
-git add playground/blueprint.json && git commit -m "Vul de basis-URL van de demo in" && git push demo
-```
-
-### 3. Deel de link
-
-```
-https://playground.wordpress.net/?blueprint-url=<BASE>/blueprint.json
-```
-
-Dus met de URL uit stap 2 wordt dat:
+Dit staat live op `ri-we/rwerkhoven-demo`, tak `master`:
 
 ```
 https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/ri-we/rwerkhoven-demo/master/playground/blueprint.json
 ```
 
-Open die link zelf eerst één keer om te controleren dat alles laadt.
+## Bijwerken na een wijziging aan de site
+
+De demo is een momentopname. Verandert er iets aan het thema of de inhoud, dan moet je het pakket opnieuw maken en pushen; de link zelf blijft gelijk.
+
+```bash
+# inhoud opnieuw exporteren
+docker compose cp scripts/export-playground.php wpcli:/tmp/export-playground.php
+docker compose exec -T wpcli wp eval-file /tmp/export-playground.php
+docker compose cp wpcli:/tmp/content.json playground/content.json
+
+git add playground && git commit -m "Demo bijwerken" && git push demo master
+```
+
+Het thema- en het media-zipbestand worden gemaakt zoals beschreven in de commitgeschiedenis van deze map. Let op: `scripts/export-playground.php` leest de afmetingen van de afbeeldingen uit de teruggeschaalde set in `/tmp/pg-final`. Bestaat die map niet, dan neemt het script de afmetingen van de volledige originelen over en kloppen de `srcset`-waarden niet meer met de bestanden in `uploads.zip`. Bouw die set dus opnieuw voordat je exporteert.
+
+Wil je de bestanden ergens anders neerzetten, dan kan dat op elke plek die ze publiek serveert én CORS toestaat. Vervang daarna de vier URL's in `blueprint.json`.
 
 ## Aanpassen
 
