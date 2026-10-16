@@ -38,15 +38,22 @@ Three webfont families is more than the original "system stack only" plan in thi
 
 ### Scale (fluid, `clamp()`-based to avoid separate mobile/desktop overrides)
 
-| Token | Role | Size (clamp) |
-|---|---|---|
-| `--text-h1` | Page hero heading | `clamp(2.25rem, 1.6rem + 3vw, 4rem)` |
-| `--text-h2` | Section heading | `clamp(1.75rem, 1.4rem + 1.6vw, 2.75rem)` |
-| `--text-h3` | Sub-section / card title | `clamp(1.25rem, 1.1rem + 0.8vw, 1.75rem)` |
-| `--text-body` | Body copy | `1.0625rem` (17px), line-height 1.6 |
-| `--text-small` | Captions, meta, labels | `0.875rem` (14px), line-height 1.5 |
+Revised 2026-10-09. The first scale topped out at 64px for H1 and used the same step for the H3 sub-headings and the lead paragraphs, which read as oversized on the finished pages. The steps below keep roughly a 1.25 ratio and sit inside the usual ranges: hero 40–56px, page title 32–44px, body 16–18px.
 
-Line length capped at ~68ch for body copy via a `.prose`-style max-width on text containers.
+| Token (theme.json preset) | Role | Size (clamp) | Desktop |
+|---|---|---|---|
+| `xx-large` | Homepage hero H1 only | `clamp(2.125rem, 1.75rem + 1.8vw, 3.25rem)` | 34–52px |
+| *(literal on `elements.h1`)* | Page title (`post-title`, archive headings) | `clamp(1.75rem, 1.5rem + 1.5vw, 2.5rem)` | 28–40px |
+| `x-large` | Section heading (H2) | `clamp(1.5rem, 1.35rem + 0.7vw, 1.875rem)` | 24–30px |
+| `large` | Sub-section title (H3) and lead paragraphs | `clamp(1.1875rem, 1.1rem + 0.35vw, 1.375rem)` | 19–22px |
+| `medium` | Body copy | `1.0625rem` (17px), line-height 1.6 | 17px |
+| `small` | Captions, meta, labels | `0.875rem` (14px) | 14px |
+
+A lead paragraph shares the `large` step with the H3s; weight (400 vs 700), typeface (IBM Plex Sans vs Archivo Narrow) and line-height carry the distinction, so the lead does not need its own size. The hero keeps the one display-size H1 via `.rwerkhoven-hero-content h1` in the stylesheet — the H1 element style alone cannot distinguish the hero from a page title.
+
+Line length is capped at 68ch on paragraphs and lists inside `post-content` and the service sections. Without it, body copy runs the full 1200px content width, about 140 characters a line.
+
+**theme.json v3 gotcha.** This theme declares `"version": 3`, where `defaultFontSizes` and `defaultSpacingSizes` default to `true` and WordPress's own presets then *replace* theme presets that share a slug. Until 2026-10-09 the type scale above was dead code: the site actually rendered core's `small`/`medium`/`large`/`x-large` (13/20/36/42px), which is why everything looked a step too large. `"defaultFontSizes": false` is now set. The spacing scale is still in that state — see below.
 
 ## 4. Spacing
 
@@ -62,6 +69,8 @@ An 8px base unit, expressed as tokens rather than hard-coded values throughout t
 ```
 
 Section padding uses `--space-6` top/bottom on desktop, collapsing via `clamp()` toward `--space-4` on mobile — generous whitespace (§13) without a second breakpoint-specific override system.
+
+**Open issue (2026-10-09): these values are not the ones the site renders.** For the same theme.json v3 reason described under Typography, WordPress's default spacing presets replace the theme's for slugs `20`–`60`, so the site actually uses 0.44/0.67/1/1.5/2.25rem where the scale above specifies 1/1.5/2.5/4/6rem, and core's `70`/`80` leak into the editor as extra choices. Only `10` (0.5rem) is the theme's own. Setting `"defaultSpacingSizes": false` in `settings.spacing` fixes it, but every template and pattern was visually tuned against the core values, so the whole vertical rhythm roughly doubles the moment it is switched on. Treat it as a deliberate layout pass, not a one-line fix.
 
 ## 5. Grid & layout
 

@@ -1,0 +1,52 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"landingPage": "/",
+	"preferredVersions": {
+		"php": "8.3",
+		"wp": "latest"
+	},
+	"steps": [
+		{
+			"step": "installTheme",
+			"themeData": {
+				"resource": "url",
+				"url": "https://raw.githubusercontent.com/ri-we/rwerkhoven-demo/master/playground/rwerkhoven-theme.zip"
+			},
+			"options": {
+				"activate": true
+			}
+		},
+		{
+			"step": "unzip",
+			"zipFile": {
+				"resource": "url",
+				"url": "https://raw.githubusercontent.com/ri-we/rwerkhoven-demo/master/playground/uploads.zip"
+			},
+			"extractToPath": "/wordpress/wp-content/uploads"
+		},
+		{
+			"step": "mkdir",
+			"path": "/wordpress/wp-content/pg-seed"
+		},
+		{
+			"step": "writeFile",
+			"path": "/wordpress/wp-content/pg-seed/content.json",
+			"data": {
+				"resource": "url",
+				"url": "https://raw.githubusercontent.com/ri-we/rwerkhoven-demo/master/playground/content.json"
+			}
+		},
+		{
+			"step": "writeFile",
+			"path": "/wordpress/wp-content/pg-seed/seed.php",
+			"data": {
+				"resource": "url",
+				"url": "https://raw.githubusercontent.com/ri-we/rwerkhoven-demo/master/playground/seed.php"
+			}
+		},
+		{
+			"step": "runPHP",
+			"code": "<?php require_once '/wordpress/wp-load.php'; require '/wordpress/wp-content/pg-seed/seed.php';"
+		}
+	]
+}

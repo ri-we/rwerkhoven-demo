@@ -174,21 +174,6 @@
 	}
 }
 
-/* Trust section */
-.rwerkhoven-trust {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-	gap: var(--wp--preset--spacing--40) var(--wp--preset--spacing--30);
-}
-
-.rwerkhoven-trust > * {
-	/* WordPress' flow spacing geeft alle items behalve het eerste een
-	   margin-top; in een grid zet dat de kolommen ongelijk. */
-	margin-block-start: 0;
-	border-top: 1px solid var(--wp--preset--color--border);
-	padding-top: var(--wp--preset--spacing--20);
-}
-
 /* Process timeline */
 .rwerkhoven-process-step {
 	border-top: 2px solid var(--wp--preset--color--border);
@@ -338,4 +323,43 @@
 
 .rwerkhoven-final-cta a:hover {
 	color: var(--wp--preset--color--accent);
+}
+
+/* Diensten page: one anchored section per service (scripts/create-pages.php) */
+html {
+	scroll-behavior: smooth;
+}
+
+.rwerkhoven-service-section {
+	margin-top: var(--wp--preset--spacing--40);
+	padding-top: var(--wp--preset--spacing--40);
+	border-top: 1px solid var(--wp--preset--color--border);
+}
+
+.rwerkhoven-service-section > h2[id] {
+	scroll-margin-top: var(--wp--preset--spacing--40);
+}
+
+/* Typography refinements (2026-10-09)
+   The type scale lives in theme.json; these two things it cannot express. */
+
+/* 1. The homepage hero is the one place a display-size H1 is warranted. */
+.rwerkhoven-hero-content h1 {
+	font-size: var(--wp--preset--font-size--xx-large);
+}
+
+/* 2. Cap the measure at ~68 characters (docs/design-system.md): at the 1200px
+   content width, body copy would otherwise run to ~140 characters a line. */
+.wp-block-post-content > p,
+.wp-block-post-content > ul,
+.wp-block-post-content > ol,
+.rwerkhoven-service-section > p,
+.rwerkhoven-service-section > ul,
+.rwerkhoven-service-section > ol {
+	max-width: 68ch;
+}
+
+/* The services jump list reads as navigation, not prose — let it span. */
+.wp-block-post-content > p.rwerkhoven-service-index {
+	max-width: none;
 }

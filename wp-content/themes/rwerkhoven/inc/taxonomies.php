@@ -2,7 +2,7 @@
 /**
  * `dienst` taxonomy — attached to `project` only.
  *
- * Term slugs are expected to match the service page slugs under /diensten/
+ * Term slugs are expected to match the section anchors on /diensten/ (/diensten/#slug)
  * (see docs/site-architecture.md) so a service page template can query
  * projects by `dienst` = its own slug without an extra mapping table.
  */

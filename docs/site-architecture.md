@@ -13,13 +13,8 @@ Keep every URL that Google has already indexed since 2019–2021 unless there's 
 | URL | Purpose | Status vs. current site |
 |---|---|---|
 | `/` | Homepage | Rebuilt |
-| `/diensten/` | Services overview, links to each service sub-page | Rebuilt, restructured |
-| `/diensten/bouwkundig-ontwerp/` | Service page | New |
-| `/diensten/bouwkundige-tekeningen/` | Service page (maps to existing "Bouwaanvraagtekeningen" + "Werktekeningen" content) | New |
-| `/diensten/verbouwing-renovatie/` | Service page | New |
-| `/diensten/aanbouw-uitbouw/` | Service page | New |
-| `/diensten/omgevingsvergunning/` | Service page (maps to existing "Aanvraag omgevingsvergunning", "Brandveilig gebruik", "Gebruiksmelding") | New |
-| `/diensten/bedrijfspanden/` | Service page | New |
+| `/diensten/` | Services overview: all six services described on this one page, each in an anchored section | Rebuilt, restructured |
+| `/diensten/#{anchor}` | One section per service on the overview page, no separate sub-pages (decision 2026-10-09). Anchors: `bouwkundig-ontwerp`, `bouwkundige-tekeningen` (incl. "Bouwaanvraagtekeningen" + "Werktekeningen"), `verbouwing-renovatie`, `aanbouw-uitbouw`, `omgevingsvergunning` (incl. "Brandveilig gebruik", "Gebruiksmelding"), `bedrijfspanden` | New sections |
 | `/projecten/` | Projects overview/index | Rebuilt |
 | `/project/{slug}/` | Individual project (CPT: `project`, unchanged) | Rebuilt template, same 15 slugs preserved |
 | `/het-bureau/` | About page | Rebuilt, expanded |

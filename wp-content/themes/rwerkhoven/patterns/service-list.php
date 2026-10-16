@@ -13,7 +13,7 @@
 		<!-- wp:group {"layout":{"type":"constrained"}} -->
 		<div class="wp-block-group">
 			<!-- wp:heading {"level":3} -->
-			<h3 class="wp-block-heading"><a href="/diensten/bouwkundig-ontwerp/">Bouwkundig ontwerp</a></h3>
+			<h3 class="wp-block-heading"><a href="/diensten/#bouwkundig-ontwerp">Bouwkundig ontwerp</a></h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"textColor":"muted","fontSize":"small"} -->
@@ -30,7 +30,7 @@
 		<!-- wp:group {"layout":{"type":"constrained"}} -->
 		<div class="wp-block-group">
 			<!-- wp:heading {"level":3} -->
-			<h3 class="wp-block-heading"><a href="/diensten/bouwkundige-tekeningen/">Bouwkundige tekeningen</a></h3>
+			<h3 class="wp-block-heading"><a href="/diensten/#bouwkundige-tekeningen">Bouwkundige tekeningen</a></h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"textColor":"muted","fontSize":"small"} -->
@@ -47,7 +47,7 @@
 		<!-- wp:group {"layout":{"type":"constrained"}} -->
 		<div class="wp-block-group">
 			<!-- wp:heading {"level":3} -->
-			<h3 class="wp-block-heading"><a href="/diensten/verbouwing-renovatie/">Verbouwing &amp; renovatie</a></h3>
+			<h3 class="wp-block-heading"><a href="/diensten/#verbouwing-renovatie">Verbouwing &amp; renovatie</a></h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"textColor":"muted","fontSize":"small"} -->
@@ -64,7 +64,7 @@
 		<!-- wp:group {"layout":{"type":"constrained"}} -->
 		<div class="wp-block-group">
 			<!-- wp:heading {"level":3} -->
-			<h3 class="wp-block-heading"><a href="/diensten/aanbouw-uitbouw/">Aanbouw &amp; uitbouw</a></h3>
+			<h3 class="wp-block-heading"><a href="/diensten/#aanbouw-uitbouw">Aanbouw &amp; uitbouw</a></h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"textColor":"muted","fontSize":"small"} -->
@@ -81,7 +81,7 @@
 		<!-- wp:group {"layout":{"type":"constrained"}} -->
 		<div class="wp-block-group">
 			<!-- wp:heading {"level":3} -->
-			<h3 class="wp-block-heading"><a href="/diensten/omgevingsvergunning/">Omgevingsvergunning</a></h3>
+			<h3 class="wp-block-heading"><a href="/diensten/#omgevingsvergunning">Omgevingsvergunning</a></h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"textColor":"muted","fontSize":"small"} -->
@@ -98,7 +98,7 @@
 		<!-- wp:group {"layout":{"type":"constrained"}} -->
 		<div class="wp-block-group">
 			<!-- wp:heading {"level":3} -->
-			<h3 class="wp-block-heading"><a href="/diensten/bedrijfspanden/">Bedrijfspanden</a></h3>
+			<h3 class="wp-block-heading"><a href="/diensten/#bedrijfspanden">Bedrijfspanden</a></h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"textColor":"muted","fontSize":"small"} -->

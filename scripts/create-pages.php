@@ -1,8 +1,12 @@
 <?php
 /**
- * Creates (or updates) the site's pages: Contact, Bedankt, Diensten (+ six
- * child pages), Het bureau and Werkwijze — including per-page SEO meta
- * (rwerkhoven_seo_title / rwerkhoven_seo_description, see inc/seo.php).
+ * Creates (or updates) the site's pages: Contact, Bedankt, Diensten, Het bureau
+ * and Werkwijze — including per-page SEO meta (rwerkhoven_seo_title /
+ * rwerkhoven_seo_description, see inc/seo.php).
+ *
+ * All six services are described on the single Diensten page, one anchored
+ * section each (/diensten/#bouwkundig-ontwerp etc.). Former child pages under
+ * /diensten/ are deleted at the end of the run.
  *
  * Copy follows the tone-of-voice brief (2026-09-04): professional,
  * approachable, active voice, scannable, offer-oriented CTAs. Facts come
@@ -47,7 +51,9 @@ $contact_content = <<<'HTML'
 		<!-- /wp:paragraph -->
 
 		<!-- wp:social-links -->
-		<ul class="wp-block-social-links"><!-- wp:social-link {"url":"https://www.linkedin.com/in/ron-werkhoven-2594881a","service":"linkedin","label":"LinkedIn"} /--></ul>
+		<ul class="wp-block-social-links">
+			<!-- wp:social-link {"url":"https://www.linkedin.com/in/ron-werkhoven-2594881a","service":"linkedin","label":"LinkedIn"} /-->
+		</ul>
 		<!-- /wp:social-links -->
 
 		<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
@@ -80,16 +86,14 @@ $bedankt_content = <<<'HTML'
 <!-- /wp:paragraph -->
 HTML;
 
-$diensten_content = <<<'HTML'
+$diensten_intro = <<<'HTML'
 <!-- wp:paragraph {"fontSize":"large"} -->
 <p class="has-large-font-size">Alles wat er nodig is om van een idee een gerealiseerd bouwplan te maken: ontwerp, tekenwerk en de complete vergunningaanvraag. Voor particulieren én zakelijke opdrachtgevers, altijd met één aanspreekpunt.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--40)">
-	<!-- wp:pattern {"slug":"rwerkhoven/service-list"} /-->
-</div>
-<!-- /wp:group -->
+<!-- wp:paragraph {"className":"rwerkhoven-service-index","textColor":"muted","fontSize":"small"} -->
+<p class="rwerkhoven-service-index has-muted-color has-text-color has-small-font-size"><a href="#bouwkundig-ontwerp">Bouwkundig ontwerp</a> · <a href="#bouwkundige-tekeningen">Bouwkundige tekeningen</a> · <a href="#verbouwing-renovatie">Verbouwing &amp; renovatie</a> · <a href="#aanbouw-uitbouw">Aanbouw &amp; uitbouw</a> · <a href="#omgevingsvergunning">Omgevingsvergunning</a> · <a href="#bedrijfspanden">Bedrijfspanden</a></p>
+<!-- /wp:paragraph -->
 HTML;
 
 $ontwerp_content = <<<'HTML'
@@ -110,21 +114,23 @@ $ontwerp_content = <<<'HTML'
 <!-- /wp:heading -->
 
 <!-- wp:list -->
-<ul class="wp-block-list"><!-- wp:list-item -->
-<li>Schetsontwerp met varianten om de mogelijkheden te verkennen</li>
-<!-- /wp:list-item -->
+<ul class="wp-block-list">
+	<!-- wp:list-item -->
+	<li>Schetsontwerp met varianten om de mogelijkheden te verkennen</li>
+	<!-- /wp:list-item -->
 
-<!-- wp:list-item -->
-<li>Ontwerp voor verbouw, aanbouw, uitbouw of nieuwbouw</li>
-<!-- /wp:list-item -->
+	<!-- wp:list-item -->
+	<li>Ontwerp voor verbouw, aanbouw, uitbouw of nieuwbouw</li>
+	<!-- /wp:list-item -->
 
-<!-- wp:list-item -->
-<li>Herindeling van bestaande woningen en gebouwen</li>
-<!-- /wp:list-item -->
+	<!-- wp:list-item -->
+	<li>Herindeling van bestaande woningen en gebouwen</li>
+	<!-- /wp:list-item -->
 
-<!-- wp:list-item -->
-<li>Doorwerking tot vergunnings- en werktekeningen — alles in één hand</li>
-<!-- /wp:list-item --></ul>
+	<!-- wp:list-item -->
+	<li>Doorwerking tot vergunnings- en werktekeningen — alles in één hand</li>
+	<!-- /wp:list-item -->
+</ul>
 <!-- /wp:list -->
 HTML;
 
@@ -176,21 +182,23 @@ $verbouwing_content = <<<'HTML'
 <!-- /wp:heading -->
 
 <!-- wp:list -->
-<ul class="wp-block-list"><!-- wp:list-item -->
-<li><strong>Opname</strong> — de bestaande situatie wordt ingemeten en digitaal vastgelegd</li>
-<!-- /wp:list-item -->
+<ul class="wp-block-list">
+	<!-- wp:list-item -->
+	<li><strong>Opname</strong> — de bestaande situatie wordt ingemeten en digitaal vastgelegd</li>
+	<!-- /wp:list-item -->
 
-<!-- wp:list-item -->
-<li><strong>Ontwerp</strong> — de nieuwe indeling, in overleg met u aangescherpt</li>
-<!-- /wp:list-item -->
+	<!-- wp:list-item -->
+	<li><strong>Ontwerp</strong> — de nieuwe indeling, in overleg met u aangescherpt</li>
+	<!-- /wp:list-item -->
 
-<!-- wp:list-item -->
-<li><strong>Uitwerking</strong> — duidelijke tekeningen voor vergunning en uitvoering</li>
-<!-- /wp:list-item -->
+	<!-- wp:list-item -->
+	<li><strong>Uitwerking</strong> — duidelijke tekeningen voor vergunning en uitvoering</li>
+	<!-- /wp:list-item -->
 
-<!-- wp:list-item -->
-<li><strong>Vergunning</strong> — waar nodig wordt de omgevingsvergunning volledig verzorgd</li>
-<!-- /wp:list-item --></ul>
+	<!-- wp:list-item -->
+	<li><strong>Vergunning</strong> — waar nodig wordt de omgevingsvergunning volledig verzorgd</li>
+	<!-- /wp:list-item -->
+</ul>
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
@@ -242,17 +250,19 @@ $vergunning_content = <<<'HTML'
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
-<ul class="wp-block-list"><!-- wp:list-item -->
-<li><strong>Omgevingsvergunning brandveilig gebruik</strong> — onder meer bij nachtverblijf voor meer dan tien personen (zoals hotels en zorggebouwen) of dagverblijf voor jonge kinderen of mensen met een beperking.</li>
-<!-- /wp:list-item -->
+<ul class="wp-block-list">
+	<!-- wp:list-item -->
+	<li><strong>Omgevingsvergunning brandveilig gebruik</strong> — onder meer bij nachtverblijf voor meer dan tien personen (zoals hotels en zorggebouwen) of dagverblijf voor jonge kinderen of mensen met een beperking.</li>
+	<!-- /wp:list-item -->
 
-<!-- wp:list-item -->
-<li><strong>Gebruiksmelding</strong> — bij gebouwen waar meer dan vijftig personen tegelijk verblijven, zoals scholen, kantoren, horeca en winkels.</li>
-<!-- /wp:list-item -->
+	<!-- wp:list-item -->
+	<li><strong>Gebruiksmelding</strong> — bij gebouwen waar meer dan vijftig personen tegelijk verblijven, zoals scholen, kantoren, horeca en winkels.</li>
+	<!-- /wp:list-item -->
 
-<!-- wp:list-item -->
-<li><strong>Ontruimingsplattegronden en vluchtplannen</strong> — per verdieping, met blusmiddelen, vluchtroutes en nooduitgangen.</li>
-<!-- /wp:list-item --></ul>
+	<!-- wp:list-item -->
+	<li><strong>Ontruimingsplattegronden en vluchtplannen</strong> — per verdieping, met blusmiddelen, vluchtroutes en nooduitgangen.</li>
+	<!-- /wp:list-item -->
+</ul>
 <!-- /wp:list -->
 HTML;
 
@@ -266,27 +276,86 @@ $bedrijfspanden_content = <<<'HTML'
 <!-- /wp:heading -->
 
 <!-- wp:list -->
-<ul class="wp-block-list"><!-- wp:list-item -->
-<li>Herindelingen, verbouwingen en herbestemmingen van bedrijfspanden</li>
-<!-- /wp:list-item -->
+<ul class="wp-block-list">
+	<!-- wp:list-item -->
+	<li>Herindelingen, verbouwingen en herbestemmingen van bedrijfspanden</li>
+	<!-- /wp:list-item -->
 
-<!-- wp:list-item -->
-<li>Vergunningaanvragen, inclusief gevelreclame</li>
-<!-- /wp:list-item -->
+	<!-- wp:list-item -->
+	<li>Vergunningaanvragen, inclusief gevelreclame</li>
+	<!-- /wp:list-item -->
 
-<!-- wp:list-item -->
-<li>Stukken rond brandveilig gebruik: vergunning, gebruiksmelding en ontruimingsplattegronden</li>
-<!-- /wp:list-item -->
+	<!-- wp:list-item -->
+	<li>Stukken rond brandveilig gebruik: vergunning, gebruiksmelding en ontruimingsplattegronden</li>
+	<!-- /wp:list-item -->
 
-<!-- wp:list-item -->
-<li>Inmeten en digitaliseren van bestaande panden</li>
-<!-- /wp:list-item --></ul>
+	<!-- wp:list-item -->
+	<li>Inmeten en digitaliseren van bestaande panden</li>
+	<!-- /wp:list-item -->
+</ul>
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 <p>Voorbeelden staan bij de <a href="/projecten/">projecten</a>: van winkelketens tot de herbestemming van een bankgebouw.</p>
 <!-- /wp:paragraph -->
 HTML;
+
+/**
+ * The six services, in the order of patterns/service-list.php. The key is the
+ * section anchor the home page's service list links to (/diensten/#anchor).
+ */
+$services = array(
+	'bouwkundig-ontwerp'     => array( 'Bouwkundig ontwerp', $ontwerp_content ),
+	'bouwkundige-tekeningen' => array( 'Bouwkundige tekeningen', $tekeningen_content ),
+	'verbouwing-renovatie'   => array( 'Verbouwing &amp; renovatie', $verbouwing_content ),
+	'aanbouw-uitbouw'        => array( 'Aanbouw &amp; uitbouw', $aanbouw_content ),
+	'omgevingsvergunning'    => array( 'Omgevingsvergunning', $vergunning_content ),
+	'bedrijfspanden'         => array( 'Bedrijfspanden', $bedrijfspanden_content ),
+);
+
+$diensten_content = $diensten_intro;
+
+foreach ( $services as $anchor => $service ) {
+	list( $title, $body ) = $service;
+
+	// The texts were written as stand-alone pages: a large lead paragraph and
+	// H2 sub-headings. As sections of one page they get a normal lead and H3s.
+	$body = str_replace(
+		array(
+			"<!-- wp:paragraph {\"fontSize\":\"large\"} -->\n<p class=\"has-large-font-size\">",
+			'<!-- wp:heading {"level":2,"fontSize":"large"} -->',
+			'<h2 class="wp-block-heading has-large-font-size">',
+			'</h2>',
+		),
+		array(
+			"<!-- wp:paragraph -->\n<p>",
+			'<!-- wp:heading {"level":3} -->',
+			'<h3 class="wp-block-heading">',
+			'</h3>',
+		),
+		$body
+	);
+
+	// Indent the section's blocks one level, so the generated markup nests the
+	// way the hand-written block markup in this file does. Blank lines stay
+	// blank; no paragraph text spans more than one line, so nothing inside a
+	// <p> picks up a stray tab.
+	$body = preg_replace( '/^(?=.)/m', "\t", $body );
+
+	$diensten_content .= <<<HTML
+
+
+<!-- wp:group {"className":"rwerkhoven-service-section","layout":{"type":"constrained"}} -->
+<div class="wp-block-group rwerkhoven-service-section">
+	<!-- wp:heading {"level":2,"anchor":"{$anchor}"} -->
+	<h2 class="wp-block-heading" id="{$anchor}">{$title}</h2>
+	<!-- /wp:heading -->
+
+{$body}
+</div>
+<!-- /wp:group -->
+HTML;
+}
 
 $bureau_content = <<<'HTML'
 <!-- wp:paragraph {"fontSize":"large"} -->
@@ -314,13 +383,15 @@ $bureau_content = <<<'HTML'
 <!-- /wp:heading -->
 
 <!-- wp:list -->
-<ul class="wp-block-list"><!-- wp:list-item -->
-<li><strong>Particulieren</strong> — aanbouw, uitbouw, dakkapel, complete woningverbouwing of nieuwbouw</li>
-<!-- /wp:list-item -->
+<ul class="wp-block-list">
+	<!-- wp:list-item -->
+	<li><strong>Particulieren</strong> — aanbouw, uitbouw, dakkapel, complete woningverbouwing of nieuwbouw</li>
+	<!-- /wp:list-item -->
 
-<!-- wp:list-item -->
-<li><strong>Zakelijke opdrachtgevers</strong> — aannemers, vastgoedbeheerders, winkelketens en architecten- en adviesbureaus die technisch tekenwerk uitbesteden</li>
-<!-- /wp:list-item --></ul>
+	<!-- wp:list-item -->
+	<li><strong>Zakelijke opdrachtgevers</strong> — aannemers, vastgoedbeheerders, winkelketens en architecten- en adviesbureaus die technisch tekenwerk uitbesteden</li>
+	<!-- /wp:list-item -->
+</ul>
 <!-- /wp:list -->
 
 <!-- wp:heading {"level":2,"fontSize":"large"} -->
@@ -328,15 +399,21 @@ $bureau_content = <<<'HTML'
 <!-- /wp:heading -->
 
 <!-- wp:quote -->
-<blockquote class="wp-block-quote"><!-- wp:paragraph -->
-<p>„Kan zeer zelfstandig en accuraat werken. Komt zijn afspraken na. Coop Supermarkten maakt al vele jaren gebruik van zijn diensten."</p>
-<!-- /wp:paragraph --><cite>Gerard van Elswijk — Hoofd Bouwbureau, Coop Supermarkten</cite></blockquote>
+<blockquote class="wp-block-quote">
+	<!-- wp:paragraph -->
+	<p>„Kan zeer zelfstandig en accuraat werken. Komt zijn afspraken na. Coop Supermarkten maakt al vele jaren gebruik van zijn diensten."</p>
+	<!-- /wp:paragraph -->
+	<cite>Gerard van Elswijk — Hoofd Bouwbureau, Coop Supermarkten</cite>
+</blockquote>
 <!-- /wp:quote -->
 
 <!-- wp:quote -->
-<blockquote class="wp-block-quote"><!-- wp:paragraph -->
-<p>„Van vergunningen tot complete lay-outs: als u iemand zoekt voor tekenwerk, bent u bij Ron aan het goede adres."</p>
-<!-- /wp:paragraph --><cite>Jeroen Vonck — JEZZ Projectmanagement</cite></blockquote>
+<blockquote class="wp-block-quote">
+	<!-- wp:paragraph -->
+	<p>„Van vergunningen tot complete lay-outs: als u iemand zoekt voor tekenwerk, bent u bij Ron aan het goede adres."</p>
+	<!-- /wp:paragraph -->
+	<cite>Jeroen Vonck — JEZZ Projectmanagement</cite>
+</blockquote>
 <!-- /wp:quote -->
 
 <!-- wp:paragraph -->
@@ -344,7 +421,9 @@ $bureau_content = <<<'HTML'
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
-<ul class="wp-block-social-links" style="margin-top:var(--wp--preset--spacing--30)"><!-- wp:social-link {"url":"https://www.linkedin.com/in/ron-werkhoven-2594881a","service":"linkedin","label":"LinkedIn"} /--></ul>
+<ul class="wp-block-social-links" style="margin-top:var(--wp--preset--spacing--30)">
+	<!-- wp:social-link {"url":"https://www.linkedin.com/in/ron-werkhoven-2594881a","service":"linkedin","label":"LinkedIn"} /-->
+</ul>
 <!-- /wp:social-links -->
 HTML;
 
@@ -386,48 +465,6 @@ $pages = array(
 		'cta'      => true,
 		'seo_t'    => 'Diensten: ontwerp, bouwtekeningen & vergunning | Ron Werkhoven',
 		'seo_d'    => 'Bouwkundig ontwerp, bouwtekeningen en omgevingsvergunningen — voor particulieren en bedrijven in Soest en regio Utrecht. Eén aanspreekpunt, van schets tot realisatie.',
-	),
-	'diensten/bouwkundig-ontwerp'    => array(
-		'title'    => 'Bouwkundig ontwerp',
-		'content'  => $ontwerp_content,
-		'cta'      => true,
-		'seo_t'    => 'Bouwkundig ontwerp & schetsontwerp | Ron Werkhoven Soest',
-		'seo_d'    => 'Van schetsontwerp tot uitvoerbaar bouwplan: bouwkundig ontwerp voor verbouw, aanbouw en nieuwbouw. Creatief, technisch doordacht en binnen de regels.',
-	),
-	'diensten/bouwkundige-tekeningen' => array(
-		'title'    => 'Bouwkundige tekeningen',
-		'content'  => $tekeningen_content,
-		'cta'      => true,
-		'seo_t'    => 'Bouwtekeningen: bouwaanvraag, werk- en bestektekeningen | Ron Werkhoven',
-		'seo_d'    => 'Nauwkeurige bouwtekeningen voor vergunning en uitvoering: bouwaanvraag-, werk-, bestek- en splitsingstekeningen, plus inmeten en digitaliseren van bestaande gebouwen.',
-	),
-	'diensten/verbouwing-renovatie'  => array(
-		'title'    => 'Verbouwing & renovatie',
-		'content'  => $verbouwing_content,
-		'cta'      => true,
-		'seo_t'    => 'Verbouwing & renovatie: van schets tot bouwplan | Ron Werkhoven',
-		'seo_d'    => 'Verbouwplannen? Van opname en ontwerp tot vergunning en uitvoeringsgerede tekeningen — begeleiding door één aanspreekpunt in Soest en regio Utrecht.',
-	),
-	'diensten/aanbouw-uitbouw'       => array(
-		'title'    => 'Aanbouw & uitbouw',
-		'content'  => $aanbouw_content,
-		'cta'      => true,
-		'seo_t'    => 'Aanbouw, uitbouw of dakkapel laten ontwerpen | Ron Werkhoven',
-		'seo_d'    => 'Meer ruimte met een aanbouw, uitbouw, dakkapel of erker. Ontwerp en tekenwerk dat past bij uw woning, inclusief uitzoeken of een vergunning nodig is.',
-	),
-	'diensten/omgevingsvergunning'   => array(
-		'title'    => 'Omgevingsvergunning',
-		'content'  => $vergunning_content,
-		'cta'      => true,
-		'seo_t'    => 'Omgevingsvergunning aanvragen (Omgevingswet) | Ron Werkhoven',
-		'seo_d'    => 'De complete aanvraag van uw omgevingsvergunning verzorgd: tekeningen, stukken en indiening via het Omgevingsloket, volgens de Omgevingswet. Ook brandveilig gebruik.',
-	),
-	'diensten/bedrijfspanden'        => array(
-		'title'    => 'Bedrijfspanden',
-		'content'  => $bedrijfspanden_content,
-		'cta'      => true,
-		'seo_t'    => 'Tekenwerk & vergunningen voor bedrijfspanden | Ron Werkhoven',
-		'seo_d'    => 'Bouwkundig tekenwerk voor winkels, horeca en bedrijfsruimten: herindeling, herbestemming, gevelreclame en brandveilig gebruik — van één pand tot landelijke uitrol.',
 	),
 	'het-bureau'                     => array(
 		'title'    => 'Het bureau',
@@ -495,4 +532,20 @@ foreach ( $pages as $path => $page ) {
 	}
 
 	echo "ok: /{$path}/ (post {$post_id})\n";
+}
+
+// The services used to be child pages of /diensten/; they are now sections on
+// that page. Remove any that still exist so there are no duplicate URLs.
+$diensten_page = get_page_by_path( 'diensten', OBJECT, 'page' );
+if ( $diensten_page ) {
+	$children = get_pages(
+		array(
+			'child_of'    => $diensten_page->ID,
+			'post_status' => 'publish,draft,private,pending,future',
+		)
+	);
+	foreach ( $children as $child ) {
+		wp_delete_post( $child->ID, true );
+		echo "verwijderd: /diensten/{$child->post_name}/ (post {$child->ID})\n";
+	}
 }

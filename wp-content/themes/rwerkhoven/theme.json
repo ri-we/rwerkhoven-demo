@@ -28,6 +28,7 @@
 		},
 		"typography": {
 			"customFontSize": false,
+			"defaultFontSizes": false,
 			"fontFamilies": [
 				{
 					"slug": "display",
@@ -48,9 +49,9 @@
 			"fontSizes": [
 				{ "slug": "small", "name": "Klein", "size": "0.875rem" },
 				{ "slug": "medium", "name": "Body", "size": "1.0625rem" },
-				{ "slug": "large", "name": "H3", "size": "clamp(1.25rem, 1.1rem + 0.8vw, 1.75rem)" },
-				{ "slug": "x-large", "name": "H2", "size": "clamp(1.75rem, 1.4rem + 1.6vw, 2.75rem)" },
-				{ "slug": "xx-large", "name": "H1", "size": "clamp(2.25rem, 1.6rem + 3vw, 4rem)" }
+				{ "slug": "large", "name": "H3", "size": "clamp(1.1875rem, 1.1rem + 0.35vw, 1.375rem)" },
+				{ "slug": "x-large", "name": "H2", "size": "clamp(1.5rem, 1.35rem + 0.7vw, 1.875rem)" },
+				{ "slug": "xx-large", "name": "Hero", "size": "clamp(2.125rem, 1.75rem + 1.8vw, 3.25rem)" }
 			],
 			"lineHeight": true
 		},
@@ -93,7 +94,7 @@
 				}
 			},
 			"h1": {
-				"typography": { "fontSize": "var(--wp--preset--font-size--xx-large)" }
+				"typography": { "fontSize": "clamp(1.75rem, 1.5rem + 1.5vw, 2.5rem)" }
 			},
 			"h2": {
 				"typography": { "fontSize": "var(--wp--preset--font-size--x-large)" }
