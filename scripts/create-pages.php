@@ -60,7 +60,7 @@ $contact_content = <<<'HTML'
 		<!-- /wp:social-links -->
 
 		<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
-		<p style="margin-top:var(--wp--preset--spacing--30)">Benieuwd naar ervaringen van eerdere opdrachtgevers? <a href="https://g.page/r/Cf3-IzqPxu_8EAc" rel="noopener" target="_blank">Lees de reviews op Google</a> - of laat er zelf een achter.</p>
+		<p style="margin-top:var(--wp--preset--spacing--30)">Benieuwd naar ervaringen van eerdere opdrachtgevers? <a href="https://g.page/r/Cf3-IzqPxu_8EAc" rel="noopener" target="_blank">Lees de reviews op Google</a> of <a href="https://g.page/r/Cf3-IzqPxu_8EAc/review" rel="noopener" target="_blank">laat er zelf een achter</a>.</p>
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:column -->
@@ -285,7 +285,7 @@ $bureau_content = <<<'HTML'
 <!-- wp:quote -->
 <blockquote class="wp-block-quote">
 	<!-- wp:paragraph -->
-	<p>„Kan zeer zelfstandig en accuraat werken. Komt zijn afspraken na. Coop Supermarkten maakt al vele jaren gebruik van zijn diensten."</p>
+	<p>„Kan zeer zelfstandig en accuraat werken. Komt zijn afspraken na. Coop Supermarkten maakt al vele jaren gebruik van zijn diensten.”</p>
 	<!-- /wp:paragraph -->
 	<cite>Gerard van Elswijk - Hoofd Bouwbureau, Coop Supermarkten</cite>
 </blockquote>
@@ -294,7 +294,7 @@ $bureau_content = <<<'HTML'
 <!-- wp:quote -->
 <blockquote class="wp-block-quote">
 	<!-- wp:paragraph -->
-	<p>„Van vergunningen tot complete lay-outs: als u iemand zoekt voor tekenwerk, bent u bij Ron aan het goede adres."</p>
+	<p>„Van vergunningen tot complete lay-outs: als u iemand zoekt voor tekenwerk, bent u bij Ron aan het goede adres.”</p>
 	<!-- /wp:paragraph -->
 	<cite>Jeroen Vonck - JEZZ Projectmanagement</cite>
 </blockquote>

@@ -444,6 +444,14 @@ ul.rwerkhoven-plain-list {
 	max-width: 68ch;
 }
 
+/* Align capped text, lists and social icons on the left edge of the photos
+   and headings. The constrained layout centres narrower children with
+   `margin-left: auto !important`, so it takes !important to override. */
+.wp-block-post-content > *,
+.rwerkhoven-service-section > * {
+	margin-left: 0 !important;
+}
+
 /* The services jump list reads as navigation, not prose — let it span. */
 .wp-block-post-content > p.rwerkhoven-service-index {
 	max-width: none;
