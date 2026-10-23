@@ -53,9 +53,10 @@ $contact_content = <<<'HTML'
 		<p class="has-small-font-size"><a href="tel:0613645507">06-13645507</a><br><a href="mailto:info@rwerkhoven.nl">info@rwerkhoven.nl</a></p>
 		<!-- /wp:paragraph -->
 
-		<!-- wp:social-links -->
+		<!-- wp:social-links {"openInNewTab":true} -->
 		<ul class="wp-block-social-links">
 			<!-- wp:social-link {"url":"https://www.linkedin.com/in/ron-werkhoven-2594881a","service":"linkedin","label":"LinkedIn"} /-->
+			<!-- wp:social-link {"url":"https://g.page/r/Cf3-IzqPxu_8EAc","service":"google","label":"Reviews op Google"} /-->
 		</ul>
 		<!-- /wp:social-links -->
 
@@ -334,9 +335,10 @@ $bureau_content = <<<'HTML'
 <p>Meer ervaringen leest u bij de <a href="https://www.linkedin.com/in/ron-werkhoven-2594881a" rel="noopener" target="_blank">aanbevelingen op LinkedIn</a> en de <a href="https://g.page/r/Cf3-IzqPxu_8EAc" rel="noopener" target="_blank">reviews op Google</a>.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:social-links {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
+<!-- wp:social-links {"openInNewTab":true,"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
 <ul class="wp-block-social-links" style="margin-top:var(--wp--preset--spacing--30)">
 	<!-- wp:social-link {"url":"https://www.linkedin.com/in/ron-werkhoven-2594881a","service":"linkedin","label":"LinkedIn"} /-->
+	<!-- wp:social-link {"url":"https://g.page/r/Cf3-IzqPxu_8EAc","service":"google","label":"Reviews op Google"} /-->
 </ul>
 <!-- /wp:social-links -->
 HTML;
