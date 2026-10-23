@@ -24,13 +24,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 $cta = <<<'HTML'
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} -->
-<p style="margin-top:var(--wp--preset--spacing--40)">Benieuwd wat dit voor uw plannen betekent? <a href="/contact/">Vraag een vrijblijvende offerte aan</a> — u ontvangt snel een reactie.</p>
+<p style="margin-top:var(--wp--preset--spacing--40)">Benieuwd wat dit voor uw plannen betekent? <a href="/contact/">Vraag een vrijblijvende offerte aan</a> - u ontvangt snel een reactie.</p>
 <!-- /wp:paragraph -->
 HTML;
 
 $contact_content = <<<'HTML'
 <!-- wp:paragraph {"fontSize":"large"} -->
-<p class="has-large-font-size">Wilt u weten wat er mogelijk is met uw woning of bedrijfspand? Vertel kort iets over uw plannen — u krijgt snel een reactie en desgewenst een vrijblijvende offerte.</p>
+<p class="has-large-font-size">Wilt u weten wat er mogelijk is met uw woning of bedrijfspand? Vertel kort iets over uw plannen - u krijgt snel een reactie en desgewenst een vrijblijvende offerte.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:columns {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} -->
@@ -57,7 +57,7 @@ $contact_content = <<<'HTML'
 		<!-- /wp:social-links -->
 
 		<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
-		<p style="margin-top:var(--wp--preset--spacing--30)">Benieuwd naar ervaringen van eerdere opdrachtgevers? <a href="https://g.page/r/Cf3-IzqPxu_8EAc" rel="noopener" target="_blank">Lees de reviews op Google</a> — of laat er zelf een achter.</p>
+		<p style="margin-top:var(--wp--preset--spacing--30)">Benieuwd naar ervaringen van eerdere opdrachtgevers? <a href="https://g.page/r/Cf3-IzqPxu_8EAc" rel="noopener" target="_blank">Lees de reviews op Google</a> - of laat er zelf een achter.</p>
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:column -->
@@ -240,7 +240,7 @@ HTML;
 
 $bureau_content = <<<'HTML'
 <!-- wp:paragraph {"fontSize":"large"} -->
-<p class="has-large-font-size">Achter het bureau staat één man: Ron Werkhoven. Sinds 2010 verzorgt hij vanuit Soest bouwkundig ontwerp, tekenwerk en vergunningaanvragen — voor particulieren die willen verbouwen én voor aannemers, vastgoedbeheerders en architectenbureaus die op zijn tekenwerk bouwen.</p>
+<p class="has-large-font-size">Achter het bureau staat één man: Ron Werkhoven. Sinds 2010 verzorgt hij vanuit Soest bouwkundig ontwerp, tekenwerk en vergunningaanvragen - voor particulieren die willen verbouwen én voor aannemers, vastgoedbeheerders en architectenbureaus die op zijn tekenwerk bouwen.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"fontSize":"large"} -->
@@ -248,7 +248,7 @@ $bureau_content = <<<'HTML'
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Bij veel bouwtrajecten raken opdrachtgevers verstrikt tussen ontwerper, tekenaar, adviseurs en gemeente. Hier niet: u heeft van begin tot eind met dezelfde persoon te maken. Dat betekent korte lijnen, geen informatie die tussen partijen verloren gaat, en iemand die het hele plan kent — van het eerste schetsje tot het laatste detail op de werktekening.</p>
+<p>Bij veel bouwtrajecten raken opdrachtgevers verstrikt tussen ontwerper, tekenaar, adviseurs en gemeente. Hier niet: u heeft van begin tot eind met dezelfde persoon te maken. Dat betekent korte lijnen, geen informatie die tussen partijen verloren gaat, en iemand die het hele plan kent - van het eerste schetsje tot het laatste detail op de werktekening.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"fontSize":"large"} -->
@@ -266,11 +266,11 @@ $bureau_content = <<<'HTML'
 <!-- wp:list -->
 <ul class="wp-block-list">
 	<!-- wp:list-item -->
-	<li><strong>Particulieren</strong> — aanbouw, uitbouw, dakkapel, complete woningverbouwing of nieuwbouw</li>
+	<li><strong>Particulieren</strong> - aanbouw, uitbouw, dakkapel, complete woningverbouwing of nieuwbouw</li>
 	<!-- /wp:list-item -->
 
 	<!-- wp:list-item -->
-	<li><strong>Zakelijke opdrachtgevers</strong> — aannemers, vastgoedbeheerders, winkelketens en architecten- en adviesbureaus die technisch tekenwerk uitbesteden</li>
+	<li><strong>Zakelijke opdrachtgevers</strong> - aannemers, vastgoedbeheerders, winkelketens en architecten- en adviesbureaus die technisch tekenwerk uitbesteden</li>
 	<!-- /wp:list-item -->
 </ul>
 <!-- /wp:list -->
@@ -284,7 +284,7 @@ $bureau_content = <<<'HTML'
 	<!-- wp:paragraph -->
 	<p>„Kan zeer zelfstandig en accuraat werken. Komt zijn afspraken na. Coop Supermarkten maakt al vele jaren gebruik van zijn diensten."</p>
 	<!-- /wp:paragraph -->
-	<cite>Gerard van Elswijk — Hoofd Bouwbureau, Coop Supermarkten</cite>
+	<cite>Gerard van Elswijk - Hoofd Bouwbureau, Coop Supermarkten</cite>
 </blockquote>
 <!-- /wp:quote -->
 
@@ -293,7 +293,7 @@ $bureau_content = <<<'HTML'
 	<!-- wp:paragraph -->
 	<p>„Van vergunningen tot complete lay-outs: als u iemand zoekt voor tekenwerk, bent u bij Ron aan het goede adres."</p>
 	<!-- /wp:paragraph -->
-	<cite>Jeroen Vonck — JEZZ Projectmanagement</cite>
+	<cite>Jeroen Vonck - JEZZ Projectmanagement</cite>
 </blockquote>
 <!-- /wp:quote -->
 
@@ -329,14 +329,14 @@ $pages = array(
 		'content'  => $diensten_content,
 		'cta'      => false,
 		'seo_t'    => 'Diensten: ontwerp, bouwtekeningen & vergunning | Ron Werkhoven',
-		'seo_d'    => 'Bouwkundig ontwerp, bouwtekeningen en omgevingsvergunningen — voor particulieren en bedrijven in Soest en regio Utrecht. Eén aanspreekpunt, van schets tot realisatie.',
+		'seo_d'    => 'Bouwkundig ontwerp, bouwtekeningen en omgevingsvergunningen - voor particulieren en bedrijven in Soest en regio Utrecht. Eén aanspreekpunt, van schets tot realisatie.',
 	),
 	'het-bureau'                     => array(
 		'title'    => 'Het bureau',
 		'content'  => $bureau_content,
 		'cta'      => true,
 		'seo_t'    => 'Het bureau: één aanspreekpunt voor uw bouwplan | Ron Werkhoven',
-		'seo_d'    => 'Ron Werkhoven Bouwkundig Ontwerp- en Tekenbureau, sinds 2010 in Soest. Creatief, snel en betrouwbaar — met één aanspreekpunt van schets tot oplevering.',
+		'seo_d'    => 'Ron Werkhoven Bouwkundig Ontwerp- en Tekenbureau, sinds 2010 in Soest. Creatief, snel en betrouwbaar - met één aanspreekpunt van schets tot oplevering.',
 	),
 );
 

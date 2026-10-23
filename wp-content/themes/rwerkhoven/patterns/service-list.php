@@ -68,7 +68,7 @@
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"textColor":"muted","fontSize":"small"} -->
-			<p class="has-muted-color has-text-color has-small-font-size">Meer ruimte met een aanbouw, uitbouw, dakkapel of erker — passend bij uw woning.</p>
+			<p class="has-muted-color has-text-color has-small-font-size">Meer ruimte met een aanbouw, uitbouw, dakkapel of erker - passend bij uw woning.</p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->

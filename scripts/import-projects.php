@@ -147,7 +147,7 @@ foreach ( $projects as $project ) {
 		$attachment_id = rwerkhoven_find_attachment_by_source( $image_url );
 
 		if ( ! $attachment_id ) {
-			$attachment_id = media_sideload_image( $image_url, $post_id, $title . ' — foto ' . ( $i + 1 ), 'id' );
+			$attachment_id = media_sideload_image( $image_url, $post_id, $title . ' - foto ' . ( $i + 1 ), 'id' );
 			if ( is_wp_error( $attachment_id ) ) {
 				echo '   foto overgeslagen: ' . $image_url . "\n";
 				continue;
@@ -164,11 +164,9 @@ foreach ( $projects as $project ) {
 		set_post_thumbnail( $post_id, $attachment_ids[0] );
 	}
 
-	// Compose the content: description paragraphs + one Gallery block.
+	// Compose the content: one Gallery block, then the description paragraphs
+	// (photos above the text, owner's request 2026-10-23).
 	$blocks = '';
-	foreach ( $paragraphs as $text ) {
-		$blocks .= "<!-- wp:paragraph -->\n<p>" . esc_html( $text ) . "</p>\n<!-- /wp:paragraph -->\n\n";
-	}
 
 	if ( $attachment_ids ) {
 		$blocks .= "<!-- wp:gallery {\"linkTo\":\"none\",\"sizeSlug\":\"large\"} -->\n";
@@ -184,8 +182,15 @@ foreach ( $projects as $project ) {
 				esc_attr( $alt )
 			);
 		}
-		$blocks .= "</figure>\n<!-- /wp:gallery -->\n";
+		$blocks .= "</figure>\n<!-- /wp:gallery -->\n\n";
 	}
+
+	foreach ( $paragraphs as $text ) {
+		// The old texts introduce the photos below with "de onderstaande …:".
+		$text    = preg_replace( '/onderstaande([^.]*):\s*$/u', 'bovenstaande$1.', $text );
+		$blocks .= "<!-- wp:paragraph -->\n<p>" . esc_html( $text ) . "</p>\n<!-- /wp:paragraph -->\n\n";
+	}
+	$blocks = rtrim( $blocks ) . "\n";
 
 	wp_update_post(
 		array(

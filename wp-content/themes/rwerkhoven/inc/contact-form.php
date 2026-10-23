@@ -123,10 +123,10 @@ function rwerkhoven_handle_contact() {
 	// hosts without a dot (e.g. localhost) and hurts deliverability elsewhere.
 	$sent = wp_mail(
 		RWERKHOVEN_CONTACT_RECIPIENT,
-		'Contactformulier rwerkhoven.nl — ' . $name,
+		'Contactformulier rwerkhoven.nl - ' . $name,
 		$body,
 		array(
-			'From: Ron Werkhoven — website <info@rwerkhoven.nl>',
+			'From: Ron Werkhoven - website <info@rwerkhoven.nl>',
 			'Reply-To: ' . $name . ' <' . $email . '>',
 		)
 	);

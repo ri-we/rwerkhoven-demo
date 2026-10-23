@@ -26,12 +26,12 @@ add_action(
 
 					$type = get_post_meta( $post_id, 'rwerkhoven_project_type', true );
 					if ( $type ) {
-						$parts[] = sprintf( 'TYPE — %s', mb_strtoupper( $type ) );
+						$parts[] = sprintf( 'TYPE - %s', mb_strtoupper( $type ) );
 					}
 
 					$location = get_post_meta( $post_id, 'rwerkhoven_project_location', true );
 					if ( $location ) {
-						$parts[] = sprintf( 'LOCATIE — %s', mb_strtoupper( $location ) );
+						$parts[] = sprintf( 'LOCATIE - %s', mb_strtoupper( $location ) );
 					}
 
 					$year = get_post_meta( $post_id, 'rwerkhoven_project_year', true );
