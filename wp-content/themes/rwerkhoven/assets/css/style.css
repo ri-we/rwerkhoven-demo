@@ -141,7 +141,7 @@
 
 .rwerkhoven-hero-btn {
 	border: 0;
-	background: var(--wp--preset--color--background);
+	background: var(--wp--preset--color--surface);
 	color: var(--wp--preset--color--text);
 	font-family: var(--wp--preset--font-family--mono);
 	font-size: 0.8125rem;
@@ -164,14 +164,14 @@
 	width: 10px;
 	height: 10px;
 	padding: 0;
-	border: 1px solid var(--wp--preset--color--background);
+	border: 1px solid var(--wp--preset--color--surface);
 	border-radius: 50%;
 	background: transparent;
 	cursor: pointer;
 }
 
 .rwerkhoven-hero-dot[aria-current="true"] {
-	background: var(--wp--preset--color--background);
+	background: var(--wp--preset--color--surface);
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -271,7 +271,7 @@
 
 .rwerkhoven-carousel-btn {
 	border: 1px solid var(--wp--preset--color--border);
-	background: var(--wp--preset--color--background);
+	background: var(--wp--preset--color--surface);
 	color: var(--wp--preset--color--text);
 	font: inherit;
 	padding: 0.4rem 0.9rem;
@@ -324,7 +324,7 @@
 	padding: 0.6rem 0.75rem;
 	border: 1px solid var(--wp--preset--color--border);
 	border-radius: 2px;
-	background: var(--wp--preset--color--background);
+	background: var(--wp--preset--color--surface);
 	color: var(--wp--preset--color--text);
 	font: inherit;
 }

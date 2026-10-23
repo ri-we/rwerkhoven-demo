@@ -17,8 +17,8 @@
 			"defaultGradients": false,
 			"defaultDuotone": false,
 			"palette": [
-				{ "slug": "background", "name": "Achtergrond", "color": "#FFFFFF" },
-				{ "slug": "surface", "name": "Oppervlak", "color": "#F7F7F5" },
+				{ "slug": "background", "name": "Achtergrond", "color": "#F7F7F5" },
+				{ "slug": "surface", "name": "Oppervlak", "color": "#FFFFFF" },
 				{ "slug": "text", "name": "Tekst", "color": "#1B1D1F" },
 				{ "slug": "muted", "name": "Gedempt", "color": "#72777C" },
 				{ "slug": "border", "name": "Lijn", "color": "#DFE1E2" },
