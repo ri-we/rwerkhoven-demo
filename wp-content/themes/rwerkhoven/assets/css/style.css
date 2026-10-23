@@ -398,8 +398,10 @@ html {
 	margin-top: 0;
 }
 
-/* Service lists without bullets (numbered lists keep their numbers) */
-.rwerkhoven-service-section > ul.wp-block-list {
+/* Lists without bullets: the service lists (numbered lists keep their
+   numbers) and lists marked rwerkhoven-plain-list, such as "Voor wie" */
+.rwerkhoven-service-section > ul.wp-block-list,
+ul.rwerkhoven-plain-list {
 	list-style: none;
 	padding-left: 0;
 }

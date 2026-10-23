@@ -266,14 +266,14 @@ $bureau_content = <<<'HTML'
 <h2 class="wp-block-heading has-large-font-size">Voor wie</h2>
 <!-- /wp:heading -->
 
-<!-- wp:list -->
-<ul class="wp-block-list">
+<!-- wp:list {"className":"rwerkhoven-plain-list"} -->
+<ul class="wp-block-list rwerkhoven-plain-list">
 	<!-- wp:list-item -->
-	<li><strong>Particulieren</strong> - aanbouw, uitbouw, dakkapel, complete woningverbouwing of nieuwbouw</li>
+	<li>Particulieren - aanbouw, uitbouw, dakkapel, complete woningverbouwing of nieuwbouw</li>
 	<!-- /wp:list-item -->
 
 	<!-- wp:list-item -->
-	<li><strong>Zakelijke opdrachtgevers</strong> - aannemers, vastgoedbeheerders, winkelketens en architecten- en adviesbureaus die technisch tekenwerk uitbesteden</li>
+	<li>Zakelijke opdrachtgevers - aannemers, vastgoedbeheerders, winkelketens en architecten- en adviesbureaus die technisch tekenwerk uitbesteden</li>
 	<!-- /wp:list-item -->
 </ul>
 <!-- /wp:list -->

@@ -54,3 +54,9 @@ add_action(
 		);
 	}
 );
+
+/**
+ * Keep typed characters as typed. wptexturize() turns " - " into an en dash
+ * and straight quotes into curly ones; the owner wants plain hyphens.
+ */
+add_filter( 'run_wptexturize', '__return_false' );
