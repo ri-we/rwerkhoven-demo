@@ -50,3 +50,5 @@ Compiled during the site audit and architecture phases (`docs/site-audit.md`, `d
     - Na livegang de oude PDF verwijderen of de URL laten doorverwijzen naar `/privacy/`.
 
 22. **Geen verzoeken meer naar Google.** Lettertypen worden sinds 2026-10-23 vanaf de eigen server geladen (`assets/fonts`) en het WordPress-emojiscript (s.w.org) is uitgezet, zodat de bewering "geen gegevens naar andere partijen" klopt. Wordt er later toch analytics of een embed (Google Maps, YouTube) toegevoegd, dan moet de privacyverklaring mee.
+
+23. **Google-reviews op Het bureau (2026-10-23).** De twee nieuwste reviews (mattijs van't blik, woutereniris Linger, beide 5 sterren) staan letterlijk en in de originele Nederlandse tekst onder "Wat opdrachtgevers zeggen", met de naam zoals die op Google staat. Dit vervangt de eerdere keuze uit punt 19 om Google-reviews niet met naam te citeren. De reviews zijn openbaar, maar het is netjes om de schrijvers te laten weten dat hun review op de site staat.

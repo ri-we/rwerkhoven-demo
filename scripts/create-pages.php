@@ -300,6 +300,36 @@ $bureau_content = <<<'HTML'
 </blockquote>
 <!-- /wp:quote -->
 
+<!-- wp:quote -->
+<blockquote class="wp-block-quote">
+	<!-- wp:paragraph -->
+	<p>„Voor de tweede keer in relatief korte tijd heb ik Ron betrokken bij een vastgoedproject, en opnieuw naar volle tevredenheid.</p>
+	<!-- /wp:paragraph -->
+
+	<!-- wp:paragraph -->
+	<p>Ron is duidelijk, denkt goed mee en kijkt altijd naar een praktische en passende oplossing. Daarnaast is hij flexibel en komt hij zijn afspraken snel en netjes na.</p>
+	<!-- /wp:paragraph -->
+
+	<!-- wp:paragraph -->
+	<p>Wat ik vooral prettig vind, is dat de communicatie persoonlijk en laagdrempelig is en je merkt dat hij echt betrokken is bij het project.</p>
+	<!-- /wp:paragraph -->
+
+	<!-- wp:paragraph -->
+	<p>Mocht ik in de toekomst weer een vastgoedproject hebben, dan betrek ik Ron er zeker opnieuw bij. Absoluut een aanrader!”</p>
+	<!-- /wp:paragraph -->
+	<cite>mattijs van't blik - Google-review, 5 sterren</cite>
+</blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote">
+	<!-- wp:paragraph -->
+	<p>„Ron heeft ons goed geholpen bij het realiseren van een technische tekening van onze uitbouw. Hij is punctueel, vriendelijk, denkt goed mee en is pro-actief. En Ron heeft ons goed bijgestaan bij het vergunningstraject.”</p>
+	<!-- /wp:paragraph -->
+	<cite>woutereniris Linger - Google-review, 5 sterren</cite>
+</blockquote>
+<!-- /wp:quote -->
+
 <!-- wp:paragraph -->
 <p>Meer ervaringen leest u bij de <a href="https://www.linkedin.com/in/ron-werkhoven-2594881a" rel="noopener" target="_blank">aanbevelingen op LinkedIn</a> en de <a href="https://g.page/r/Cf3-IzqPxu_8EAc" rel="noopener" target="_blank">reviews op Google</a>.</p>
 <!-- /wp:paragraph -->
