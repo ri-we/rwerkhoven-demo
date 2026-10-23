@@ -398,9 +398,7 @@ html {
 	margin-top: 0;
 }
 
-/* Lists without bullets: the service lists (numbered lists keep their
-   numbers) and lists marked rwerkhoven-plain-list, such as "Voor wie" */
-.rwerkhoven-service-section > ul.wp-block-list,
+/* Lists without bullets, such as "Voor wie" on Het bureau */
 ul.rwerkhoven-plain-list {
 	list-style: none;
 	padding-left: 0;
