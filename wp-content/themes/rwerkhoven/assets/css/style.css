@@ -76,6 +76,28 @@
 	letter-spacing: 0.02em;
 }
 
+/* Header logo (rwerkhoven/logo): inline SVG in the menu's text colour */
+.rwerkhoven-logo {
+	display: block;
+	flex-shrink: 1;
+	min-width: 0;
+	color: var(--wp--preset--color--text);
+	line-height: 0;
+}
+
+.rwerkhoven-logo svg {
+	display: block;
+	width: auto;
+	height: 44px;
+	max-width: 100%;
+}
+
+@media (max-width: 600px) {
+	.rwerkhoven-logo svg {
+		height: 34px;
+	}
+}
+
 /* Homepage hero: landscape photo carousel (inc/hero-carousel.php,
    assets/js/hero-carousel.js). Slides are stacked and cross-faded. */
 .rwerkhoven-hero-carousel {
@@ -370,11 +392,16 @@ html {
 /* Lead-in above a service list ("Onder andere voor:") */
 .rwerkhoven-service-section > p.rwerkhoven-list-label {
 	margin-bottom: 0.25rem;
-	font-weight: 600;
 }
 
 .rwerkhoven-service-section > p.rwerkhoven-list-label + .wp-block-list {
 	margin-top: 0;
+}
+
+/* Service lists without bullets (numbered lists keep their numbers) */
+.rwerkhoven-service-section > ul.wp-block-list {
+	list-style: none;
+	padding-left: 0;
 }
 
 /* "Waarom kiezen voor …": ticks instead of bullets */

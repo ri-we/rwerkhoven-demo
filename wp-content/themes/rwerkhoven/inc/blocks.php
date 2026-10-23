@@ -13,6 +13,33 @@ defined( 'ABSPATH' ) || exit;
 add_action(
 	'init',
 	function () {
+		// The logo is inlined rather than an <img>, so it takes the text colour
+		// of the header (fill="currentColor") and matches the menu links.
+		register_block_type(
+			'rwerkhoven/logo',
+			array(
+				'render_callback' => function () {
+					$svg = file_get_contents( RWERKHOVEN_DIR . '/assets/img/logo.svg' ); // phpcs:ignore WordPress.WP.AlternativeFunctions
+					if ( ! $svg ) {
+						return '';
+					}
+
+					$name = get_bloginfo( 'name' );
+					$svg  = str_replace(
+						'<svg ',
+						'<svg role="img" aria-label="' . esc_attr( $name ) . '" focusable="false" ',
+						$svg
+					);
+
+					return sprintf(
+						'<a class="rwerkhoven-logo" href="%s" rel="home">%s</a>',
+						esc_url( home_url( '/' ) ),
+						$svg
+					);
+				},
+			)
+		);
+
 		register_block_type(
 			'rwerkhoven/project-meta',
 			array(

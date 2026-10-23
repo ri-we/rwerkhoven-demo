@@ -35,6 +35,16 @@
 		},
 	} );
 
+	blocks.registerBlockType( 'rwerkhoven/logo', {
+		title: 'Logo',
+		icon: 'admin-home',
+		category: 'widgets',
+		edit: placeholder( 'Logo Ron Werkhoven' ),
+		save: function () {
+			return null;
+		},
+	} );
+
 	blocks.registerBlockType( 'rwerkhoven/hero-carousel', {
 		title: 'Homepage-carousel',
 		icon: 'images-alt2',
