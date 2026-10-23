@@ -2,9 +2,9 @@
 /**
  * Front-end and editor asset loading.
  *
- * Fonts are loaded from Google Fonts for now (Phase 4 scaffolding). Self-hosting
- * the specific weights used is tracked as a Phase 14 (performance) follow-up —
- * see docs/design-decision.md.
+ * Fonts are self-hosted (assets/fonts, declared in assets/css/fonts.css): a
+ * request to Google Fonts would hand every visitor's IP address to Google,
+ * which the privacy statement (/privacy/) says does not happen.
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -14,9 +14,9 @@ add_action(
 	function () {
 		wp_enqueue_style(
 			'rwerkhoven-fonts',
-			'https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap',
+			RWERKHOVEN_URI . '/assets/css/fonts.css',
 			array(),
-			null
+			(string) filemtime( RWERKHOVEN_DIR . '/assets/css/fonts.css' )
 		);
 
 		// Version by file modification time so browsers pick up every edit
@@ -68,9 +68,16 @@ add_action(
 	function () {
 		add_editor_style(
 			array(
-				'https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap',
+				'assets/css/fonts.css',
 				'assets/css/style.css',
 			)
 		);
 	}
 );
+
+// WordPress' emoji fallback loads images from s.w.org; current browsers draw
+// emoji themselves, so drop it and keep every request on this domain.
+remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
+remove_action( 'wp_print_styles', 'print_emoji_styles' );
+remove_action( 'admin_print_scripts', 'print_emoji_detection_script' );
+remove_action( 'admin_print_styles', 'print_emoji_styles' );

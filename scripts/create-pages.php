@@ -1,7 +1,7 @@
 <?php
 /**
- * Creates (or updates) the site's pages: Contact, Bedankt, Diensten and Het
- * bureau — including per-page SEO meta (rwerkhoven_seo_title /
+ * Creates (or updates) the site's pages: Contact, Bedankt, Diensten, Het bureau
+ * and Privacy - including per-page SEO meta (rwerkhoven_seo_title /
  * rwerkhoven_seo_description, see inc/seo.php).
  *
  * All six services are described on the single Diensten page, one anchored
@@ -15,7 +15,10 @@
  *
  * Run inside the wpcli container:
  *   docker compose cp scripts/create-pages.php wpcli:/tmp/create-pages.php
- *   docker compose exec -T wpcli wp eval-file /tmp/create-pages.php
+ *   docker compose exec -T wpcli wp eval 'require "/tmp/create-pages.php";'
+ *
+ * Not `wp eval-file`: since this file grew past ~25 KB, eval-file exits
+ * silently without running it (WP-CLI 2.x in wordpress:cli-php8.3).
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -308,6 +311,188 @@ $bureau_content = <<<'HTML'
 <!-- /wp:social-links -->
 HTML;
 
+$privacy_content = <<<'HTML'
+<!-- wp:paragraph {"textColor":"muted","fontSize":"small"} -->
+<p class="has-muted-color has-text-color has-small-font-size">Laatst bijgewerkt: 23 oktober 2026</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"fontSize":"large"} -->
+<p class="has-large-font-size">Ron Werkhoven Bouwkundig Ontwerp- en Tekenbureau gaat zorgvuldig om met uw persoonsgegevens. In deze privacyverklaring leest u welke gegevens worden verwerkt, waarom, hoe lang ze worden bewaard en welke rechten u heeft.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2,"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Wie is verantwoordelijk?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Ron Werkhoven Bouwkundig Ontwerp- en Tekenbureau, Hofstedering 65, 3763 XB Soest, is verantwoordelijk voor de verwerking van persoonsgegevens zoals beschreven in deze verklaring. Voor vragen over privacy kunt u terecht bij Ron Werkhoven: <a href="mailto:info@rwerkhoven.nl">info@rwerkhoven.nl</a> of <a href="tel:0613645507">06-13645507</a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2,"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Welke persoonsgegevens worden verwerkt?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Persoonsgegevens worden verwerkt doordat u contact opneemt, een offerte aanvraagt of een opdracht geeft. Het gaat om gegevens die u zelf verstrekt:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list">
+	<!-- wp:list-item -->
+	<li>naam;</li>
+	<!-- /wp:list-item -->
+
+	<!-- wp:list-item -->
+	<li>e-mailadres en telefoonnummer;</li>
+	<!-- /wp:list-item -->
+
+	<!-- wp:list-item -->
+	<li>uw adres en het adres van het project;</li>
+	<!-- /wp:list-item -->
+
+	<!-- wp:list-item -->
+	<li>gegevens over uw woning of pand die nodig zijn voor ontwerp, tekenwerk of vergunningaanvraag, zoals bestaande tekeningen, maten en foto's;</li>
+	<!-- /wp:list-item -->
+
+	<!-- wp:list-item -->
+	<li>bij zakelijke opdrachtgevers: bedrijfsnaam, contactpersoon en KvK-nummer;</li>
+	<!-- /wp:list-item -->
+
+	<!-- wp:list-item -->
+	<li>factuur- en betalingsgegevens;</li>
+	<!-- /wp:list-item -->
+
+	<!-- wp:list-item -->
+	<li>de inhoud van uw berichten, per e-mail, telefoon of het contactformulier.</li>
+	<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>Er worden geen bijzondere persoonsgegevens verwerkt, zoals gegevens over gezondheid, en ook geen burgerservicenummer (BSN). De dienstverlening is niet gericht op personen jonger dan 16 jaar. Denkt u dat er zonder toestemming van een ouder of voogd gegevens van een minderjarige zijn verwerkt? Neem dan contact op; de gegevens worden dan verwijderd.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2,"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Waarvoor en op welke grondslag?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list">
+	<!-- wp:list-item -->
+	<li><strong>Uw vraag of offerteaanvraag beantwoorden.</strong> Grondslag: uw verzoek, voorafgaand aan een mogelijke overeenkomst.</li>
+	<!-- /wp:list-item -->
+
+	<!-- wp:list-item -->
+	<li><strong>De opdracht uitvoeren:</strong> ontwerp, tekenwerk, inmeten en het voorbereiden en indienen van vergunningaanvragen en meldingen. Grondslag: uitvoering van de overeenkomst.</li>
+	<!-- /wp:list-item -->
+
+	<!-- wp:list-item -->
+	<li><strong>Facturen versturen en de administratie bijhouden.</strong> Grondslag: wettelijke verplichting, waaronder de fiscale bewaarplicht.</li>
+	<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>Er worden geen besluiten genomen die uitsluitend gebaseerd zijn op geautomatiseerde verwerking, zoals profilering.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2,"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Hoe lang worden gegevens bewaard?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Gegevens worden niet langer bewaard dan nodig is voor het doel waarvoor ze zijn verzameld:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list">
+	<!-- wp:list-item -->
+	<li><strong>Vragen en offerteaanvragen</strong> die niet tot een opdracht leiden: tot één jaar na het laatste contact.</li>
+	<!-- /wp:list-item -->
+
+	<!-- wp:list-item -->
+	<li><strong>Projectdossiers</strong> (tekeningen en correspondentie): tot zeven jaar na afronding van de opdracht, zodat vervolgvragen over het ontwerp of de vergunning beantwoord kunnen worden.</li>
+	<!-- /wp:list-item -->
+
+	<!-- wp:list-item -->
+	<li><strong>Facturen en administratie:</strong> zeven jaar, op grond van de wettelijke bewaarplicht.</li>
+	<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {"level":2,"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Met wie worden gegevens gedeeld?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Uw gegevens worden niet verkocht. Ze worden alleen gedeeld als dat nodig is voor de uitvoering van de opdracht of om aan een wettelijke verplichting te voldoen:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list">
+	<!-- wp:list-item -->
+	<li>met de gemeente of een ander bevoegd gezag, bij het indienen van een aanvraag of melding via het Omgevingsloket;</li>
+	<!-- /wp:list-item -->
+
+	<!-- wp:list-item -->
+	<li>met externe adviseurs, zoals een constructeur of energieadviseur, als hun inbreng voor uw project nodig is en na overleg met u;</li>
+	<!-- /wp:list-item -->
+
+	<!-- wp:list-item -->
+	<li>met dienstverleners die het bureau ondersteunen, zoals de hosting van de website en e-mail en de boekhouding. Zij verwerken de gegevens alleen in opdracht en volgens afspraken in een verwerkersovereenkomst.</li>
+	<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {"level":2,"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Website, cookies en contactformulier</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Deze website gebruikt geen cookies, geen analyse- of advertentiediensten en geen andere trackingtechnieken. Lettertypen en afbeeldingen worden vanaf de eigen server geladen, zodat bij een bezoek geen gegevens naar andere partijen gaan.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Wat u via het contactformulier verstuurt, gaat per e-mail naar <a href="mailto:info@rwerkhoven.nl">info@rwerkhoven.nl</a> en wordt niet op de website opgeslagen. Zoals bij elke website kan de hostingpartij technische gegevens, zoals uw IP-adres, korte tijd in serverlogboeken bewaren om storingen en misbruik te kunnen onderzoeken.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>De website bevat links naar LinkedIn en Google. Als u die volgt, gelden de privacyregels van die partijen.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2,"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Uw rechten</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>U heeft het recht om uw persoonsgegevens in te zien, te laten corrigeren of te laten verwijderen. Ook kunt u vragen de verwerking te beperken, bezwaar maken tegen de verwerking, een gegeven toestemming intrekken en vragen om uw gegevens in een computerbestand aan u of een andere organisatie over te dragen.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Stuur uw verzoek naar <a href="mailto:info@rwerkhoven.nl">info@rwerkhoven.nl</a>. U ontvangt binnen een maand een reactie. Als het nodig is om vast te stellen dat het verzoek echt van u komt, wordt u om aanvullende informatie gevraagd; stuur niet uit uzelf een kopie van uw identiteitsbewijs mee.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Bent u niet tevreden over de manier waarop met uw gegevens wordt omgegaan? Laat het weten, dan wordt er samen naar een oplossing gezocht. U heeft daarnaast altijd het recht een klacht in te dienen bij de <a href="https://www.autoriteitpersoonsgegevens.nl/een-tip-of-klacht-indienen-bij-de-ap" rel="noopener" target="_blank">Autoriteit Persoonsgegevens</a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2,"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Beveiliging</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Er worden passende technische en organisatorische maatregelen genomen om misbruik, verlies, onbevoegde toegang, ongewenste openbaarmaking en ongeoorloofde wijziging van uw gegevens te voorkomen. De website gebruikt een beveiligde verbinding (https). Heeft u de indruk dat uw gegevens niet goed beveiligd zijn of dat er sprake is van misbruik? Neem dan direct contact op via <a href="mailto:info@rwerkhoven.nl">info@rwerkhoven.nl</a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2,"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Wijzigingen</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Deze privacyverklaring kan worden aangepast, bijvoorbeeld als de dienstverlening of de wet verandert. De datum bovenaan laat zien wanneer de verklaring voor het laatst is bijgewerkt.</p>
+<!-- /wp:paragraph -->
+HTML;
+
 // Order matters: parents before children.
 $pages = array(
 	'contact'                        => array(
@@ -337,6 +522,13 @@ $pages = array(
 		'cta'      => true,
 		'seo_t'    => 'Het bureau: één aanspreekpunt voor uw bouwplan | Ron Werkhoven',
 		'seo_d'    => 'Ron Werkhoven Bouwkundig Ontwerp- en Tekenbureau, sinds 2010 in Soest. Creatief, snel en betrouwbaar - met één aanspreekpunt van schets tot oplevering.',
+	),
+	'privacy'                        => array(
+		'title'    => 'Privacyverklaring',
+		'content'  => $privacy_content,
+		'cta'      => false,
+		'seo_t'    => 'Privacyverklaring | Ron Werkhoven Bouwkundig Ontwerp- en Tekenbureau',
+		'seo_d'    => 'Hoe Ron Werkhoven Bouwkundig Ontwerp- en Tekenbureau omgaat met uw persoonsgegevens: welke gegevens, waarvoor, hoe lang en wat uw rechten zijn.',
 	),
 );
 

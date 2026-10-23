@@ -39,3 +39,14 @@ Compiled during the site audit and architecture phases (`docs/site-audit.md`, `d
 19. **Google-reviews.** De reviewpagina is vanuit deze omgeving niet leesbaar (consent-muur), dus er zijn geen citaten of het reviewaantal overgenomen; de site linkt wél naar de Google-reviewpagina (contactpagina). Als Ron enkele quotes op de site wil, moeten die letterlijk uit de echte reviews komen — nooit geparafraseerd of verzonnen.
 
 20. **Citaten met naamsvermelding.** Op /het-bureau/ staan nu twee korte citaten uit de (door de eigenaar aangeleverde) LinkedIn-aanbevelingen, met naam en functie (Gerard van Elswijk/Coop, Jeroen Vonck/JEZZ). Graag bevestigen dat deze personen akkoord zijn met vermelding op de website; anders anonimiseren of verwijderen. De Google-reviews zijn bewust niet met klantnaam geciteerd.
+
+## Privacyverklaring (toegevoegd 2026-10-23)
+
+21. **Privacyverklaring herschreven als `/privacy/`.** De oude PDF (`/wp-content/uploads/2019/12/Privacy-Statement.pdf`) bevatte nog niet-ingevulde sjabloontekst ("[wel / niet]", "[aanvullen met …]", een lege bewaartermijnentabel), noemde het bureau op drie plaatsen "Ontwerp- en Adviesbureau", gaf geen grondslagen, vroeg standaard om een kopie van het identiteitsbewijs en linkte naar de tip-pagina van de AP. De nieuwe tekst staat in `scripts/create-pages.php`. **Graag laten bevestigen door Ron:**
+    - **Telefoonnummer:** de PDF noemde 035-8870819, de site overal 06-13645507. De nieuwe verklaring gebruikt 06-13645507.
+    - **Bewaartermijnen:** voorgesteld zijn één jaar voor vragen/offertes zonder opdracht en zeven jaar voor projectdossiers. Alleen de zeven jaar voor de administratie is een wettelijke termijn.
+    - **Verwerkersovereenkomsten:** de verklaring zegt dat die er zijn met hosting, e-mail en boekhouding. Klopt dat (of worden ze afgesloten vóór livegang)?
+    - **Functionaris Gegevensbescherming:** bewust weggelaten. Een eenmanszaak is niet verplicht een FG aan te stellen, en de eigenaar kan die rol niet onafhankelijk vervullen. Ron is nu "aanspreekpunt voor privacy".
+    - Na livegang de oude PDF verwijderen of de URL laten doorverwijzen naar `/privacy/`.
+
+22. **Geen verzoeken meer naar Google.** Lettertypen worden sinds 2026-10-23 vanaf de eigen server geladen (`assets/fonts`) en het WordPress-emojiscript (s.w.org) is uitgezet, zodat de bewering "geen gegevens naar andere partijen" klopt. Wordt er later toch analytics of een embed (Google Maps, YouTube) toegevoegd, dan moet de privacyverklaring mee.
