@@ -28,6 +28,16 @@ add_action(
 			(string) filemtime( RWERKHOVEN_DIR . '/assets/css/style.css' )
 		);
 
+		if ( is_front_page() ) {
+			wp_enqueue_script(
+				'rwerkhoven-hero-carousel',
+				RWERKHOVEN_URI . '/assets/js/hero-carousel.js',
+				array(),
+				(string) filemtime( RWERKHOVEN_DIR . '/assets/js/hero-carousel.js' ),
+				array( 'in_footer' => true )
+			);
+		}
+
 		if ( is_singular( 'project' ) ) {
 			wp_enqueue_script(
 				'rwerkhoven-gallery-carousel',

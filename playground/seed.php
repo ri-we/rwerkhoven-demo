@@ -218,6 +218,16 @@ if ( 'page' === $site['show_on_front'] && ! empty( $site['page_on_front_slug'] )
 	}
 }
 
+if ( ! empty( $site['hero_slide_files'] ) ) {
+	$hero_ids = array();
+	foreach ( $site['hero_slide_files'] as $file ) {
+		if ( isset( $attach_by_file[ $file ] ) ) {
+			$hero_ids[] = $attach_by_file[ $file ];
+		}
+	}
+	update_option( 'rwerkhoven_hero_slides', $hero_ids );
+}
+
 // WordPress' starter content would otherwise sit in the demo alongside the real pages.
 foreach ( array( 'sample-page' => 'page', 'privacy-policy' => 'page', 'hello-world' => 'post' ) as $slug => $type ) {
 	$stale = get_page_by_path( $slug, OBJECT, $type );

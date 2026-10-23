@@ -12,13 +12,13 @@ Keep every URL that Google has already indexed since 2019–2021 unless there's 
 
 | URL | Purpose | Status vs. current site |
 |---|---|---|
-| `/` | Homepage | Rebuilt |
+| `/` | Homepage: landscape photo carousel (photos managed under Weergave → Homepage-carousel) plus intro | Rebuilt |
 | `/diensten/` | Services overview: all six services described on this one page, each in an anchored section | Rebuilt, restructured |
 | `/diensten/#{anchor}` | One section per service on the overview page, no separate sub-pages (decision 2026-10-09). Anchors: `bouwkundig-ontwerp`, `bouwkundige-tekeningen` (incl. "Bouwaanvraagtekeningen" + "Werktekeningen"), `verbouwing-renovatie`, `aanbouw-uitbouw`, `omgevingsvergunning` (incl. "Brandveilig gebruik", "Gebruiksmelding"), `bedrijfspanden` | New sections |
 | `/projecten/` | Projects overview/index | Rebuilt |
 | `/project/{slug}/` | Individual project (CPT: `project`, unchanged) | Rebuilt template, same 15 slugs preserved |
 | `/het-bureau/` | About page | Rebuilt, expanded |
-| `/werkwijze/` | Process page | New (process content currently doesn't exist as its own page) |
+| ~~`/werkwijze/`~~ | Process page | Removed 2026-10-23 at the owner's request; the steps for a verbouwing are listed on `/diensten/#verbouwing-renovatie` |
 | `/contact/` | Contact page + form | Rebuilt, adds real form |
 | `/bedankt/` | Form thank-you page | Replaces orphaned `/bedankt-voor-je-contact-bericht/` — old URL 301s here |
 | `/privacy/` | Privacy policy (HTML page, not just a PDF) | New — see content-questions.md re: existing PDF |
@@ -60,7 +60,7 @@ Handled by a lightweight, self-hosted form (native `<form>` + PHP handler, or a 
 
 ## 4. Navigation
 
-**Primary nav (header):** Home · Diensten · Projecten · Het Bureau · Werkwijze · Contact
+**Primary nav (header):** Het bureau · Diensten · Projecten, plus an "Offerte aanvragen" button to Contact (Werkwijze removed 2026-10-23)
 **Footer nav:** same links + Privacy + KvK/legal line if confirmed + LinkedIn.
 
 Diensten and Projecten are the two nav items that need dropdown/expansion consideration:
@@ -72,7 +72,6 @@ Diensten and Projecten are the two nav items that need dropdown/expansion consid
 - Every service page links to 2–4 relevant projects (via the `dienst` taxonomy) as proof-of-work.
 - Every project page shows which services were provided, each linking back to that service page.
 - Homepage services section links to each service page; homepage projects section links to `/projecten/` and to 2–3 individual highlighted projects.
-- `/werkwijze/` (process) links into `/contact/` at each step's natural end ("Klaar om te starten? Neem contact op").
 - Footer carries the full page-level nav plus a secondary link to `/projecten/`.
 
 ## 6. Breadcrumbs

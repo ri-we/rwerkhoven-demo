@@ -76,31 +76,102 @@
 	letter-spacing: 0.02em;
 }
 
-/* Homepage hero: full-width sticky photo, content block scrolls up to cover it */
-.rwerkhoven-hero-frame {
+/* Homepage hero: landscape photo carousel (inc/hero-carousel.php,
+   assets/js/hero-carousel.js). Slides are stacked and cross-faded. */
+.rwerkhoven-hero-carousel {
 	position: relative;
-	height: 130vh;
-	overflow: hidden;
-}
-
-.rwerkhoven-hero-photo {
-	position: sticky;
-	top: 0;
-	height: 100vh;
-	margin: 0;
-}
-
-.rwerkhoven-hero-photo img {
 	width: 100%;
-	height: 100vh;
-	object-fit: cover;
+	aspect-ratio: 16 / 9;
+	max-height: 85vh;
+	overflow: hidden;
+	background: var(--wp--preset--color--surface);
+}
+
+.rwerkhoven-hero-slide {
+	position: absolute;
+	inset: 0;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.9s ease, visibility 0s linear 0.9s;
+}
+
+.rwerkhoven-hero-slide.is-active {
+	opacity: 1;
+	visibility: visible;
+	transition: opacity 0.9s ease, visibility 0s;
+}
+
+.rwerkhoven-hero-slide img {
 	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.rwerkhoven-hero-controls {
+	position: absolute;
+	right: var(--wp--preset--spacing--30);
+	bottom: var(--wp--preset--spacing--30);
+	display: flex;
+	align-items: center;
+	gap: var(--wp--preset--spacing--10);
+}
+
+.rwerkhoven-hero-btn {
+	border: 0;
+	background: var(--wp--preset--color--background);
+	color: var(--wp--preset--color--text);
+	font-family: var(--wp--preset--font-family--mono);
+	font-size: 0.8125rem;
+	padding: 0.4rem 0.9rem;
+	cursor: pointer;
+}
+
+.rwerkhoven-hero-btn:hover,
+.rwerkhoven-hero-btn:focus-visible {
+	color: var(--wp--preset--color--accent);
+}
+
+.rwerkhoven-hero-dots {
+	display: flex;
+	gap: 6px;
+	padding: 0 0.25rem;
+}
+
+.rwerkhoven-hero-dot {
+	width: 10px;
+	height: 10px;
+	padding: 0;
+	border: 1px solid var(--wp--preset--color--background);
+	border-radius: 50%;
+	background: transparent;
+	cursor: pointer;
+}
+
+.rwerkhoven-hero-dot[aria-current="true"] {
+	background: var(--wp--preset--color--background);
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.rwerkhoven-hero-slide,
+	.rwerkhoven-hero-slide.is-active {
+		transition: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.rwerkhoven-hero-carousel {
+		aspect-ratio: 3 / 2;
+	}
+
+	.rwerkhoven-hero-controls {
+		right: var(--wp--preset--spacing--20);
+		bottom: var(--wp--preset--spacing--20);
+	}
 }
 
 .rwerkhoven-hero-content {
 	position: relative;
-	z-index: 2;
-	margin-top: -30vh;
 }
 
 .rwerkhoven-hero-eyebrow {
@@ -129,55 +200,11 @@
 	}
 }
 
-/* Editor visibility: sticky positioning and negative margins misbehave inside the
-   Site Editor's iframe, and entrance-animated elements must not start invisible there */
-.editor-styles-wrapper .rwerkhoven-hero-frame {
-	height: auto;
-}
-
-.editor-styles-wrapper .rwerkhoven-hero-photo {
-	position: static;
-	height: auto;
-}
-
-.editor-styles-wrapper .rwerkhoven-hero-photo img {
-	height: auto;
-}
-
-.editor-styles-wrapper .rwerkhoven-hero-content {
-	margin-top: 0;
-}
-
+/* Entrance-animated elements must not start invisible in the Site Editor */
 .editor-styles-wrapper .rwerkhoven-hero-content .wp-block-column > * {
 	opacity: 1 !important;
 	animation: none !important;
 	transform: none !important;
-}
-
-/* Mobile: vh-heavy scroll-cover effect doesn't work well on short/variable viewports */
-@media (max-width: 768px) {
-	.rwerkhoven-hero-frame {
-		height: auto;
-	}
-
-	.rwerkhoven-hero-photo {
-		position: static;
-		height: auto;
-	}
-
-	.rwerkhoven-hero-photo img {
-		height: 60vh;
-	}
-
-	.rwerkhoven-hero-content {
-		margin-top: 0;
-	}
-}
-
-/* Process timeline */
-.rwerkhoven-process-step {
-	border-top: 2px solid var(--wp--preset--color--border);
-	padding-top: var(--wp--preset--spacing--20) !important;
 }
 
 /* Projectgalerij als carousel (klassen komen uit assets/js/gallery-carousel.js;
@@ -338,6 +365,35 @@ html {
 
 .rwerkhoven-service-section > h2[id] {
 	scroll-margin-top: var(--wp--preset--spacing--40);
+}
+
+/* Lead-in above a service list ("Onder andere voor:") */
+.rwerkhoven-service-section > p.rwerkhoven-list-label {
+	margin-bottom: 0.25rem;
+	font-weight: 600;
+}
+
+.rwerkhoven-service-section > p.rwerkhoven-list-label + .wp-block-list {
+	margin-top: 0;
+}
+
+/* "Waarom kiezen voor …": ticks instead of bullets */
+.rwerkhoven-checklist {
+	list-style: none;
+	padding-left: 0;
+}
+
+.rwerkhoven-checklist li {
+	position: relative;
+	padding-left: 1.75rem;
+}
+
+.rwerkhoven-checklist li::before {
+	content: "✓";
+	position: absolute;
+	left: 0;
+	color: var(--wp--preset--color--accent);
+	font-weight: 600;
 }
 
 /* Typography refinements (2026-10-09)

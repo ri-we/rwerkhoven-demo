@@ -1,5 +1,5 @@
 {
-    "generated": "2026-10-16T08:41:35+00:00",
+    "generated": "2026-10-23T12:01:31+00:00",
     "site": {
         "home_url": "http://localhost:8080",
         "blogname": "Ron Werkhoven Bouwkundig Ontwerp- en Tekenbureau",
@@ -9,7 +9,13 @@
         "show_on_front": "posts",
         "page_on_front_slug": "",
         "language": "nl_NL",
-        "theme": "rwerkhoven"
+        "theme": "rwerkhoven",
+        "hero_slide_files": [
+            "2024/01/147_1440.jpg",
+            "2024/01/Polderhuis-1.jpg",
+            "2024/01/Bilthoven-1.jpg",
+            "2024/01/IMG_7863-scaled.jpg"
+        ]
     },
     "posts": [
         {
@@ -48,7 +54,7 @@
             "type": "page",
             "slug": "diensten",
             "title": "Diensten",
-            "content": "<!-- wp:paragraph {\"fontSize\":\"large\"} -->\n<p class=\"has-large-font-size\">Alles wat er nodig is om van een idee een gerealiseerd bouwplan te maken: ontwerp, tekenwerk en de complete vergunningaanvraag. Voor particulieren én zakelijke opdrachtgevers, altijd met één aanspreekpunt.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"className\":\"rwerkhoven-service-index\",\"textColor\":\"muted\",\"fontSize\":\"small\"} -->\n<p class=\"rwerkhoven-service-index has-muted-color has-text-color has-small-font-size\"><a href=\"#bouwkundig-ontwerp\">Bouwkundig ontwerp</a> · <a href=\"#bouwkundige-tekeningen\">Bouwkundige tekeningen</a> · <a href=\"#verbouwing-renovatie\">Verbouwing &amp; renovatie</a> · <a href=\"#aanbouw-uitbouw\">Aanbouw &amp; uitbouw</a> · <a href=\"#omgevingsvergunning\">Omgevingsvergunning</a> · <a href=\"#bedrijfspanden\">Bedrijfspanden</a></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:group {\"className\":\"rwerkhoven-service-section\",\"layout\":{\"type\":\"constrained\"}} -->\n<div class=\"wp-block-group rwerkhoven-service-section\">\n\t<!-- wp:heading {\"level\":2,\"anchor\":\"bouwkundig-ontwerp\"} -->\n\t<h2 class=\"wp-block-heading\" id=\"bouwkundig-ontwerp\">Bouwkundig ontwerp</h2>\n\t<!-- /wp:heading -->\n\n\t<!-- wp:paragraph -->\n\t<p>Elk goed bouwplan begint op papier. Ron Werkhoven vertaalt uw wensen naar een ontwerp dat klopt: ruimtelijk aantrekkelijk, technisch doordacht en uitvoerbaar binnen de regels én uw budget.</p>\n\t<!-- /wp:paragraph -->\n\n\t<!-- wp:heading {\"level\":3} -->\n\t<h3 class=\"wp-block-heading\">Schetsontwerp: eerst verkennen, dan beslissen</h3>\n\t<!-- /wp:heading -->\n\n\t<!-- wp:paragraph -->\n\t<p>Het begint met een schetsontwerp. In een of meer varianten wordt zichtbaar wat er kan met uw woning, kavel of pand — zodat u keuzes maakt op basis van beeld, niet op basis van aannames. Pas als de richting staat, wordt het ontwerp technisch uitgewerkt.</p>\n\t<!-- /wp:paragraph -->\n\n\t<!-- wp:heading {\"level\":3} -->\n\t<h3 class=\"wp-block-heading\">Wat u kunt verwachten</h3>\n\t<!-- /wp:heading -->\n\n\t<!-- wp:list -->\n\t<ul class=\"wp-block-list\">\n\t\t<!-- wp:list-item -->\n\t\t<li>Schetsontwerp met varianten om de mogelijkheden te verkennen</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Ontwerp voor verbouw, aanbouw, uitbouw of nieuwbouw</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Herindeling van bestaande woningen en gebouwen</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Doorwerking tot vergunnings- en werktekeningen — alles in één hand</li>\n\t\t<!-- /wp:list-item -->\n\t</ul>\n\t<!-- /wp:list -->\n</div>\n<!-- /wp:group -->\n\n<!-- wp:group {\"className\":\"rwerkhoven-service-section\",\"layout\":{\"type\":\"constrained\"}} -->\n<div class=\"wp-block-group rwerkhoven-service-section\">\n\t<!-- wp:heading {\"level\":2,\"anchor\":\"bouwkundige-tekeningen\"} -->\n\t<h2 class=\"wp-block-heading\" id=\"bouwkundige-tekeningen\">Bouwkundige tekeningen</h2>\n\t<!-- /wp:heading -->\n\n\t<!-- wp:paragraph -->\n\t<p>Goede tekeningen zijn de taal van de bouw: de gemeente toetst erop, de aannemer bouwt ermee en u weet precies wat u krijgt. Ron Werkhoven levert tekenwerk dat nauwkeurig, compleet en direct bruikbaar is.</p>\n\t<!-- /wp:paragraph -->\n\n\t<!-- wp:heading {\"level\":3} -->\n\t<h3 class=\"wp-block-heading\">Bouwaanvraagtekeningen</h3>\n\t<!-- /wp:heading -->\n\n\t<!-- wp:paragraph -->\n\t<p>Tekeningen voor de aanvraag van een omgevingsvergunning: van dakkapel, erker of woninguitbreiding tot herindeling van een bedrijfspand, gevelreclame, woningsplitsing of herbestemming.</p>\n\t<!-- /wp:paragraph -->\n\n\t<!-- wp:heading {\"level\":3} -->\n\t<h3 class=\"wp-block-heading\">Werk- en bestektekeningen</h3>\n\t<!-- /wp:heading -->\n\n\t<!-- wp:paragraph -->\n\t<p>Gedetailleerde tekeningen op grote schaal, met volledige maatvoering en materiaalgegevens. Bij grotere of complexere projecten voorkomen goede werktekeningen discussie, vertraging en fouten in de uitvoering.</p>\n\t<!-- /wp:paragraph -->\n\n\t<!-- wp:heading {\"level\":3} -->\n\t<h3 class=\"wp-block-heading\">Splitsingstekeningen</h3>\n\t<!-- /wp:heading -->\n\n\t<!-- wp:paragraph -->\n\t<p>Voor de kadastrale splitsing van een gebouw met meerdere koopwoningen. Op de splitsingstekening zijn de grenzen tussen de appartementen en de gemeenschappelijke ruimten exact aangegeven.</p>\n\t<!-- /wp:paragraph -->\n\n\t<!-- wp:heading {\"level\":3} -->\n\t<h3 class=\"wp-block-heading\">Inmeten en digitaliseren</h3>\n\t<!-- /wp:heading -->\n\n\t<!-- wp:paragraph -->\n\t<p>Van bestaande gebouwen worden de actuele maten opgenomen en digitaal uitgewerkt. Het detailniveau stemmen we vooraf af op het doel van de tekeningen — van globale plattegrond tot volledig gedetailleerd model.</p>\n\t<!-- /wp:paragraph -->\n</div>\n<!-- /wp:group -->\n\n<!-- wp:group {\"className\":\"rwerkhoven-service-section\",\"layout\":{\"type\":\"constrained\"}} -->\n<div class=\"wp-block-group rwerkhoven-service-section\">\n\t<!-- wp:heading {\"level\":2,\"anchor\":\"verbouwing-renovatie\"} -->\n\t<h2 class=\"wp-block-heading\" id=\"verbouwing-renovatie\">Verbouwing &amp; renovatie</h2>\n\t<!-- /wp:heading -->\n\n\t<!-- wp:paragraph -->\n\t<p>Bij een verbouwing of renovatie komt alles samen: de bestaande constructie, de nieuwe indeling, de regelgeving en de uitvoering. Ron Werkhoven begeleidt dat traject van eerste schets tot een plan waarmee de aannemer direct aan de slag kan.</p>\n\t<!-- /wp:paragraph -->\n\n\t<!-- wp:heading {\"level\":3} -->\n\t<h3 class=\"wp-block-heading\">Zo pakt het aan</h3>\n\t<!-- /wp:heading -->\n\n\t<!-- wp:list -->\n\t<ul class=\"wp-block-list\">\n\t\t<!-- wp:list-item -->\n\t\t<li><strong>Opname</strong> — de bestaande situatie wordt ingemeten en digitaal vastgelegd</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li><strong>Ontwerp</strong> — de nieuwe indeling, in overleg met u aangescherpt</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li><strong>Uitwerking</strong> — duidelijke tekeningen voor vergunning en uitvoering</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li><strong>Vergunning</strong> — waar nodig wordt de omgevingsvergunning volledig verzorgd</li>\n\t\t<!-- /wp:list-item -->\n\t</ul>\n\t<!-- /wp:list -->\n\n\t<!-- wp:paragraph -->\n\t<p>Voorbeelden van verbouwingen staan bij de <a href=\"/projecten/\">projecten</a>.</p>\n\t<!-- /wp:paragraph -->\n</div>\n<!-- /wp:group -->\n\n<!-- wp:group {\"className\":\"rwerkhoven-service-section\",\"layout\":{\"type\":\"constrained\"}} -->\n<div class=\"wp-block-group rwerkhoven-service-section\">\n\t<!-- wp:heading {\"level\":2,\"anchor\":\"aanbouw-uitbouw\"} -->\n\t<h2 class=\"wp-block-heading\" id=\"aanbouw-uitbouw\">Aanbouw &amp; uitbouw</h2>\n\t<!-- /wp:heading -->\n\n\t<!-- wp:paragraph -->\n\t<p>Meer ruimte zonder te verhuizen: een aanbouw, uitbouw, dakkapel, erker, garage of carport. Ron Werkhoven ontwerpt en tekent uitbreidingen die aanvoelen als een vanzelfsprekend deel van uw woning — geen aangeplakte doos.</p>\n\t<!-- /wp:paragraph -->\n\n\t<!-- wp:heading {\"level\":3} -->\n\t<h3 class=\"wp-block-heading\">Vergunningvrij of vergunningplichtig?</h3>\n\t<!-- /wp:heading -->\n\n\t<!-- wp:paragraph -->\n\t<p>Niet elke uitbreiding heeft een vergunning nodig. Wat vergunningvrij kan en waarvoor een omgevingsvergunning vereist is, wordt vooraf voor u uitgezocht — zodat u niet halverwege voor verrassingen komt te staan.</p>\n\t<!-- /wp:paragraph -->\n\n\t<!-- wp:paragraph -->\n\t<p>Voorbeelden van aan- en uitbouwen staan bij de <a href=\"/projecten/\">projecten</a>.</p>\n\t<!-- /wp:paragraph -->\n</div>\n<!-- /wp:group -->\n\n<!-- wp:group {\"className\":\"rwerkhoven-service-section\",\"layout\":{\"type\":\"constrained\"}} -->\n<div class=\"wp-block-group rwerkhoven-service-section\">\n\t<!-- wp:heading {\"level\":2,\"anchor\":\"omgevingsvergunning\"} -->\n\t<h2 class=\"wp-block-heading\" id=\"omgevingsvergunning\">Omgevingsvergunning</h2>\n\t<!-- /wp:heading -->\n\n\t<!-- wp:paragraph -->\n\t<p>Voor veel bouw- en verbouwplannen is een omgevingsvergunning nodig. Ron Werkhoven verzorgt de complete aanvraag: de tekeningen, de bijbehorende stukken, de indiening via het Omgevingsloket en de afstemming met de gemeente. U hoeft er niet zelf achteraan.</p>\n\t<!-- /wp:paragraph -->\n\n\t<!-- wp:heading {\"level\":3} -->\n\t<h3 class=\"wp-block-heading\">Hoe werkt het sinds de Omgevingswet?</h3>\n\t<!-- /wp:heading -->\n\n\t<!-- wp:paragraph -->\n\t<p>Sinds 1 januari 2024 geldt de Omgevingswet. Aanvragen verlopen via het digitale <a href=\"https://omgevingswet.overheid.nl/\" rel=\"noopener\" target=\"_blank\">Omgevingsloket</a>, en een bouwplan wordt apart beoordeeld op het omgevingsplan van de gemeente en op de landelijke technische bouwregels. Voor bepaalde nieuwbouwprojecten geldt daarnaast de Wet kwaliteitsborging voor het bouwen, waarbij een onafhankelijke kwaliteitsborger de technische toets uitvoert.</p>\n\t<!-- /wp:paragraph -->\n\n\t<!-- wp:paragraph -->\n\t<p>Voor constructieberekeningen en energieprestatieberekeningen (BENG) wordt samengewerkt met vaste externe adviseurs — ook dat loopt via één aanspreekpunt.</p>\n\t<!-- /wp:paragraph -->\n\n\t<!-- wp:heading {\"level\":3} -->\n\t<h3 class=\"wp-block-heading\">Brandveilig gebruik</h3>\n\t<!-- /wp:heading -->\n\n\t<!-- wp:paragraph -->\n\t<p>Voor sommige gebouwen is voor het gebruik een aparte vergunning of melding nodig. Ook die stukken worden verzorgd:</p>\n\t<!-- /wp:paragraph -->\n\n\t<!-- wp:list -->\n\t<ul class=\"wp-block-list\">\n\t\t<!-- wp:list-item -->\n\t\t<li><strong>Omgevingsvergunning brandveilig gebruik</strong> — onder meer bij nachtverblijf voor meer dan tien personen (zoals hotels en zorggebouwen) of dagverblijf voor jonge kinderen of mensen met een beperking.</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li><strong>Gebruiksmelding</strong> — bij gebouwen waar meer dan vijftig personen tegelijk verblijven, zoals scholen, kantoren, horeca en winkels.</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li><strong>Ontruimingsplattegronden en vluchtplannen</strong> — per verdieping, met blusmiddelen, vluchtroutes en nooduitgangen.</li>\n\t\t<!-- /wp:list-item -->\n\t</ul>\n\t<!-- /wp:list -->\n</div>\n<!-- /wp:group -->\n\n<!-- wp:group {\"className\":\"rwerkhoven-service-section\",\"layout\":{\"type\":\"constrained\"}} -->\n<div class=\"wp-block-group rwerkhoven-service-section\">\n\t<!-- wp:heading {\"level\":2,\"anchor\":\"bedrijfspanden\"} -->\n\t<h2 class=\"wp-block-heading\" id=\"bedrijfspanden\">Bedrijfspanden</h2>\n\t<!-- /wp:heading -->\n\n\t<!-- wp:paragraph -->\n\t<p>Voor winkels, horeca en bedrijfsruimten telt maar één ding: dat de verbouwing snel, goed en volgens de regels gebeurt — elke week vertraging kost omzet. Ron Werkhoven verzorgt het bouwkundig tekenwerk en de bijbehorende aanvragen, van eenmalige verbouwing tot landelijke uitrol.</p>\n\t<!-- /wp:paragraph -->\n\n\t<!-- wp:heading {\"level\":3} -->\n\t<h3 class=\"wp-block-heading\">Wat wordt er verzorgd</h3>\n\t<!-- /wp:heading -->\n\n\t<!-- wp:list -->\n\t<ul class=\"wp-block-list\">\n\t\t<!-- wp:list-item -->\n\t\t<li>Herindelingen, verbouwingen en herbestemmingen van bedrijfspanden</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Vergunningaanvragen, inclusief gevelreclame</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Stukken rond brandveilig gebruik: vergunning, gebruiksmelding en ontruimingsplattegronden</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Inmeten en digitaliseren van bestaande panden</li>\n\t\t<!-- /wp:list-item -->\n\t</ul>\n\t<!-- /wp:list -->\n\n\t<!-- wp:paragraph -->\n\t<p>Voorbeelden staan bij de <a href=\"/projecten/\">projecten</a>: van winkelketens tot de herbestemming van een bankgebouw.</p>\n\t<!-- /wp:paragraph -->\n</div>\n<!-- /wp:group -->\n\n<!-- wp:paragraph {\"style\":{\"spacing\":{\"margin\":{\"top\":\"var:preset|spacing|40\"}}}} -->\n<p style=\"margin-top:var(--wp--preset--spacing--40)\">Benieuwd wat dit voor uw plannen betekent? <a href=\"/contact/\">Vraag een vrijblijvende offerte aan</a> — u ontvangt snel een reactie.</p>\n<!-- /wp:paragraph -->",
+            "content": "<!-- wp:paragraph {\"fontSize\":\"large\"} -->\n<p class=\"has-large-font-size\">Van eerste idee tot vergunning en uitvoering. Werkhoven Bouwkundig Ontwerp verzorgt ontwerp, tekenwerk en vergunningaanvragen voor particulieren en zakelijke opdrachtgevers. Altijd met één vast aanspreekpunt.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"className\":\"rwerkhoven-service-index\",\"textColor\":\"muted\",\"fontSize\":\"small\"} -->\n<p class=\"rwerkhoven-service-index has-muted-color has-text-color has-small-font-size\"><a href=\"#bouwkundig-ontwerp\">Bouwkundig ontwerp</a> · <a href=\"#bouwkundige-tekeningen\">Bouwkundige tekeningen</a> · <a href=\"#verbouwing-renovatie\">Verbouwing &amp; renovatie</a> · <a href=\"#aanbouw-uitbouw\">Aanbouw &amp; uitbouw</a> · <a href=\"#omgevingsvergunning\">Omgevingsvergunning</a> · <a href=\"#bedrijfspanden\">Bedrijfspanden</a></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:group {\"className\":\"rwerkhoven-service-section\",\"layout\":{\"type\":\"constrained\"}} -->\n<div class=\"wp-block-group rwerkhoven-service-section\">\n\t<!-- wp:heading {\"level\":2,\"anchor\":\"bouwkundig-ontwerp\"} -->\n\t<h2 class=\"wp-block-heading\" id=\"bouwkundig-ontwerp\">Bouwkundig ontwerp</h2>\n\t<!-- /wp:heading -->\n\n\t<!-- wp:paragraph -->\n\t<p>Een goed bouwplan begint met een doordacht ontwerp. Uw wensen worden vertaald naar een praktisch, haalbaar en aantrekkelijk ontwerp dat past binnen de regelgeving en uw budget.</p>\n\t<!-- /wp:paragraph -->\n\n\t<!-- wp:paragraph {\"className\":\"rwerkhoven-list-label\"} -->\n\t<p class=\"rwerkhoven-list-label\">Onder andere voor:</p>\n\t<!-- /wp:paragraph -->\n\n\t<!-- wp:list -->\n\t<ul class=\"wp-block-list\">\n\t\t<!-- wp:list-item -->\n\t\t<li>Aan- en uitbouwen</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Dakkapellen</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Woningverbouwingen</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Nieuwbouw</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Herindeling van woningen en gebouwen</li>\n\t\t<!-- /wp:list-item -->\n\t</ul>\n\t<!-- /wp:list -->\n</div>\n<!-- /wp:group -->\n\n<!-- wp:group {\"className\":\"rwerkhoven-service-section\",\"layout\":{\"type\":\"constrained\"}} -->\n<div class=\"wp-block-group rwerkhoven-service-section\">\n\t<!-- wp:heading {\"level\":2,\"anchor\":\"bouwkundige-tekeningen\"} -->\n\t<h2 class=\"wp-block-heading\" id=\"bouwkundige-tekeningen\">Bouwkundige tekeningen</h2>\n\t<!-- /wp:heading -->\n\n\t<!-- wp:paragraph -->\n\t<p>Duidelijke en nauwkeurige tekeningen vormen de basis van ieder bouwproject. Ze zijn geschikt voor de vergunningaanvraag, de uitvoering en de technische uitwerking.</p>\n\t<!-- /wp:paragraph -->\n\n\t<!-- wp:paragraph {\"className\":\"rwerkhoven-list-label\"} -->\n\t<p class=\"rwerkhoven-list-label\">Mogelijkheden:</p>\n\t<!-- /wp:paragraph -->\n\n\t<!-- wp:list -->\n\t<ul class=\"wp-block-list\">\n\t\t<!-- wp:list-item -->\n\t\t<li>Vergunningstekeningen</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Werk- en bestektekeningen</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Splitsingstekeningen</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Ontruimingsplattegronden en vluchtplannen</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Inmeten en digitaliseren van bestaande gebouwen</li>\n\t\t<!-- /wp:list-item -->\n\t</ul>\n\t<!-- /wp:list -->\n\n\t<!-- wp:paragraph -->\n\t<p>Zijn er alleen oude, papieren tekeningen van een gebouw? Die worden digitaal nagetekend, zodat ze weer bruikbaar zijn voor een verbouwing of aanvraag.</p>\n\t<!-- /wp:paragraph -->\n</div>\n<!-- /wp:group -->\n\n<!-- wp:group {\"className\":\"rwerkhoven-service-section\",\"layout\":{\"type\":\"constrained\"}} -->\n<div class=\"wp-block-group rwerkhoven-service-section\">\n\t<!-- wp:heading {\"level\":2,\"anchor\":\"verbouwing-renovatie\"} -->\n\t<h2 class=\"wp-block-heading\" id=\"verbouwing-renovatie\">Verbouwing &amp; renovatie</h2>\n\t<!-- /wp:heading -->\n\n\t<!-- wp:paragraph -->\n\t<p>Van een nieuwe indeling tot een complete renovatie. Het hele traject wordt verzorgd, van de opname van de bestaande situatie tot de technische uitwerking.</p>\n\t<!-- /wp:paragraph -->\n\n\t<!-- wp:paragraph {\"className\":\"rwerkhoven-list-label\"} -->\n\t<p class=\"rwerkhoven-list-label\">Werkwijze:</p>\n\t<!-- /wp:paragraph -->\n\n\t<!-- wp:list {\"ordered\":true} -->\n\t<ol class=\"wp-block-list\">\n\t\t<!-- wp:list-item -->\n\t\t<li>Opnemen van de bestaande situatie</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Ontwerp uitwerken</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Technische tekeningen opstellen</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Vergunning aanvragen, indien nodig</li>\n\t\t<!-- /wp:list-item -->\n\t</ol>\n\t<!-- /wp:list -->\n</div>\n<!-- /wp:group -->\n\n<!-- wp:group {\"className\":\"rwerkhoven-service-section\",\"layout\":{\"type\":\"constrained\"}} -->\n<div class=\"wp-block-group rwerkhoven-service-section\">\n\t<!-- wp:heading {\"level\":2,\"anchor\":\"aanbouw-uitbouw\"} -->\n\t<h2 class=\"wp-block-heading\" id=\"aanbouw-uitbouw\">Aanbouw &amp; uitbouw</h2>\n\t<!-- /wp:heading -->\n\n\t<!-- wp:paragraph -->\n\t<p>Meer ruimte zonder te verhuizen. Van dakkapel en erker tot een complete aanbouw of uitbouw.</p>\n\t<!-- /wp:paragraph -->\n\n\t<!-- wp:paragraph {\"className\":\"rwerkhoven-list-label\"} -->\n\t<p class=\"rwerkhoven-list-label\">Voorbeelden:</p>\n\t<!-- /wp:paragraph -->\n\n\t<!-- wp:list -->\n\t<ul class=\"wp-block-list\">\n\t\t<!-- wp:list-item -->\n\t\t<li>Aanbouw</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Uitbouw</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Dakkapel</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Garage</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Carport</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Erker</li>\n\t\t<!-- /wp:list-item -->\n\t</ul>\n\t<!-- /wp:list -->\n\n\t<!-- wp:paragraph -->\n\t<p>Vooraf wordt beoordeeld of er een vergunning nodig is en welke mogelijkheden er zijn.</p>\n\t<!-- /wp:paragraph -->\n</div>\n<!-- /wp:group -->\n\n<!-- wp:group {\"className\":\"rwerkhoven-service-section\",\"layout\":{\"type\":\"constrained\"}} -->\n<div class=\"wp-block-group rwerkhoven-service-section\">\n\t<!-- wp:heading {\"level\":2,\"anchor\":\"omgevingsvergunning\"} -->\n\t<h2 class=\"wp-block-heading\" id=\"omgevingsvergunning\">Omgevingsvergunning</h2>\n\t<!-- /wp:heading -->\n\n\t<!-- wp:paragraph -->\n\t<p>Geen zorgen over procedures en regelgeving. De complete vergunningaanvraag wordt verzorgd, inclusief tekenwerk, benodigde documenten en indiening via het Omgevingsloket.</p>\n\t<!-- /wp:paragraph -->\n\n\t<!-- wp:paragraph {\"className\":\"rwerkhoven-list-label\"} -->\n\t<p class=\"rwerkhoven-list-label\">Begeleiding bij:</p>\n\t<!-- /wp:paragraph -->\n\n\t<!-- wp:list -->\n\t<ul class=\"wp-block-list\">\n\t\t<!-- wp:list-item -->\n\t\t<li>Vergunningaanvragen</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Vooroverleg met gemeenten</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Brandveiligheidsaanvragen</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Gebruiksmeldingen</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Afstemming met adviseurs</li>\n\t\t<!-- /wp:list-item -->\n\t</ul>\n\t<!-- /wp:list -->\n\n\t<!-- wp:paragraph -->\n\t<p>Voor constructie- en energieprestatieberekeningen wordt samengewerkt met vaste externe adviseurs. Hun offertes worden voor u opgevraagd, zodat u ook daarvoor één aanspreekpunt houdt.</p>\n\t<!-- /wp:paragraph -->\n</div>\n<!-- /wp:group -->\n\n<!-- wp:group {\"className\":\"rwerkhoven-service-section\",\"layout\":{\"type\":\"constrained\"}} -->\n<div class=\"wp-block-group rwerkhoven-service-section\">\n\t<!-- wp:heading {\"level\":2,\"anchor\":\"bedrijfspanden\"} -->\n\t<h2 class=\"wp-block-heading\" id=\"bedrijfspanden\">Bedrijfspanden</h2>\n\t<!-- /wp:heading -->\n\n\t<!-- wp:paragraph -->\n\t<p>Voor winkels, kantoren, horeca en bedrijfsruimten. Praktische oplossingen waarbij snelheid, continuïteit en regelgeving centraal staan.</p>\n\t<!-- /wp:paragraph -->\n\n\t<!-- wp:paragraph {\"className\":\"rwerkhoven-list-label\"} -->\n\t<p class=\"rwerkhoven-list-label\">Diensten voor bedrijven:</p>\n\t<!-- /wp:paragraph -->\n\n\t<!-- wp:list -->\n\t<ul class=\"wp-block-list\">\n\t\t<!-- wp:list-item -->\n\t\t<li>Verbouwingen en herindelingen</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Herbestemmingen</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Vergunningaanvragen</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Gevelreclame</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Brandveiligheidsdocumentatie</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Inmeten en digitaliseren</li>\n\t\t<!-- /wp:list-item -->\n\t</ul>\n\t<!-- /wp:list -->\n\n\t<!-- wp:paragraph -->\n\t<p>Voorbeelden staan bij de <a href=\"/projecten/\">projecten</a>: van winkelketens tot de herbestemming van een bankgebouw.</p>\n\t<!-- /wp:paragraph -->\n</div>\n<!-- /wp:group -->\n\n<!-- wp:group {\"className\":\"rwerkhoven-service-section\",\"layout\":{\"type\":\"constrained\"}} -->\n<div class=\"wp-block-group rwerkhoven-service-section\">\n\t<!-- wp:heading {\"level\":2,\"anchor\":\"waarom\"} -->\n\t<h2 class=\"wp-block-heading\" id=\"waarom\">Waarom kiezen voor Werkhoven Bouwkundig Ontwerp?</h2>\n\t<!-- /wp:heading -->\n\n\t<!-- wp:list {\"className\":\"rwerkhoven-checklist\"} -->\n\t<ul class=\"wp-block-list rwerkhoven-checklist\">\n\t\t<!-- wp:list-item -->\n\t\t<li>Eén vast aanspreekpunt</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Ruim 15 jaar ervaring</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Ontwerp, tekenwerk en vergunningen onder één dak</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Korte lijnen en heldere communicatie</li>\n\t\t<!-- /wp:list-item -->\n\n\t\t<!-- wp:list-item -->\n\t\t<li>Voor particulieren én zakelijke opdrachtgevers</li>\n\t\t<!-- /wp:list-item -->\n\t</ul>\n\t<!-- /wp:list -->\n</div>\n<!-- /wp:group -->\n\n<!-- wp:paragraph {\"style\":{\"spacing\":{\"margin\":{\"top\":\"var:preset|spacing|40\"}}}} -->\n<p style=\"margin-top:var(--wp--preset--spacing--40)\">Benieuwd wat er mogelijk is voor uw project? <a href=\"/contact/\">Neem vrijblijvend contact op</a> voor advies of een offerte.</p>\n<!-- /wp:paragraph -->",
             "excerpt": "",
             "status": "publish",
             "menu_order": 0,
@@ -61,11 +67,11 @@
             "terms": []
         },
         {
-            "old_id": 13,
+            "old_id": 7,
             "type": "page",
             "slug": "het-bureau",
             "title": "Het bureau",
-            "content": "<!-- wp:paragraph {\"fontSize\":\"large\"} -->\n<p class=\"has-large-font-size\">Achter het bureau staat één man: Ron Werkhoven. Sinds 2010 verzorgt hij vanuit Soest bouwkundig ontwerp, tekenwerk en vergunningaanvragen — voor particulieren die willen verbouwen én voor aannemers, vastgoedbeheerders en architectenbureaus die op zijn tekenwerk bouwen.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"level\":2,\"fontSize\":\"large\"} -->\n<h2 class=\"wp-block-heading has-large-font-size\">Eén aanspreekpunt, van schets tot oplevering</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Bij veel bouwtrajecten raken opdrachtgevers verstrikt tussen ontwerper, tekenaar, adviseurs en gemeente. Hier niet: u heeft van begin tot eind met dezelfde persoon te maken. Dat betekent korte lijnen, geen informatie die tussen partijen verloren gaat, en iemand die het hele plan kent — van het eerste schetsje tot het laatste detail op de werktekening.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"level\":2,\"fontSize\":\"large\"} -->\n<h2 class=\"wp-block-heading has-large-font-size\">Werkwijze in het kort</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>De werkzaamheden worden in nauw overleg met u uitgevoerd en afgestemd op uw wensen. De dienstverlening kenmerkt zich door creativiteit, snelheid en betrouwbaarheid: afspraken worden nagekomen en tekenwerk wordt op tijd geleverd. Hoe een project stap voor stap verloopt, leest u bij de <a href=\"/werkwijze/\">werkwijze</a>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"level\":2,\"fontSize\":\"large\"} -->\n<h2 class=\"wp-block-heading has-large-font-size\">Voor wie</h2>\n<!-- /wp:heading -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n\t<!-- wp:list-item -->\n\t<li><strong>Particulieren</strong> — aanbouw, uitbouw, dakkapel, complete woningverbouwing of nieuwbouw</li>\n\t<!-- /wp:list-item -->\n\n\t<!-- wp:list-item -->\n\t<li><strong>Zakelijke opdrachtgevers</strong> — aannemers, vastgoedbeheerders, winkelketens en architecten- en adviesbureaus die technisch tekenwerk uitbesteden</li>\n\t<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->\n\n<!-- wp:heading {\"level\":2,\"fontSize\":\"large\"} -->\n<h2 class=\"wp-block-heading has-large-font-size\">Wat opdrachtgevers zeggen</h2>\n<!-- /wp:heading -->\n\n<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\">\n\t<!-- wp:paragraph -->\n\t<p>„Kan zeer zelfstandig en accuraat werken. Komt zijn afspraken na. Coop Supermarkten maakt al vele jaren gebruik van zijn diensten.\"</p>\n\t<!-- /wp:paragraph -->\n\t<cite>Gerard van Elswijk — Hoofd Bouwbureau, Coop Supermarkten</cite>\n</blockquote>\n<!-- /wp:quote -->\n\n<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\">\n\t<!-- wp:paragraph -->\n\t<p>„Van vergunningen tot complete lay-outs: als u iemand zoekt voor tekenwerk, bent u bij Ron aan het goede adres.\"</p>\n\t<!-- /wp:paragraph -->\n\t<cite>Jeroen Vonck — JEZZ Projectmanagement</cite>\n</blockquote>\n<!-- /wp:quote -->\n\n<!-- wp:paragraph -->\n<p>Meer ervaringen leest u bij de <a href=\"https://www.linkedin.com/in/ron-werkhoven-2594881a\" rel=\"noopener\" target=\"_blank\">aanbevelingen op LinkedIn</a> en de <a href=\"https://g.page/r/Cf3-IzqPxu_8EAc\" rel=\"noopener\" target=\"_blank\">reviews op Google</a>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:social-links {\"style\":{\"spacing\":{\"margin\":{\"top\":\"var:preset|spacing|30\"}}}} -->\n<ul class=\"wp-block-social-links\" style=\"margin-top:var(--wp--preset--spacing--30)\">\n\t<!-- wp:social-link {\"url\":\"https://www.linkedin.com/in/ron-werkhoven-2594881a\",\"service\":\"linkedin\",\"label\":\"LinkedIn\"} /-->\n</ul>\n<!-- /wp:social-links -->\n\n<!-- wp:paragraph {\"style\":{\"spacing\":{\"margin\":{\"top\":\"var:preset|spacing|40\"}}}} -->\n<p style=\"margin-top:var(--wp--preset--spacing--40)\">Benieuwd wat dit voor uw plannen betekent? <a href=\"/contact/\">Vraag een vrijblijvende offerte aan</a> — u ontvangt snel een reactie.</p>\n<!-- /wp:paragraph -->",
+            "content": "<!-- wp:paragraph {\"fontSize\":\"large\"} -->\n<p class=\"has-large-font-size\">Achter het bureau staat één man: Ron Werkhoven. Sinds 2010 verzorgt hij vanuit Soest bouwkundig ontwerp, tekenwerk en vergunningaanvragen — voor particulieren die willen verbouwen én voor aannemers, vastgoedbeheerders en architectenbureaus die op zijn tekenwerk bouwen.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"level\":2,\"fontSize\":\"large\"} -->\n<h2 class=\"wp-block-heading has-large-font-size\">Eén aanspreekpunt, van schets tot oplevering</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Bij veel bouwtrajecten raken opdrachtgevers verstrikt tussen ontwerper, tekenaar, adviseurs en gemeente. Hier niet: u heeft van begin tot eind met dezelfde persoon te maken. Dat betekent korte lijnen, geen informatie die tussen partijen verloren gaat, en iemand die het hele plan kent — van het eerste schetsje tot het laatste detail op de werktekening.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"level\":2,\"fontSize\":\"large\"} -->\n<h2 class=\"wp-block-heading has-large-font-size\">Creatief, snel en betrouwbaar</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>De werkzaamheden worden in nauw overleg met u uitgevoerd en afgestemd op uw wensen. De dienstverlening kenmerkt zich door creativiteit, snelheid en betrouwbaarheid: afspraken worden nagekomen en tekenwerk wordt op tijd geleverd.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"level\":2,\"fontSize\":\"large\"} -->\n<h2 class=\"wp-block-heading has-large-font-size\">Voor wie</h2>\n<!-- /wp:heading -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n\t<!-- wp:list-item -->\n\t<li><strong>Particulieren</strong> — aanbouw, uitbouw, dakkapel, complete woningverbouwing of nieuwbouw</li>\n\t<!-- /wp:list-item -->\n\n\t<!-- wp:list-item -->\n\t<li><strong>Zakelijke opdrachtgevers</strong> — aannemers, vastgoedbeheerders, winkelketens en architecten- en adviesbureaus die technisch tekenwerk uitbesteden</li>\n\t<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->\n\n<!-- wp:heading {\"level\":2,\"fontSize\":\"large\"} -->\n<h2 class=\"wp-block-heading has-large-font-size\">Wat opdrachtgevers zeggen</h2>\n<!-- /wp:heading -->\n\n<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\">\n\t<!-- wp:paragraph -->\n\t<p>„Kan zeer zelfstandig en accuraat werken. Komt zijn afspraken na. Coop Supermarkten maakt al vele jaren gebruik van zijn diensten.\"</p>\n\t<!-- /wp:paragraph -->\n\t<cite>Gerard van Elswijk — Hoofd Bouwbureau, Coop Supermarkten</cite>\n</blockquote>\n<!-- /wp:quote -->\n\n<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\">\n\t<!-- wp:paragraph -->\n\t<p>„Van vergunningen tot complete lay-outs: als u iemand zoekt voor tekenwerk, bent u bij Ron aan het goede adres.\"</p>\n\t<!-- /wp:paragraph -->\n\t<cite>Jeroen Vonck — JEZZ Projectmanagement</cite>\n</blockquote>\n<!-- /wp:quote -->\n\n<!-- wp:paragraph -->\n<p>Meer ervaringen leest u bij de <a href=\"https://www.linkedin.com/in/ron-werkhoven-2594881a\" rel=\"noopener\" target=\"_blank\">aanbevelingen op LinkedIn</a> en de <a href=\"https://g.page/r/Cf3-IzqPxu_8EAc\" rel=\"noopener\" target=\"_blank\">reviews op Google</a>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:social-links {\"style\":{\"spacing\":{\"margin\":{\"top\":\"var:preset|spacing|30\"}}}} -->\n<ul class=\"wp-block-social-links\" style=\"margin-top:var(--wp--preset--spacing--30)\">\n\t<!-- wp:social-link {\"url\":\"https://www.linkedin.com/in/ron-werkhoven-2594881a\",\"service\":\"linkedin\",\"label\":\"LinkedIn\"} /-->\n</ul>\n<!-- /wp:social-links -->\n\n<!-- wp:paragraph {\"style\":{\"spacing\":{\"margin\":{\"top\":\"var:preset|spacing|40\"}}}} -->\n<p style=\"margin-top:var(--wp--preset--spacing--40)\">Benieuwd wat dit voor uw plannen betekent? <a href=\"/contact/\">Vraag een vrijblijvende offerte aan</a> — u ontvangt snel een reactie.</p>\n<!-- /wp:paragraph -->",
             "excerpt": "",
             "status": "publish",
             "menu_order": 0,
@@ -78,28 +84,11 @@
             "terms": []
         },
         {
-            "old_id": 14,
-            "type": "page",
-            "slug": "werkwijze",
-            "title": "Werkwijze",
-            "content": "<!-- wp:paragraph {\"fontSize\":\"large\"} -->\n<p class=\"has-large-font-size\">Elk project verloopt in overzichtelijke stappen. Zo weet u vooraf waar u aan toe bent en ziet u steeds waar het project staat.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:group {\"style\":{\"spacing\":{\"margin\":{\"top\":\"var:preset|spacing|40\"}}},\"layout\":{\"type\":\"constrained\"}} -->\n<div class=\"wp-block-group\" style=\"margin-top:var(--wp--preset--spacing--40)\">\n\t<!-- wp:pattern {\"slug\":\"rwerkhoven/process-steps\"} /-->\n</div>\n<!-- /wp:group -->\n\n<!-- wp:paragraph {\"style\":{\"spacing\":{\"margin\":{\"top\":\"var:preset|spacing|40\"}}}} -->\n<p style=\"margin-top:var(--wp--preset--spacing--40)\">Afhankelijk van het project kunnen stappen samenvallen of vervallen — bij een klein plan is soms alleen tekenwerk nodig. Wat er in uw situatie nodig is, hoort u direct in het eerste gesprek, inclusief een heldere prijsopgave.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"style\":{\"spacing\":{\"margin\":{\"top\":\"var:preset|spacing|40\"}}}} -->\n<p style=\"margin-top:var(--wp--preset--spacing--40)\">Benieuwd wat dit voor uw plannen betekent? <a href=\"/contact/\">Vraag een vrijblijvende offerte aan</a> — u ontvangt snel een reactie.</p>\n<!-- /wp:paragraph -->",
-            "excerpt": "",
-            "status": "publish",
-            "menu_order": 0,
-            "parent_slug": "",
-            "meta": {
-                "rwerkhoven_seo_title": "Werkwijze: in vijf stappen van idee naar realisatie | Ron Werkhoven",
-                "rwerkhoven_seo_description": "Zo verloopt uw project: kennismaken, ontwerpen, uitwerken, vergunning en realisatie. Overzichtelijke stappen en heldere afspraken, van begin tot eind."
-            },
-            "thumbnail_file": "",
-            "terms": []
-        },
-        {
-            "old_id": 15,
+            "old_id": 9,
             "type": "project",
             "slug": "verbouw-woning-abcoude",
             "title": "Uitbouw vrijstaande woning",
-            "content": "<!-- wp:paragraph -->\n<p>Voor de verbouwing en uitbreiding van deze woning heeft Ron Werkhoven de tekeningen gemaakt t.b.v. de omgevingsvergunning.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>De woning heeft een complete metamorfose ondergaan en is aan drie zijden uitgebouwd. Ook de garage is hierdoor onderdeel geworden van de woning.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:gallery {\"linkTo\":\"none\",\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\"><!-- wp:image {\"id\":30,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/158_1440.jpg\" alt=\"Uitbouw vrijstaande woning\" class=\"wp-image-30\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":31,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/147_1440-1024x683.jpg\" alt=\"Uitbouw vrijstaande woning\" class=\"wp-image-31\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":32,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/157_1440-1024x683.jpg\" alt=\"Uitbouw vrijstaande woning\" class=\"wp-image-32\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":33,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/145_1440-1024x683.jpg\" alt=\"Uitbouw vrijstaande woning\" class=\"wp-image-33\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":34,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/128_1440-1024x683.jpg\" alt=\"Uitbouw vrijstaande woning\" class=\"wp-image-34\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":35,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/127_1440-1024x683.jpg\" alt=\"Uitbouw vrijstaande woning\" class=\"wp-image-35\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":36,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Torenlaan-2-1024x683.jpg\" alt=\"Uitbouw vrijstaande woning\" class=\"wp-image-36\"/></figure>\n<!-- /wp:image -->\n</figure>\n<!-- /wp:gallery -->\n",
+            "content": "<!-- wp:paragraph -->\n<p>Voor de verbouwing en uitbreiding van deze woning heeft Ron Werkhoven de tekeningen gemaakt t.b.v. de omgevingsvergunning.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>De woning heeft een complete metamorfose ondergaan en is aan drie zijden uitgebouwd. Ook de garage is hierdoor onderdeel geworden van de woning.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:gallery {\"linkTo\":\"none\",\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\"><!-- wp:image {\"id\":30,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/158_1440.jpg\" alt=\"Uitbouw vrijstaande woning\" class=\"wp-image-24\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":31,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/147_1440-1024x683.jpg\" alt=\"Uitbouw vrijstaande woning\" class=\"wp-image-25\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":32,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/157_1440-1024x683.jpg\" alt=\"Uitbouw vrijstaande woning\" class=\"wp-image-26\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":33,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/145_1440-1024x683.jpg\" alt=\"Uitbouw vrijstaande woning\" class=\"wp-image-27\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":34,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/128_1440-1024x683.jpg\" alt=\"Uitbouw vrijstaande woning\" class=\"wp-image-28\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":35,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/127_1440-1024x683.jpg\" alt=\"Uitbouw vrijstaande woning\" class=\"wp-image-29\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":36,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Torenlaan-2-1024x683.jpg\" alt=\"Uitbouw vrijstaande woning\" class=\"wp-image-30\"/></figure>\n<!-- /wp:image -->\n</figure>\n<!-- /wp:gallery -->\n",
             "excerpt": "",
             "status": "publish",
             "menu_order": 0,
@@ -111,11 +100,11 @@
             "terms": []
         },
         {
-            "old_id": 16,
+            "old_id": 10,
             "type": "project",
             "slug": "diverse-projecten-2",
             "title": "Diverse projecten",
-            "content": "<!-- wp:paragraph -->\n<p>Diverse projecten voor particulieren opdrachtgevers waarvoor Ron Werkhoven de bouwkundige tekeningen en de aanvraag omgevingsvergunning voor heeft verzorgd.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:gallery {\"linkTo\":\"none\",\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\"><!-- wp:image {\"id\":37,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/aanbouw-jaren-30-woning-1-1024x682.jpg\" alt=\"Diverse projecten\" class=\"wp-image-37\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":38,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/aanbouw-jaren-30-woning-2-1024x682.jpg\" alt=\"Diverse projecten\" class=\"wp-image-38\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":39,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/aanbouw-jaren-30-woning-3-1024x683.jpg\" alt=\"Diverse projecten\" class=\"wp-image-39\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":40,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Soest-jaren-30-woning.jpg\" alt=\"Diverse projecten\" class=\"wp-image-40\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":113,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Abcoude-3.jpg\" alt=\"Diverse projecten\" class=\"wp-image-113\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":41,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/aanbouw-hout-2-1024x682.jpg\" alt=\"Diverse projecten\" class=\"wp-image-41\"/></figure>\n<!-- /wp:image -->\n</figure>\n<!-- /wp:gallery -->\n",
+            "content": "<!-- wp:paragraph -->\n<p>Diverse projecten voor particulieren opdrachtgevers waarvoor Ron Werkhoven de bouwkundige tekeningen en de aanvraag omgevingsvergunning voor heeft verzorgd.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:gallery {\"linkTo\":\"none\",\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\"><!-- wp:image {\"id\":37,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/aanbouw-jaren-30-woning-1-1024x682.jpg\" alt=\"Diverse projecten\" class=\"wp-image-31\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":38,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/aanbouw-jaren-30-woning-2-1024x682.jpg\" alt=\"Diverse projecten\" class=\"wp-image-32\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":39,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/aanbouw-jaren-30-woning-3-1024x683.jpg\" alt=\"Diverse projecten\" class=\"wp-image-33\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":40,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Soest-jaren-30-woning.jpg\" alt=\"Diverse projecten\" class=\"wp-image-34\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":113,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Abcoude-3.jpg\" alt=\"Diverse projecten\" class=\"wp-image-107\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":41,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/aanbouw-hout-2-1024x682.jpg\" alt=\"Diverse projecten\" class=\"wp-image-35\"/></figure>\n<!-- /wp:image -->\n</figure>\n<!-- /wp:gallery -->\n",
             "excerpt": "",
             "status": "publish",
             "menu_order": 0,
@@ -125,11 +114,11 @@
             "terms": []
         },
         {
-            "old_id": 17,
+            "old_id": 11,
             "type": "project",
             "slug": "polderhuis-abcoude",
             "title": "Herbestemming Gemeentehuis Abcoude",
-            "content": "<!-- wp:paragraph -->\n<p>Het voormalige gemeentehuis van Abcoude is samen met een drietal aangrenzende herenhuizen in oorspronkelijke staat terug gebracht. Het totale object werd gebruikt als gemeentehuis van Abcoude.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>De herenhuizen beschikten niet meer over zelfstandige entrees. Daarnaast waren de stegen tussen de woningen bebouwd tot en met de eerste verdieping zodat alle panden met elkaar in verbinding stonden.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>De huizen zijn weer van elkaar en van het Polderhuis gescheiden en omgebouwd tot karakteristieke herenhuizen.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:gallery {\"linkTo\":\"none\",\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\"><!-- wp:image {\"id\":42,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Polderhuis-1-1024x682.jpg\" alt=\"Herbestemming Gemeentehuis Abcoude\" class=\"wp-image-42\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":43,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Polderhuis-2-1024x683.jpg\" alt=\"Herbestemming Gemeentehuis Abcoude\" class=\"wp-image-43\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":44,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Polderhuis-3-1024x682.jpg\" alt=\"Herbestemming Gemeentehuis Abcoude\" class=\"wp-image-44\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":45,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Abcoude-Polderhuis-bestaande-toestand-1024x684.jpg\" alt=\"Herbestemming Gemeentehuis Abcoude\" class=\"wp-image-45\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":46,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Abcoude-Polderhuis-nieuwe-toestand-1024x684.jpg\" alt=\"Herbestemming Gemeentehuis Abcoude\" class=\"wp-image-46\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":47,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/polderhuis-abcoud-1.jpg\" alt=\"Herbestemming Gemeentehuis Abcoude\" class=\"wp-image-47\"/></figure>\n<!-- /wp:image -->\n</figure>\n<!-- /wp:gallery -->\n",
+            "content": "<!-- wp:paragraph -->\n<p>Het voormalige gemeentehuis van Abcoude is samen met een drietal aangrenzende herenhuizen in oorspronkelijke staat terug gebracht. Het totale object werd gebruikt als gemeentehuis van Abcoude.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>De herenhuizen beschikten niet meer over zelfstandige entrees. Daarnaast waren de stegen tussen de woningen bebouwd tot en met de eerste verdieping zodat alle panden met elkaar in verbinding stonden.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>De huizen zijn weer van elkaar en van het Polderhuis gescheiden en omgebouwd tot karakteristieke herenhuizen.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:gallery {\"linkTo\":\"none\",\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\"><!-- wp:image {\"id\":42,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Polderhuis-1-1024x682.jpg\" alt=\"Herbestemming Gemeentehuis Abcoude\" class=\"wp-image-36\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":43,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Polderhuis-2-1024x683.jpg\" alt=\"Herbestemming Gemeentehuis Abcoude\" class=\"wp-image-37\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":44,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Polderhuis-3-1024x682.jpg\" alt=\"Herbestemming Gemeentehuis Abcoude\" class=\"wp-image-38\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":45,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Abcoude-Polderhuis-bestaande-toestand-1024x684.jpg\" alt=\"Herbestemming Gemeentehuis Abcoude\" class=\"wp-image-39\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":46,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Abcoude-Polderhuis-nieuwe-toestand-1024x684.jpg\" alt=\"Herbestemming Gemeentehuis Abcoude\" class=\"wp-image-40\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":47,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/polderhuis-abcoud-1.jpg\" alt=\"Herbestemming Gemeentehuis Abcoude\" class=\"wp-image-41\"/></figure>\n<!-- /wp:image -->\n</figure>\n<!-- /wp:gallery -->\n",
             "excerpt": "",
             "status": "publish",
             "menu_order": 0,
@@ -141,11 +130,11 @@
             "terms": []
         },
         {
-            "old_id": 18,
+            "old_id": 12,
             "type": "project",
             "slug": "woning-oisterwijk",
             "title": "Verbouw woning Oisterwijk",
-            "content": "<!-- wp:paragraph -->\n<p>De bewoners van deze woning uit de jaren 60 wilden hun huis rigoureus moderniseren. Hun ‘nieuwe’ droomhuis moest vooral licht én ruim ogen. Het resultaat is hier te zien.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>De moderne en luxe open keuken vormt het kloppend hart van de strakke woonkamer, waarin een centrale rol is voor de open haard. De mooie lichtinval is te danken aan de twee verticale ramen. De tuin is echt een verlengstuk van het binnenleven geworden, dankzij de openslaande deuren die in de keuken en woonkamer zijn geplaatst.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Op de eerste verdieping zijn twee grote slaapkamers gecreëerd en is een moderne badkamer geplaatst. Op de bovenste verdieping is een ruime derde slaapkamer. De was- en bergruimte maken het moderne plaatje compleet.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:gallery {\"linkTo\":\"none\",\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\"><!-- wp:image {\"id\":48,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Oisterwijk-3-1024x682.jpg\" alt=\"Verbouw woning Oisterwijk\" class=\"wp-image-48\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":49,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Oisterwijk-1-1024x682.jpg\" alt=\"Verbouw woning Oisterwijk\" class=\"wp-image-49\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":50,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Oisterwijk-2-1024x682.jpg\" alt=\"Verbouw woning Oisterwijk\" class=\"wp-image-50\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":51,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Oisterwijk-4-1024x682.jpg\" alt=\"Verbouw woning Oisterwijk\" class=\"wp-image-51\"/></figure>\n<!-- /wp:image -->\n</figure>\n<!-- /wp:gallery -->\n",
+            "content": "<!-- wp:paragraph -->\n<p>De bewoners van deze woning uit de jaren 60 wilden hun huis rigoureus moderniseren. Hun ‘nieuwe’ droomhuis moest vooral licht én ruim ogen. Het resultaat is hier te zien.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>De moderne en luxe open keuken vormt het kloppend hart van de strakke woonkamer, waarin een centrale rol is voor de open haard. De mooie lichtinval is te danken aan de twee verticale ramen. De tuin is echt een verlengstuk van het binnenleven geworden, dankzij de openslaande deuren die in de keuken en woonkamer zijn geplaatst.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Op de eerste verdieping zijn twee grote slaapkamers gecreëerd en is een moderne badkamer geplaatst. Op de bovenste verdieping is een ruime derde slaapkamer. De was- en bergruimte maken het moderne plaatje compleet.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:gallery {\"linkTo\":\"none\",\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\"><!-- wp:image {\"id\":48,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Oisterwijk-3-1024x682.jpg\" alt=\"Verbouw woning Oisterwijk\" class=\"wp-image-42\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":49,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Oisterwijk-1-1024x682.jpg\" alt=\"Verbouw woning Oisterwijk\" class=\"wp-image-43\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":50,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Oisterwijk-2-1024x682.jpg\" alt=\"Verbouw woning Oisterwijk\" class=\"wp-image-44\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":51,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Oisterwijk-4-1024x682.jpg\" alt=\"Verbouw woning Oisterwijk\" class=\"wp-image-45\"/></figure>\n<!-- /wp:image -->\n</figure>\n<!-- /wp:gallery -->\n",
             "excerpt": "",
             "status": "publish",
             "menu_order": 0,
@@ -157,11 +146,11 @@
             "terms": []
         },
         {
-            "old_id": 19,
+            "old_id": 13,
             "type": "project",
             "slug": "uitbreiding-villa-bilthoven",
             "title": "Uitbouw Villa Bilthoven",
-            "content": "<!-- wp:paragraph -->\n<p>Voor de bewoners van een karakteristieke vrijstaande villa uit 1952 in Voor de bewoners van een karakteristieke vrijstaande villa uit 1952 in Bilthoven heeft Ron Werkhoven een uitbouw ontworpen, de bouwtekeningen en de omgevingsvergunning verzorgd.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Op de begane grond is de woning uitgebreid naar de zijkant en de achterkant met een oppervlakte van ca. 47m². In de uitbouw aan de achterzijde is een ruime tweede woonkamer gerealiseerd met uitzicht op de tuin.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>De uitbouw aan de zijkant wordt als eetkamer gebruikt, welke mooi aansluit aan bestaande keuken. Alle ruimtes lopen zonder deuren in elkaar over.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Door de verbouwing komt er veel licht naar binnen en is het huis een fijne plek om te wonen.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>De uitbreiding is voorzien van rieten dak en deels een plat waarop een dakterras ruim is gemaakt.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:gallery {\"linkTo\":\"none\",\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\"><!-- wp:image {\"id\":52,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Bilthoven-1-1024x682.jpg\" alt=\"Uitbouw Villa Bilthoven\" class=\"wp-image-52\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":53,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Voorgevel-e1577525944795-1024x683.png\" alt=\"Uitbouw Villa Bilthoven\" class=\"wp-image-53\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":54,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Achtergevel-e1577525542712-1024x683.png\" alt=\"Uitbouw Villa Bilthoven\" class=\"wp-image-54\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":55,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Begane-grond-1024x682.jpg\" alt=\"Uitbouw Villa Bilthoven\" class=\"wp-image-55\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":56,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Verdieping-1024x683.jpg\" alt=\"Uitbouw Villa Bilthoven\" class=\"wp-image-56\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":57,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Doorsnede-e1577525419154-1024x683.png\" alt=\"Uitbouw Villa Bilthoven\" class=\"wp-image-57\"/></figure>\n<!-- /wp:image -->\n</figure>\n<!-- /wp:gallery -->\n",
+            "content": "<!-- wp:paragraph -->\n<p>Voor de bewoners van een karakteristieke vrijstaande villa uit 1952 in Voor de bewoners van een karakteristieke vrijstaande villa uit 1952 in Bilthoven heeft Ron Werkhoven een uitbouw ontworpen, de bouwtekeningen en de omgevingsvergunning verzorgd.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Op de begane grond is de woning uitgebreid naar de zijkant en de achterkant met een oppervlakte van ca. 47m². In de uitbouw aan de achterzijde is een ruime tweede woonkamer gerealiseerd met uitzicht op de tuin.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>De uitbouw aan de zijkant wordt als eetkamer gebruikt, welke mooi aansluit aan bestaande keuken. Alle ruimtes lopen zonder deuren in elkaar over.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Door de verbouwing komt er veel licht naar binnen en is het huis een fijne plek om te wonen.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>De uitbreiding is voorzien van rieten dak en deels een plat waarop een dakterras ruim is gemaakt.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:gallery {\"linkTo\":\"none\",\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\"><!-- wp:image {\"id\":52,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Bilthoven-1-1024x682.jpg\" alt=\"Uitbouw Villa Bilthoven\" class=\"wp-image-46\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":53,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Voorgevel-e1577525944795-1024x683.png\" alt=\"Uitbouw Villa Bilthoven\" class=\"wp-image-47\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":54,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Achtergevel-e1577525542712-1024x683.png\" alt=\"Uitbouw Villa Bilthoven\" class=\"wp-image-48\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":55,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Begane-grond-1024x682.jpg\" alt=\"Uitbouw Villa Bilthoven\" class=\"wp-image-49\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":56,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Verdieping-1024x683.jpg\" alt=\"Uitbouw Villa Bilthoven\" class=\"wp-image-50\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":57,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Doorsnede-e1577525419154-1024x683.png\" alt=\"Uitbouw Villa Bilthoven\" class=\"wp-image-51\"/></figure>\n<!-- /wp:image -->\n</figure>\n<!-- /wp:gallery -->\n",
             "excerpt": "",
             "status": "publish",
             "menu_order": 0,
@@ -173,11 +162,11 @@
             "terms": []
         },
         {
-            "old_id": 20,
+            "old_id": 14,
             "type": "project",
             "slug": "herbestemming-abn-amro-bank",
             "title": "Herbestemming ABN AMRO Bank",
-            "content": "<!-- wp:paragraph -->\n<p>Voor de herbestemming van deze voormalige ABN AMRO Bank heeft Ron Werkhoven het tekenwerk verzorgd ten behoeve van de aanvraag omgevingsvergunning.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>De begane grond van dit pand heeft een kantoor- en winkelfunctie gekregen. De voorgevel op de begane grond heeft een nieuwe gevelindeling gekregen om zo een aparte trapopgang voor de appartementen op de 1e en 2e verdieping te realiseren. In de achtergevel zijn openslaande deuren aangebracht die aansluiten op een binnentuin.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>De 1e en 2e verdieping hebben een woonfunctie gekregen. Hier zijn twee luxe afgewerkte 3 driekamerappartementen gerealiseerd voor short stay verhuur. In de achtergevel van het appartement op de 1e verdieping zijn 3 openslaande deuren aangebracht en is een balkon gerealiseerd. Het appartement op de 2e verdieping heeft aan de achterzijde een dakopbouw gekregen met toegang tot een ruim dakterras.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:gallery {\"linkTo\":\"none\",\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\"><!-- wp:image {\"id\":58,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Herbestemming-1024x683.jpg\" alt=\"Herbestemming ABN AMRO Bank\" class=\"wp-image-58\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":59,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/voorgevel-1024x683.jpg\" alt=\"Herbestemming ABN AMRO Bank\" class=\"wp-image-59\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":60,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/achtergevel-e1609410868145-1024x683.jpg\" alt=\"Herbestemming ABN AMRO Bank\" class=\"wp-image-60\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":61,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/begane-grond-1-1024x682.jpg\" alt=\"Herbestemming ABN AMRO Bank\" class=\"wp-image-61\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":62,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/1e-verdieping-1024x683.jpg\" alt=\"Herbestemming ABN AMRO Bank\" class=\"wp-image-62\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":63,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/2e-verdieping-1024x683.jpg\" alt=\"Herbestemming ABN AMRO Bank\" class=\"wp-image-63\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":64,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Hoogstraat-1024x683.jpg\" alt=\"Herbestemming ABN AMRO Bank\" class=\"wp-image-64\"/></figure>\n<!-- /wp:image -->\n</figure>\n<!-- /wp:gallery -->\n",
+            "content": "<!-- wp:paragraph -->\n<p>Voor de herbestemming van deze voormalige ABN AMRO Bank heeft Ron Werkhoven het tekenwerk verzorgd ten behoeve van de aanvraag omgevingsvergunning.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>De begane grond van dit pand heeft een kantoor- en winkelfunctie gekregen. De voorgevel op de begane grond heeft een nieuwe gevelindeling gekregen om zo een aparte trapopgang voor de appartementen op de 1e en 2e verdieping te realiseren. In de achtergevel zijn openslaande deuren aangebracht die aansluiten op een binnentuin.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>De 1e en 2e verdieping hebben een woonfunctie gekregen. Hier zijn twee luxe afgewerkte 3 driekamerappartementen gerealiseerd voor short stay verhuur. In de achtergevel van het appartement op de 1e verdieping zijn 3 openslaande deuren aangebracht en is een balkon gerealiseerd. Het appartement op de 2e verdieping heeft aan de achterzijde een dakopbouw gekregen met toegang tot een ruim dakterras.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:gallery {\"linkTo\":\"none\",\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\"><!-- wp:image {\"id\":58,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Herbestemming-1024x683.jpg\" alt=\"Herbestemming ABN AMRO Bank\" class=\"wp-image-52\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":59,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/voorgevel-1024x683.jpg\" alt=\"Herbestemming ABN AMRO Bank\" class=\"wp-image-53\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":60,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/achtergevel-e1609410868145-1024x683.jpg\" alt=\"Herbestemming ABN AMRO Bank\" class=\"wp-image-54\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":61,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/begane-grond-1-1024x682.jpg\" alt=\"Herbestemming ABN AMRO Bank\" class=\"wp-image-55\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":62,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/1e-verdieping-1024x683.jpg\" alt=\"Herbestemming ABN AMRO Bank\" class=\"wp-image-56\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":63,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/2e-verdieping-1024x683.jpg\" alt=\"Herbestemming ABN AMRO Bank\" class=\"wp-image-57\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":64,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Hoogstraat-1024x683.jpg\" alt=\"Herbestemming ABN AMRO Bank\" class=\"wp-image-58\"/></figure>\n<!-- /wp:image -->\n</figure>\n<!-- /wp:gallery -->\n",
             "excerpt": "",
             "status": "publish",
             "menu_order": 0,
@@ -187,11 +176,11 @@
             "terms": []
         },
         {
-            "old_id": 21,
+            "old_id": 15,
             "type": "project",
             "slug": "verbouw-woning-soesterberg",
             "title": "Verbouw woning Soesterberg",
-            "content": "<!-- wp:paragraph -->\n<p>Voor een particuliere opdrachtgever in Soesterberg heeft Ron Werkhoven de bouwkundige tekeningen gemaakt en aanvraag omgevingsvergunning verzorgd voor de opbouw van een tweede verdieping.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Op de tweede verdieping zijn drie ruime slaapkamers en een badkamer gecreëerd.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:gallery {\"linkTo\":\"none\",\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\"><!-- wp:image {\"id\":65,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Soesterberg-1-1024x683.jpg\" alt=\"Verbouw woning Soesterberg\" class=\"wp-image-65\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":66,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Soesterberg-2-1024x682.jpg\" alt=\"Verbouw woning Soesterberg\" class=\"wp-image-66\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":67,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Soesterberg-3-1024x683.jpg\" alt=\"Verbouw woning Soesterberg\" class=\"wp-image-67\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":68,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Soesterberg-bestaand-1024x683.jpg\" alt=\"Verbouw woning Soesterberg\" class=\"wp-image-68\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":69,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Soesterberg-1024x683.jpg\" alt=\"Verbouw woning Soesterberg\" class=\"wp-image-69\"/></figure>\n<!-- /wp:image -->\n</figure>\n<!-- /wp:gallery -->\n",
+            "content": "<!-- wp:paragraph -->\n<p>Voor een particuliere opdrachtgever in Soesterberg heeft Ron Werkhoven de bouwkundige tekeningen gemaakt en aanvraag omgevingsvergunning verzorgd voor de opbouw van een tweede verdieping.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Op de tweede verdieping zijn drie ruime slaapkamers en een badkamer gecreëerd.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:gallery {\"linkTo\":\"none\",\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\"><!-- wp:image {\"id\":65,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Soesterberg-1-1024x683.jpg\" alt=\"Verbouw woning Soesterberg\" class=\"wp-image-59\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":66,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Soesterberg-2-1024x682.jpg\" alt=\"Verbouw woning Soesterberg\" class=\"wp-image-60\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":67,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Soesterberg-3-1024x683.jpg\" alt=\"Verbouw woning Soesterberg\" class=\"wp-image-61\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":68,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Soesterberg-bestaand-1024x683.jpg\" alt=\"Verbouw woning Soesterberg\" class=\"wp-image-62\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":69,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Soesterberg-1024x683.jpg\" alt=\"Verbouw woning Soesterberg\" class=\"wp-image-63\"/></figure>\n<!-- /wp:image -->\n</figure>\n<!-- /wp:gallery -->\n",
             "excerpt": "",
             "status": "publish",
             "menu_order": 0,
@@ -203,11 +192,11 @@
             "terms": []
         },
         {
-            "old_id": 22,
+            "old_id": 16,
             "type": "project",
             "slug": "nieuwbouw-woning",
             "title": "Nieuwbouw woning",
-            "content": "<!-- wp:paragraph -->\n<p>Nieuwbouw woning met bedrijfsruimte.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:gallery {\"linkTo\":\"none\",\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\"><!-- wp:image {\"id\":70,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/IMG_7863-1024x683.jpg\" alt=\"Nieuwbouw woning\" class=\"wp-image-70\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":71,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/IMG_7865-1024x683.jpg\" alt=\"Nieuwbouw woning\" class=\"wp-image-71\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":72,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/IMG_7864-1-1024x683.jpg\" alt=\"Nieuwbouw woning\" class=\"wp-image-72\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":73,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/IMG_7869-1024x683.jpg\" alt=\"Nieuwbouw woning\" class=\"wp-image-73\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":74,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/IMG_7872-1024x683.jpg\" alt=\"Nieuwbouw woning\" class=\"wp-image-74\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":75,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Abcoude-4-1024x683.jpg\" alt=\"Nieuwbouw woning\" class=\"wp-image-75\"/></figure>\n<!-- /wp:image -->\n</figure>\n<!-- /wp:gallery -->\n",
+            "content": "<!-- wp:paragraph -->\n<p>Nieuwbouw woning met bedrijfsruimte.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:gallery {\"linkTo\":\"none\",\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\"><!-- wp:image {\"id\":70,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/IMG_7863-1024x683.jpg\" alt=\"Nieuwbouw woning\" class=\"wp-image-64\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":71,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/IMG_7865-1024x683.jpg\" alt=\"Nieuwbouw woning\" class=\"wp-image-65\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":72,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/IMG_7864-1-1024x683.jpg\" alt=\"Nieuwbouw woning\" class=\"wp-image-66\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":73,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/IMG_7869-1024x683.jpg\" alt=\"Nieuwbouw woning\" class=\"wp-image-67\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":74,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/IMG_7872-1024x683.jpg\" alt=\"Nieuwbouw woning\" class=\"wp-image-68\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":75,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Abcoude-4-1024x683.jpg\" alt=\"Nieuwbouw woning\" class=\"wp-image-69\"/></figure>\n<!-- /wp:image -->\n</figure>\n<!-- /wp:gallery -->\n",
             "excerpt": "",
             "status": "publish",
             "menu_order": 0,
@@ -217,11 +206,11 @@
             "terms": []
         },
         {
-            "old_id": 23,
+            "old_id": 17,
             "type": "project",
             "slug": "verbouw-steps-winkels",
             "title": "Steps",
-            "content": "<!-- wp:paragraph -->\n<p>In opdracht van Steps BV heeft Ron Werkhoven voor de verbouwing en realisatie van +/- 35 nieuwe winkels het tekenwerk en de omgevingsvergunningen verzorgd.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Uitgaande van het concept van Steps, heeft Ron Werkhoven de tekeningen uitgewerkt van voorlopig tot definitief ontwerp. Om een goede basistekening te hebben zijn de panden eerst door RW ingemeten en gedigitaliseerd. Op basis van de inmeting zijn door RW de onderstaande tekeningen uitgewerkt:</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Onderstaand een aantal winkels waarvoor Ron Werkhoven het tekenwerk en omgevingsvergunningen heeft verzorgt:</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:gallery {\"linkTo\":\"none\",\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\"><!-- wp:image {\"id\":76,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Steps-1-1024x683.jpg\" alt=\"Steps\" class=\"wp-image-76\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":77,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Steps-2-1024x683.jpg\" alt=\"Steps\" class=\"wp-image-77\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":78,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Steps-3-1024x683.jpg\" alt=\"Steps\" class=\"wp-image-78\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":79,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Steps-4-1024x682.jpg\" alt=\"Steps\" class=\"wp-image-79\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":80,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Steps-5-1024x683.jpg\" alt=\"Steps\" class=\"wp-image-80\"/></figure>\n<!-- /wp:image -->\n</figure>\n<!-- /wp:gallery -->\n",
+            "content": "<!-- wp:paragraph -->\n<p>In opdracht van Steps BV heeft Ron Werkhoven voor de verbouwing en realisatie van +/- 35 nieuwe winkels het tekenwerk en de omgevingsvergunningen verzorgd.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Uitgaande van het concept van Steps, heeft Ron Werkhoven de tekeningen uitgewerkt van voorlopig tot definitief ontwerp. Om een goede basistekening te hebben zijn de panden eerst door RW ingemeten en gedigitaliseerd. Op basis van de inmeting zijn door RW de onderstaande tekeningen uitgewerkt:</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Onderstaand een aantal winkels waarvoor Ron Werkhoven het tekenwerk en omgevingsvergunningen heeft verzorgt:</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:gallery {\"linkTo\":\"none\",\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\"><!-- wp:image {\"id\":76,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Steps-1-1024x683.jpg\" alt=\"Steps\" class=\"wp-image-70\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":77,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Steps-2-1024x683.jpg\" alt=\"Steps\" class=\"wp-image-71\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":78,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Steps-3-1024x683.jpg\" alt=\"Steps\" class=\"wp-image-72\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":79,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Steps-4-1024x682.jpg\" alt=\"Steps\" class=\"wp-image-73\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":80,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Steps-5-1024x683.jpg\" alt=\"Steps\" class=\"wp-image-74\"/></figure>\n<!-- /wp:image -->\n</figure>\n<!-- /wp:gallery -->\n",
             "excerpt": "",
             "status": "publish",
             "menu_order": 0,
@@ -231,11 +220,11 @@
             "terms": []
         },
         {
-            "old_id": 24,
+            "old_id": 18,
             "type": "project",
             "slug": "aanbouw-abcoude",
             "title": "Aanbouw Abcoude",
-            "content": "<!-- wp:paragraph -->\n<p>Voor een particuliere opdrachtgever in Abcoude heeft Ron Werkhoven de tekeningen gemaakt voor een aanbouw met een zinken tentdak.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>In de aanbouw welke vanuit de woonkamer toegankelijk is, is een heerlijke lichte slaapkamer gemaakt met openslaande deuren naar het terras gelegen aan het water.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>De slaapkamer is voorzien van een luxe, met betonciré afgewerkte douche/stoomcabine.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:gallery {\"linkTo\":\"none\",\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\"><!-- wp:image {\"id\":81,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Abcoude-1-e1577525027607.jpg\" alt=\"Aanbouw Abcoude\" class=\"wp-image-81\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":82,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Abcoude-2-e1577524999853.jpg\" alt=\"Aanbouw Abcoude\" class=\"wp-image-82\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":83,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Abcoude-3-e1577524557407.jpg\" alt=\"Aanbouw Abcoude\" class=\"wp-image-83\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":84,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Abcoude-4-e1577524686445.jpg\" alt=\"Aanbouw Abcoude\" class=\"wp-image-84\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":85,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Abcoude-6-e1577524758306-1024x683.jpg\" alt=\"Aanbouw Abcoude\" class=\"wp-image-85\"/></figure>\n<!-- /wp:image -->\n</figure>\n<!-- /wp:gallery -->\n",
+            "content": "<!-- wp:paragraph -->\n<p>Voor een particuliere opdrachtgever in Abcoude heeft Ron Werkhoven de tekeningen gemaakt voor een aanbouw met een zinken tentdak.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>In de aanbouw welke vanuit de woonkamer toegankelijk is, is een heerlijke lichte slaapkamer gemaakt met openslaande deuren naar het terras gelegen aan het water.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>De slaapkamer is voorzien van een luxe, met betonciré afgewerkte douche/stoomcabine.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:gallery {\"linkTo\":\"none\",\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\"><!-- wp:image {\"id\":81,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Abcoude-1-e1577525027607.jpg\" alt=\"Aanbouw Abcoude\" class=\"wp-image-75\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":82,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Abcoude-2-e1577524999853.jpg\" alt=\"Aanbouw Abcoude\" class=\"wp-image-76\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":83,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Abcoude-3-e1577524557407.jpg\" alt=\"Aanbouw Abcoude\" class=\"wp-image-77\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":84,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Abcoude-4-e1577524686445.jpg\" alt=\"Aanbouw Abcoude\" class=\"wp-image-78\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":85,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Abcoude-6-e1577524758306-1024x683.jpg\" alt=\"Aanbouw Abcoude\" class=\"wp-image-79\"/></figure>\n<!-- /wp:image -->\n</figure>\n<!-- /wp:gallery -->\n",
             "excerpt": "",
             "status": "publish",
             "menu_order": 0,
@@ -247,11 +236,11 @@
             "terms": []
         },
         {
-            "old_id": 25,
+            "old_id": 19,
             "type": "project",
             "slug": "didi",
             "title": "Didi",
-            "content": "<!-- wp:paragraph -->\n<p>In opdracht van Didi Fashion BV heeft Ron Werkhoven zestien winkels gemoderniseerd. Ron heeft voor diverse winkels een nieuwe inrichting ontworpen en voor alle winkels de werktekeningen gemaakt. Ook heeft hij via het omgevingsloket de benodigde vergunningen aangevraagd m.b.t. gevelwijzigingen, lichtreclame en interne verbouwingen.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>In opdracht van Didi Fashion BV zijn de onderstaande winkels door Ron Werkhoven uitgewerkt:</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:gallery {\"linkTo\":\"none\",\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\"><!-- wp:image {\"id\":86,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Didi-Hoogeveen-1-1024x682.jpg\" alt=\"Didi\" class=\"wp-image-86\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":87,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Didi-Hoogeveen-6-1024x683.jpg\" alt=\"Didi\" class=\"wp-image-87\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":88,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Didi-Hoogeveen-5-1024x683.jpg\" alt=\"Didi\" class=\"wp-image-88\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":89,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Didi-Hoogeveen-4-1024x682.jpg\" alt=\"Didi\" class=\"wp-image-89\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":90,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Didi-Hoogeveen-3-1024x683.jpg\" alt=\"Didi\" class=\"wp-image-90\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":91,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Didi-Hoogeveen-2-1024x683.jpg\" alt=\"Didi\" class=\"wp-image-91\"/></figure>\n<!-- /wp:image -->\n</figure>\n<!-- /wp:gallery -->\n",
+            "content": "<!-- wp:paragraph -->\n<p>In opdracht van Didi Fashion BV heeft Ron Werkhoven zestien winkels gemoderniseerd. Ron heeft voor diverse winkels een nieuwe inrichting ontworpen en voor alle winkels de werktekeningen gemaakt. Ook heeft hij via het omgevingsloket de benodigde vergunningen aangevraagd m.b.t. gevelwijzigingen, lichtreclame en interne verbouwingen.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>In opdracht van Didi Fashion BV zijn de onderstaande winkels door Ron Werkhoven uitgewerkt:</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:gallery {\"linkTo\":\"none\",\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\"><!-- wp:image {\"id\":86,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Didi-Hoogeveen-1-1024x682.jpg\" alt=\"Didi\" class=\"wp-image-80\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":87,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Didi-Hoogeveen-6-1024x683.jpg\" alt=\"Didi\" class=\"wp-image-81\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":88,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Didi-Hoogeveen-5-1024x683.jpg\" alt=\"Didi\" class=\"wp-image-82\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":89,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Didi-Hoogeveen-4-1024x682.jpg\" alt=\"Didi\" class=\"wp-image-83\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":90,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Didi-Hoogeveen-3-1024x683.jpg\" alt=\"Didi\" class=\"wp-image-84\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":91,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Didi-Hoogeveen-2-1024x683.jpg\" alt=\"Didi\" class=\"wp-image-85\"/></figure>\n<!-- /wp:image -->\n</figure>\n<!-- /wp:gallery -->\n",
             "excerpt": "",
             "status": "publish",
             "menu_order": 0,
@@ -261,11 +250,11 @@
             "terms": []
         },
         {
-            "old_id": 26,
+            "old_id": 20,
             "type": "project",
             "slug": "kapsalon",
             "title": "Scissors Hairdesign",
-            "content": "<!-- wp:paragraph -->\n<p>Voor de verbouwing en inrichting van Scissors Hairdesign heeft Ron Werkhoven in opdracht van Franck Retail Projectmanagement de werktekeningen gemaakt. Goede werktekeningen leveren minder oponthoud op tijdens de uitvoering en een grotere nauwkeurigheid qau werk.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:gallery {\"linkTo\":\"none\",\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\"><!-- wp:image {\"id\":92,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Scissors-03.jpg\" alt=\"Scissors Hairdesign\" class=\"wp-image-92\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":93,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Scissors-01.jpg\" alt=\"Scissors Hairdesign\" class=\"wp-image-93\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":94,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Scissors-04.jpg\" alt=\"Scissors Hairdesign\" class=\"wp-image-94\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":95,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Scissors-06.jpg\" alt=\"Scissors Hairdesign\" class=\"wp-image-95\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":96,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Scissors-05.jpg\" alt=\"Scissors Hairdesign\" class=\"wp-image-96\"/></figure>\n<!-- /wp:image -->\n</figure>\n<!-- /wp:gallery -->\n",
+            "content": "<!-- wp:paragraph -->\n<p>Voor de verbouwing en inrichting van Scissors Hairdesign heeft Ron Werkhoven in opdracht van Franck Retail Projectmanagement de werktekeningen gemaakt. Goede werktekeningen leveren minder oponthoud op tijdens de uitvoering en een grotere nauwkeurigheid qau werk.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:gallery {\"linkTo\":\"none\",\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\"><!-- wp:image {\"id\":92,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Scissors-03.jpg\" alt=\"Scissors Hairdesign\" class=\"wp-image-86\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":93,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Scissors-01.jpg\" alt=\"Scissors Hairdesign\" class=\"wp-image-87\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":94,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Scissors-04.jpg\" alt=\"Scissors Hairdesign\" class=\"wp-image-88\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":95,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Scissors-06.jpg\" alt=\"Scissors Hairdesign\" class=\"wp-image-89\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":96,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Scissors-05.jpg\" alt=\"Scissors Hairdesign\" class=\"wp-image-90\"/></figure>\n<!-- /wp:image -->\n</figure>\n<!-- /wp:gallery -->\n",
             "excerpt": "",
             "status": "publish",
             "menu_order": 0,
@@ -275,11 +264,11 @@
             "terms": []
         },
         {
-            "old_id": 27,
+            "old_id": 21,
             "type": "project",
             "slug": "diverse-projecten",
             "title": "Tekeningen diverse Projecten",
-            "content": "<!-- wp:paragraph -->\n<p>Diverse projecten voor particulieren en zakelijke opdrachtgevers waarvoor Ron Werkhoven de bouwkundige tekeningen en de aanvraag omgevingsvergunning voor heeft verzorgd.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:gallery {\"linkTo\":\"none\",\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\"><!-- wp:image {\"id\":97,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Uitbouw-1-edited.jpg\" alt=\"Tekeningen diverse Projecten\" class=\"wp-image-97\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":98,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Uitbouw-2-edited.jpg\" alt=\"Tekeningen diverse Projecten\" class=\"wp-image-98\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":99,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Abcoude-nieuwbouw-1024x684.jpg\" alt=\"Tekeningen diverse Projecten\" class=\"wp-image-99\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":100,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Baambrugge-1024x683.jpg\" alt=\"Tekeningen diverse Projecten\" class=\"wp-image-100\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":101,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Woonboerderij-1024x683.jpg\" alt=\"Tekeningen diverse Projecten\" class=\"wp-image-101\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":102,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Utrecht-winkelpand-1024x682.jpg\" alt=\"Tekeningen diverse Projecten\" class=\"wp-image-102\"/></figure>\n<!-- /wp:image -->\n</figure>\n<!-- /wp:gallery -->\n",
+            "content": "<!-- wp:paragraph -->\n<p>Diverse projecten voor particulieren en zakelijke opdrachtgevers waarvoor Ron Werkhoven de bouwkundige tekeningen en de aanvraag omgevingsvergunning voor heeft verzorgd.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:gallery {\"linkTo\":\"none\",\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\"><!-- wp:image {\"id\":97,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Uitbouw-1-edited.jpg\" alt=\"Tekeningen diverse Projecten\" class=\"wp-image-91\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":98,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Uitbouw-2-edited.jpg\" alt=\"Tekeningen diverse Projecten\" class=\"wp-image-92\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":99,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Abcoude-nieuwbouw-1024x684.jpg\" alt=\"Tekeningen diverse Projecten\" class=\"wp-image-93\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":100,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Baambrugge-1024x683.jpg\" alt=\"Tekeningen diverse Projecten\" class=\"wp-image-94\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":101,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Woonboerderij-1024x683.jpg\" alt=\"Tekeningen diverse Projecten\" class=\"wp-image-95\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":102,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Utrecht-winkelpand-1024x682.jpg\" alt=\"Tekeningen diverse Projecten\" class=\"wp-image-96\"/></figure>\n<!-- /wp:image -->\n</figure>\n<!-- /wp:gallery -->\n",
             "excerpt": "",
             "status": "publish",
             "menu_order": 0,
@@ -289,11 +278,11 @@
             "terms": []
         },
         {
-            "old_id": 28,
+            "old_id": 22,
             "type": "project",
             "slug": "coop",
             "title": "Coop",
-            "content": "<!-- wp:paragraph -->\n<p>Coop is een coöperatie en heeft ruim 300 winkels in heel Nederland. De Coop supermarkten worden geleid door zelfstandig ondernemers of supermarktmanagers. De supermarkten opereren onder de namen Coop, CoopCompact en CoopVandaag.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Ter ondersteuning van de afdeling Bouwbureau verricht Ron Werkhoven diverse tekenwerkzaamheden voor het realiseren van Coop winkels. De werkzaamheden bestaan uit het maken van lay-outs conform de formule van Coop, maatvoeringstekeningen en ontruimingsplannen.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:gallery {\"linkTo\":\"none\",\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\"><!-- wp:image {\"id\":103,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Coop-1-1024x683.jpg\" alt=\"Coop\" class=\"wp-image-103\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":104,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Coop-2-1024x683.jpg\" alt=\"Coop\" class=\"wp-image-104\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":105,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Coop-3-1024x683.jpg\" alt=\"Coop\" class=\"wp-image-105\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":106,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Coop-4-1024x683.jpg\" alt=\"Coop\" class=\"wp-image-106\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":107,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Coop-5-1024x682.jpg\" alt=\"Coop\" class=\"wp-image-107\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":114,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Coop-6-1024x683.jpg\" alt=\"Coop\" class=\"wp-image-114\"/></figure>\n<!-- /wp:image -->\n</figure>\n<!-- /wp:gallery -->\n",
+            "content": "<!-- wp:paragraph -->\n<p>Coop is een coöperatie en heeft ruim 300 winkels in heel Nederland. De Coop supermarkten worden geleid door zelfstandig ondernemers of supermarktmanagers. De supermarkten opereren onder de namen Coop, CoopCompact en CoopVandaag.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Ter ondersteuning van de afdeling Bouwbureau verricht Ron Werkhoven diverse tekenwerkzaamheden voor het realiseren van Coop winkels. De werkzaamheden bestaan uit het maken van lay-outs conform de formule van Coop, maatvoeringstekeningen en ontruimingsplannen.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:gallery {\"linkTo\":\"none\",\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\"><!-- wp:image {\"id\":103,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Coop-1-1024x683.jpg\" alt=\"Coop\" class=\"wp-image-97\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":104,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Coop-2-1024x683.jpg\" alt=\"Coop\" class=\"wp-image-98\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":105,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Coop-3-1024x683.jpg\" alt=\"Coop\" class=\"wp-image-99\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":106,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Coop-4-1024x683.jpg\" alt=\"Coop\" class=\"wp-image-100\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":107,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Coop-5-1024x682.jpg\" alt=\"Coop\" class=\"wp-image-101\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":114,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Coop-6-1024x683.jpg\" alt=\"Coop\" class=\"wp-image-108\"/></figure>\n<!-- /wp:image -->\n</figure>\n<!-- /wp:gallery -->\n",
             "excerpt": "",
             "status": "publish",
             "menu_order": 0,
@@ -303,11 +292,11 @@
             "terms": []
         },
         {
-            "old_id": 29,
+            "old_id": 23,
             "type": "project",
             "slug": "didi-utrecht",
             "title": "Didi Utrecht",
-            "content": "<!-- wp:paragraph -->\n<p>In opdracht van Didi Fashion BV heeft Ron Werkhoven voor ombouw van deze voormalige Forecast winkel het tekenwerk en de omgevingsvergunningen verzorgd.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Uitgaande van het concept van Didi, heeft Ron Werkhoven de tekeningen uitgewerkt van voorlopig tot definitief ontwerp. Om een goede basistekening te hebben is het pand eerst door RW ingemeten en zijn op basis van de inmeting de onderstaande tekeningen uitgewerkt:</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:gallery {\"linkTo\":\"none\",\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\"><!-- wp:image {\"id\":108,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Didi-1-1024x683.jpg\" alt=\"Didi Utrecht\" class=\"wp-image-108\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":109,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Didi-2-1024x683.jpg\" alt=\"Didi Utrecht\" class=\"wp-image-109\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":110,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Didi-3-1024x683.jpg\" alt=\"Didi Utrecht\" class=\"wp-image-110\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":111,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Didi-4-1024x683.jpg\" alt=\"Didi Utrecht\" class=\"wp-image-111\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":112,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Didi-5-1024x683.jpg\" alt=\"Didi Utrecht\" class=\"wp-image-112\"/></figure>\n<!-- /wp:image -->\n</figure>\n<!-- /wp:gallery -->\n",
+            "content": "<!-- wp:paragraph -->\n<p>In opdracht van Didi Fashion BV heeft Ron Werkhoven voor ombouw van deze voormalige Forecast winkel het tekenwerk en de omgevingsvergunningen verzorgd.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Uitgaande van het concept van Didi, heeft Ron Werkhoven de tekeningen uitgewerkt van voorlopig tot definitief ontwerp. Om een goede basistekening te hebben is het pand eerst door RW ingemeten en zijn op basis van de inmeting de onderstaande tekeningen uitgewerkt:</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:gallery {\"linkTo\":\"none\",\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\"><!-- wp:image {\"id\":108,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Didi-1-1024x683.jpg\" alt=\"Didi Utrecht\" class=\"wp-image-102\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":109,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Didi-2-1024x683.jpg\" alt=\"Didi Utrecht\" class=\"wp-image-103\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":110,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Didi-3-1024x683.jpg\" alt=\"Didi Utrecht\" class=\"wp-image-104\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":111,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Didi-4-1024x683.jpg\" alt=\"Didi Utrecht\" class=\"wp-image-105\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":112,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/Didi-5-1024x683.jpg\" alt=\"Didi Utrecht\" class=\"wp-image-106\"/></figure>\n<!-- /wp:image -->\n</figure>\n<!-- /wp:gallery -->\n",
             "excerpt": "",
             "status": "publish",
             "menu_order": 0,
@@ -321,7 +310,7 @@
     ],
     "attachments": [
         {
-            "old_id": 30,
+            "old_id": 24,
             "file": "2024/01/158_1440.jpg",
             "title": "Uitbouw vrijstaande woning — foto 1",
             "slug": "uitbouw-vrijstaande-woning-foto-1",
@@ -377,7 +366,7 @@
             }
         },
         {
-            "old_id": 31,
+            "old_id": 25,
             "file": "2024/01/147_1440.jpg",
             "title": "Uitbouw vrijstaande woning — foto 2",
             "slug": "uitbouw-vrijstaande-woning-foto-2",
@@ -440,7 +429,7 @@
             }
         },
         {
-            "old_id": 32,
+            "old_id": 26,
             "file": "2024/01/157_1440.jpg",
             "title": "Uitbouw vrijstaande woning — foto 3",
             "slug": "uitbouw-vrijstaande-woning-foto-3",
@@ -503,7 +492,7 @@
             }
         },
         {
-            "old_id": 33,
+            "old_id": 27,
             "file": "2024/01/145_1440.jpg",
             "title": "Uitbouw vrijstaande woning — foto 4",
             "slug": "uitbouw-vrijstaande-woning-foto-4",
@@ -566,7 +555,7 @@
             }
         },
         {
-            "old_id": 34,
+            "old_id": 28,
             "file": "2024/01/128_1440.jpg",
             "title": "Uitbouw vrijstaande woning — foto 5",
             "slug": "uitbouw-vrijstaande-woning-foto-5",
@@ -629,7 +618,7 @@
             }
         },
         {
-            "old_id": 35,
+            "old_id": 29,
             "file": "2024/01/127_1440.jpg",
             "title": "Uitbouw vrijstaande woning — foto 6",
             "slug": "uitbouw-vrijstaande-woning-foto-6",
@@ -692,7 +681,7 @@
             }
         },
         {
-            "old_id": 36,
+            "old_id": 30,
             "file": "2024/01/Torenlaan-2.jpg",
             "title": "Uitbouw vrijstaande woning — foto 7",
             "slug": "uitbouw-vrijstaande-woning-foto-7",
@@ -755,7 +744,7 @@
             }
         },
         {
-            "old_id": 37,
+            "old_id": 31,
             "file": "2024/01/aanbouw-jaren-30-woning-1.jpg",
             "title": "Diverse projecten — foto 1",
             "slug": "diverse-projecten-foto-1",
@@ -825,7 +814,7 @@
             }
         },
         {
-            "old_id": 38,
+            "old_id": 32,
             "file": "2024/01/aanbouw-jaren-30-woning-2.jpg",
             "title": "Diverse projecten — foto 2",
             "slug": "diverse-projecten-foto-2",
@@ -895,7 +884,7 @@
             }
         },
         {
-            "old_id": 39,
+            "old_id": 33,
             "file": "2024/01/aanbouw-jaren-30-woning-3.jpg",
             "title": "Diverse projecten — foto 3",
             "slug": "diverse-projecten-foto-3",
@@ -972,7 +961,7 @@
             }
         },
         {
-            "old_id": 40,
+            "old_id": 34,
             "file": "2024/01/Soest-jaren-30-woning.jpg",
             "title": "Diverse projecten — foto 4",
             "slug": "diverse-projecten-foto-4",
@@ -1028,7 +1017,7 @@
             }
         },
         {
-            "old_id": 41,
+            "old_id": 35,
             "file": "2024/01/aanbouw-hout-2.jpg",
             "title": "Diverse projecten — foto 6",
             "slug": "diverse-projecten-foto-6",
@@ -1098,7 +1087,7 @@
             }
         },
         {
-            "old_id": 42,
+            "old_id": 36,
             "file": "2024/01/Polderhuis-1.jpg",
             "title": "Herbestemming Gemeentehuis Abcoude — foto 1",
             "slug": "herbestemming-gemeentehuis-abcoude-foto-1",
@@ -1168,7 +1157,7 @@
             }
         },
         {
-            "old_id": 43,
+            "old_id": 37,
             "file": "2024/01/Polderhuis-2.jpg",
             "title": "Herbestemming Gemeentehuis Abcoude — foto 2",
             "slug": "herbestemming-gemeentehuis-abcoude-foto-2",
@@ -1238,7 +1227,7 @@
             }
         },
         {
-            "old_id": 44,
+            "old_id": 38,
             "file": "2024/01/Polderhuis-3.jpg",
             "title": "Herbestemming Gemeentehuis Abcoude — foto 3",
             "slug": "herbestemming-gemeentehuis-abcoude-foto-3",
@@ -1308,7 +1297,7 @@
             }
         },
         {
-            "old_id": 45,
+            "old_id": 39,
             "file": "2024/01/Abcoude-Polderhuis-bestaande-toestand.jpg",
             "title": "Herbestemming Gemeentehuis Abcoude — foto 4",
             "slug": "herbestemming-gemeentehuis-abcoude-foto-4",
@@ -1378,7 +1367,7 @@
             }
         },
         {
-            "old_id": 46,
+            "old_id": 40,
             "file": "2024/01/Abcoude-Polderhuis-nieuwe-toestand.jpg",
             "title": "Herbestemming Gemeentehuis Abcoude — foto 5",
             "slug": "herbestemming-gemeentehuis-abcoude-foto-5",
@@ -1448,7 +1437,7 @@
             }
         },
         {
-            "old_id": 47,
+            "old_id": 41,
             "file": "2024/01/polderhuis-abcoud-1.jpg",
             "title": "Herbestemming Gemeentehuis Abcoude — foto 6",
             "slug": "herbestemming-gemeentehuis-abcoude-foto-6",
@@ -1497,7 +1486,7 @@
             }
         },
         {
-            "old_id": 48,
+            "old_id": 42,
             "file": "2024/01/Oisterwijk-3.jpg",
             "title": "Verbouw woning Oisterwijk — foto 1",
             "slug": "verbouw-woning-oisterwijk-foto-1",
@@ -1567,7 +1556,7 @@
             }
         },
         {
-            "old_id": 49,
+            "old_id": 43,
             "file": "2024/01/Oisterwijk-1.jpg",
             "title": "Verbouw woning Oisterwijk — foto 2",
             "slug": "verbouw-woning-oisterwijk-foto-2",
@@ -1637,7 +1626,7 @@
             }
         },
         {
-            "old_id": 50,
+            "old_id": 44,
             "file": "2024/01/Oisterwijk-2.jpg",
             "title": "Verbouw woning Oisterwijk — foto 3",
             "slug": "verbouw-woning-oisterwijk-foto-3",
@@ -1707,7 +1696,7 @@
             }
         },
         {
-            "old_id": 51,
+            "old_id": 45,
             "file": "2024/01/Oisterwijk-4.jpg",
             "title": "Verbouw woning Oisterwijk — foto 4",
             "slug": "verbouw-woning-oisterwijk-foto-4",
@@ -1777,7 +1766,7 @@
             }
         },
         {
-            "old_id": 52,
+            "old_id": 46,
             "file": "2024/01/Bilthoven-1.jpg",
             "title": "Uitbouw Villa Bilthoven — foto 1",
             "slug": "uitbouw-villa-bilthoven-foto-1",
@@ -1840,7 +1829,7 @@
             }
         },
         {
-            "old_id": 53,
+            "old_id": 47,
             "file": "2024/01/Voorgevel-e1577525944795.png",
             "title": "Uitbouw Villa Bilthoven — foto 2",
             "slug": "uitbouw-villa-bilthoven-foto-2",
@@ -1903,7 +1892,7 @@
             }
         },
         {
-            "old_id": 54,
+            "old_id": 48,
             "file": "2024/01/Achtergevel-e1577525542712.png",
             "title": "Uitbouw Villa Bilthoven — foto 3",
             "slug": "uitbouw-villa-bilthoven-foto-3",
@@ -1966,7 +1955,7 @@
             }
         },
         {
-            "old_id": 55,
+            "old_id": 49,
             "file": "2024/01/Begane-grond.jpg",
             "title": "Uitbouw Villa Bilthoven — foto 4",
             "slug": "uitbouw-villa-bilthoven-foto-4",
@@ -2029,7 +2018,7 @@
             }
         },
         {
-            "old_id": 56,
+            "old_id": 50,
             "file": "2024/01/Verdieping.jpg",
             "title": "Uitbouw Villa Bilthoven — foto 5",
             "slug": "uitbouw-villa-bilthoven-foto-5",
@@ -2099,7 +2088,7 @@
             }
         },
         {
-            "old_id": 57,
+            "old_id": 51,
             "file": "2024/01/Doorsnede-e1577525419154.png",
             "title": "Uitbouw Villa Bilthoven — foto 6",
             "slug": "uitbouw-villa-bilthoven-foto-6",
@@ -2162,7 +2151,7 @@
             }
         },
         {
-            "old_id": 58,
+            "old_id": 52,
             "file": "2024/01/Herbestemming.jpg",
             "title": "Herbestemming ABN AMRO Bank — foto 1",
             "slug": "herbestemming-abn-amro-bank-foto-1",
@@ -2232,7 +2221,7 @@
             }
         },
         {
-            "old_id": 59,
+            "old_id": 53,
             "file": "2024/01/voorgevel.jpg",
             "title": "Herbestemming ABN AMRO Bank — foto 2",
             "slug": "herbestemming-abn-amro-bank-foto-2",
@@ -2295,7 +2284,7 @@
             }
         },
         {
-            "old_id": 60,
+            "old_id": 54,
             "file": "2024/01/achtergevel-e1609410868145.jpg",
             "title": "Herbestemming ABN AMRO Bank — foto 3",
             "slug": "herbestemming-abn-amro-bank-foto-3",
@@ -2358,7 +2347,7 @@
             }
         },
         {
-            "old_id": 61,
+            "old_id": 55,
             "file": "2024/01/begane-grond-1.jpg",
             "title": "Herbestemming ABN AMRO Bank — foto 4",
             "slug": "herbestemming-abn-amro-bank-foto-4",
@@ -2421,7 +2410,7 @@
             }
         },
         {
-            "old_id": 62,
+            "old_id": 56,
             "file": "2024/01/1e-verdieping.jpg",
             "title": "Herbestemming ABN AMRO Bank — foto 5",
             "slug": "herbestemming-abn-amro-bank-foto-5",
@@ -2484,7 +2473,7 @@
             }
         },
         {
-            "old_id": 63,
+            "old_id": 57,
             "file": "2024/01/2e-verdieping.jpg",
             "title": "Herbestemming ABN AMRO Bank — foto 6",
             "slug": "herbestemming-abn-amro-bank-foto-6",
@@ -2547,7 +2536,7 @@
             }
         },
         {
-            "old_id": 64,
+            "old_id": 58,
             "file": "2024/01/Hoogstraat.jpg",
             "title": "Herbestemming ABN AMRO Bank — foto 7",
             "slug": "herbestemming-abn-amro-bank-foto-7",
@@ -2610,7 +2599,7 @@
             }
         },
         {
-            "old_id": 65,
+            "old_id": 59,
             "file": "2024/01/Soesterberg-1.jpg",
             "title": "Verbouw woning Soesterberg — foto 1",
             "slug": "verbouw-woning-soesterberg-foto-1",
@@ -2680,7 +2669,7 @@
             }
         },
         {
-            "old_id": 66,
+            "old_id": 60,
             "file": "2024/01/Soesterberg-2.jpg",
             "title": "Verbouw woning Soesterberg — foto 2",
             "slug": "verbouw-woning-soesterberg-foto-2",
@@ -2750,7 +2739,7 @@
             }
         },
         {
-            "old_id": 67,
+            "old_id": 61,
             "file": "2024/01/Soesterberg-3.jpg",
             "title": "Verbouw woning Soesterberg — foto 3",
             "slug": "verbouw-woning-soesterberg-foto-3",
@@ -2827,7 +2816,7 @@
             }
         },
         {
-            "old_id": 68,
+            "old_id": 62,
             "file": "2024/01/Soesterberg-bestaand.jpg",
             "title": "Verbouw woning Soesterberg — foto 4",
             "slug": "verbouw-woning-soesterberg-foto-4",
@@ -2897,7 +2886,7 @@
             }
         },
         {
-            "old_id": 69,
+            "old_id": 63,
             "file": "2024/01/Soesterberg.jpg",
             "title": "Verbouw woning Soesterberg — foto 5",
             "slug": "verbouw-woning-soesterberg-foto-5",
@@ -2960,7 +2949,7 @@
             }
         },
         {
-            "old_id": 70,
+            "old_id": 64,
             "file": "2024/01/IMG_7863-scaled.jpg",
             "title": "Nieuwbouw woning — foto 1",
             "slug": "nieuwbouw-woning-foto-1",
@@ -3038,7 +3027,7 @@
             }
         },
         {
-            "old_id": 71,
+            "old_id": 65,
             "file": "2024/01/IMG_7865-scaled.jpg",
             "title": "Nieuwbouw woning — foto 2",
             "slug": "nieuwbouw-woning-foto-2",
@@ -3116,7 +3105,7 @@
             }
         },
         {
-            "old_id": 72,
+            "old_id": 66,
             "file": "2024/01/IMG_7864-1-scaled.jpg",
             "title": "Nieuwbouw woning — foto 3",
             "slug": "nieuwbouw-woning-foto-3",
@@ -3194,7 +3183,7 @@
             }
         },
         {
-            "old_id": 73,
+            "old_id": 67,
             "file": "2024/01/IMG_7869-scaled.jpg",
             "title": "Nieuwbouw woning — foto 4",
             "slug": "nieuwbouw-woning-foto-4",
@@ -3272,7 +3261,7 @@
             }
         },
         {
-            "old_id": 74,
+            "old_id": 68,
             "file": "2024/01/IMG_7872-scaled.jpg",
             "title": "Nieuwbouw woning — foto 5",
             "slug": "nieuwbouw-woning-foto-5",
@@ -3350,7 +3339,7 @@
             }
         },
         {
-            "old_id": 75,
+            "old_id": 69,
             "file": "2024/01/Abcoude-4.jpg",
             "title": "Nieuwbouw woning — foto 6",
             "slug": "nieuwbouw-woning-foto-6",
@@ -3420,7 +3409,7 @@
             }
         },
         {
-            "old_id": 76,
+            "old_id": 70,
             "file": "2024/01/Steps-1.jpg",
             "title": "Steps — foto 1",
             "slug": "steps-foto-1",
@@ -3483,7 +3472,7 @@
             }
         },
         {
-            "old_id": 77,
+            "old_id": 71,
             "file": "2024/01/Steps-2.jpg",
             "title": "Steps — foto 2",
             "slug": "steps-foto-2",
@@ -3546,7 +3535,7 @@
             }
         },
         {
-            "old_id": 78,
+            "old_id": 72,
             "file": "2024/01/Steps-3.jpg",
             "title": "Steps — foto 3",
             "slug": "steps-foto-3",
@@ -3609,7 +3598,7 @@
             }
         },
         {
-            "old_id": 79,
+            "old_id": 73,
             "file": "2024/01/Steps-4.jpg",
             "title": "Steps — foto 4",
             "slug": "steps-foto-4",
@@ -3672,7 +3661,7 @@
             }
         },
         {
-            "old_id": 80,
+            "old_id": 74,
             "file": "2024/01/Steps-5.jpg",
             "title": "Steps — foto 5",
             "slug": "steps-foto-5",
@@ -3735,7 +3724,7 @@
             }
         },
         {
-            "old_id": 81,
+            "old_id": 75,
             "file": "2024/01/Abcoude-1-e1577525027607.jpg",
             "title": "Aanbouw Abcoude — foto 1",
             "slug": "aanbouw-abcoude-foto-1",
@@ -3791,7 +3780,7 @@
             }
         },
         {
-            "old_id": 82,
+            "old_id": 76,
             "file": "2024/01/Abcoude-2-e1577524999853.jpg",
             "title": "Aanbouw Abcoude — foto 2",
             "slug": "aanbouw-abcoude-foto-2",
@@ -3847,7 +3836,7 @@
             }
         },
         {
-            "old_id": 83,
+            "old_id": 77,
             "file": "2024/01/Abcoude-3-e1577524557407.jpg",
             "title": "Aanbouw Abcoude — foto 3",
             "slug": "aanbouw-abcoude-foto-3",
@@ -3903,7 +3892,7 @@
             }
         },
         {
-            "old_id": 84,
+            "old_id": 78,
             "file": "2024/01/Abcoude-4-e1577524686445.jpg",
             "title": "Aanbouw Abcoude — foto 4",
             "slug": "aanbouw-abcoude-foto-4",
@@ -3959,7 +3948,7 @@
             }
         },
         {
-            "old_id": 85,
+            "old_id": 79,
             "file": "2024/01/Abcoude-6-e1577524758306.jpg",
             "title": "Aanbouw Abcoude — foto 5",
             "slug": "aanbouw-abcoude-foto-5",
@@ -4022,7 +4011,7 @@
             }
         },
         {
-            "old_id": 86,
+            "old_id": 80,
             "file": "2024/01/Didi-Hoogeveen-1.jpg",
             "title": "Didi — foto 1",
             "slug": "didi-foto-1",
@@ -4097,7 +4086,7 @@
             }
         },
         {
-            "old_id": 87,
+            "old_id": 81,
             "file": "2024/01/Didi-Hoogeveen-6.jpg",
             "title": "Didi — foto 2",
             "slug": "didi-foto-2",
@@ -4167,7 +4156,7 @@
             }
         },
         {
-            "old_id": 88,
+            "old_id": 82,
             "file": "2024/01/Didi-Hoogeveen-5.jpg",
             "title": "Didi — foto 3",
             "slug": "didi-foto-3",
@@ -4249,7 +4238,7 @@
             }
         },
         {
-            "old_id": 89,
+            "old_id": 83,
             "file": "2024/01/Didi-Hoogeveen-4.jpg",
             "title": "Didi — foto 4",
             "slug": "didi-foto-4",
@@ -4324,7 +4313,7 @@
             }
         },
         {
-            "old_id": 90,
+            "old_id": 84,
             "file": "2024/01/Didi-Hoogeveen-3.jpg",
             "title": "Didi — foto 5",
             "slug": "didi-foto-5",
@@ -4406,7 +4395,7 @@
             }
         },
         {
-            "old_id": 91,
+            "old_id": 85,
             "file": "2024/01/Didi-Hoogeveen-2.jpg",
             "title": "Didi — foto 6",
             "slug": "didi-foto-6",
@@ -4488,7 +4477,7 @@
             }
         },
         {
-            "old_id": 92,
+            "old_id": 86,
             "file": "2024/01/Scissors-03.jpg",
             "title": "Scissors Hairdesign — foto 1",
             "slug": "scissors-hairdesign-foto-1",
@@ -4544,7 +4533,7 @@
             }
         },
         {
-            "old_id": 93,
+            "old_id": 87,
             "file": "2024/01/Scissors-01.jpg",
             "title": "Scissors Hairdesign — foto 2",
             "slug": "scissors-hairdesign-foto-2",
@@ -4600,7 +4589,7 @@
             }
         },
         {
-            "old_id": 94,
+            "old_id": 88,
             "file": "2024/01/Scissors-04.jpg",
             "title": "Scissors Hairdesign — foto 3",
             "slug": "scissors-hairdesign-foto-3",
@@ -4656,7 +4645,7 @@
             }
         },
         {
-            "old_id": 95,
+            "old_id": 89,
             "file": "2024/01/Scissors-06.jpg",
             "title": "Scissors Hairdesign — foto 4",
             "slug": "scissors-hairdesign-foto-4",
@@ -4712,7 +4701,7 @@
             }
         },
         {
-            "old_id": 96,
+            "old_id": 90,
             "file": "2024/01/Scissors-05.jpg",
             "title": "Scissors Hairdesign — foto 5",
             "slug": "scissors-hairdesign-foto-5",
@@ -4768,7 +4757,7 @@
             }
         },
         {
-            "old_id": 97,
+            "old_id": 91,
             "file": "2024/01/Uitbouw-1-edited.jpg",
             "title": "Tekeningen diverse Projecten — foto 1",
             "slug": "tekeningen-diverse-projecten-foto-1",
@@ -4824,7 +4813,7 @@
             }
         },
         {
-            "old_id": 98,
+            "old_id": 92,
             "file": "2024/01/Uitbouw-2-edited.jpg",
             "title": "Tekeningen diverse Projecten — foto 2",
             "slug": "tekeningen-diverse-projecten-foto-2",
@@ -4880,7 +4869,7 @@
             }
         },
         {
-            "old_id": 99,
+            "old_id": 93,
             "file": "2024/01/Abcoude-nieuwbouw.jpg",
             "title": "Tekeningen diverse Projecten — foto 3",
             "slug": "tekeningen-diverse-projecten-foto-3",
@@ -4950,7 +4939,7 @@
             }
         },
         {
-            "old_id": 100,
+            "old_id": 94,
             "file": "2024/01/Baambrugge.jpg",
             "title": "Tekeningen diverse Projecten — foto 4",
             "slug": "tekeningen-diverse-projecten-foto-4",
@@ -5020,7 +5009,7 @@
             }
         },
         {
-            "old_id": 101,
+            "old_id": 95,
             "file": "2024/01/Woonboerderij.jpg",
             "title": "Tekeningen diverse Projecten — foto 5",
             "slug": "tekeningen-diverse-projecten-foto-5",
@@ -5090,7 +5079,7 @@
             }
         },
         {
-            "old_id": 102,
+            "old_id": 96,
             "file": "2024/01/Utrecht-winkelpand.jpg",
             "title": "Tekeningen diverse Projecten — foto 6",
             "slug": "tekeningen-diverse-projecten-foto-6",
@@ -5153,7 +5142,7 @@
             }
         },
         {
-            "old_id": 103,
+            "old_id": 97,
             "file": "2024/01/Coop-1.jpg",
             "title": "Coop — foto 1",
             "slug": "coop-foto-1",
@@ -5223,7 +5212,7 @@
             }
         },
         {
-            "old_id": 104,
+            "old_id": 98,
             "file": "2024/01/Coop-2.jpg",
             "title": "Coop — foto 2",
             "slug": "coop-foto-2",
@@ -5293,7 +5282,7 @@
             }
         },
         {
-            "old_id": 105,
+            "old_id": 99,
             "file": "2024/01/Coop-3.jpg",
             "title": "Coop — foto 3",
             "slug": "coop-foto-3",
@@ -5363,7 +5352,7 @@
             }
         },
         {
-            "old_id": 106,
+            "old_id": 100,
             "file": "2024/01/Coop-4.jpg",
             "title": "Coop — foto 4",
             "slug": "coop-foto-4",
@@ -5433,7 +5422,7 @@
             }
         },
         {
-            "old_id": 107,
+            "old_id": 101,
             "file": "2024/01/Coop-5.jpg",
             "title": "Coop — foto 5",
             "slug": "coop-foto-5",
@@ -5503,7 +5492,7 @@
             }
         },
         {
-            "old_id": 108,
+            "old_id": 102,
             "file": "2024/01/Didi-1.jpg",
             "title": "Didi Utrecht — foto 1",
             "slug": "didi-utrecht-foto-1",
@@ -5573,7 +5562,7 @@
             }
         },
         {
-            "old_id": 109,
+            "old_id": 103,
             "file": "2024/01/Didi-2.jpg",
             "title": "Didi Utrecht — foto 2",
             "slug": "didi-utrecht-foto-2",
@@ -5643,7 +5632,7 @@
             }
         },
         {
-            "old_id": 110,
+            "old_id": 104,
             "file": "2024/01/Didi-3.jpg",
             "title": "Didi Utrecht — foto 3",
             "slug": "didi-utrecht-foto-3",
@@ -5713,7 +5702,7 @@
             }
         },
         {
-            "old_id": 111,
+            "old_id": 105,
             "file": "2024/01/Didi-4.jpg",
             "title": "Didi Utrecht — foto 4",
             "slug": "didi-utrecht-foto-4",
@@ -5783,7 +5772,7 @@
             }
         },
         {
-            "old_id": 112,
+            "old_id": 106,
             "file": "2024/01/Didi-5.jpg",
             "title": "Didi Utrecht — foto 5",
             "slug": "didi-utrecht-foto-5",
@@ -5853,7 +5842,7 @@
             }
         },
         {
-            "old_id": 113,
+            "old_id": 107,
             "file": "2024/01/Abcoude-3.jpg",
             "title": "Diverse projecten — foto 5",
             "slug": "diverse-projecten-foto-5",
@@ -5909,7 +5898,7 @@
             }
         },
         {
-            "old_id": 114,
+            "old_id": 108,
             "file": "2024/01/Coop-6.jpg",
             "title": "Coop — foto 6",
             "slug": "coop-foto-6",

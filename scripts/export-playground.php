@@ -53,6 +53,17 @@ $export['site'] = array(
 	'page_on_front_slug'  => $front_page ? get_post_field( 'post_name', $front_page ) : '',
 	'language'            => get_option( 'WPLANG' ),
 	'theme'               => get_stylesheet(),
+	// Homepage carousel (inc/hero-carousel.php), by file: IDs change on import.
+	'hero_slide_files'    => array_values(
+		array_filter(
+			array_map(
+				static function ( $id ) {
+					return get_post_meta( (int) $id, '_wp_attached_file', true );
+				},
+				(array) get_option( 'rwerkhoven_hero_slides', array() )
+			)
+		)
+	),
 );
 
 /* ------------------------------------------------------------------- posts */
