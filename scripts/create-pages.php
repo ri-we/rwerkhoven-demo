@@ -424,184 +424,116 @@ $bureau_content = <<<'HTML'
 HTML;
 
 $privacy_content = <<<'HTML'
-<!-- wp:paragraph {"textColor":"muted","fontSize":"small"} -->
-<p class="has-muted-color has-text-color has-small-font-size">Laatst bijgewerkt: 23 oktober 2026</p>
-<!-- /wp:paragraph -->
-
 <!-- wp:paragraph {"fontSize":"large"} -->
-<p class="has-large-font-size">Ron Werkhoven Bouwkundig Ontwerp- en Tekenbureau gaat zorgvuldig om met uw persoonsgegevens. In deze privacyverklaring leest u welke gegevens worden verwerkt, waarom, hoe lang ze worden bewaard en welke rechten u heeft.</p>
+<p class="has-large-font-size">Ron Werkhoven Bouwkundig Ontwerp- en Tekenbureau, gevestigd aan Hofstedering 65, 3763 XB Soest, is verantwoordelijk voor de verwerking van persoonsgegevens zoals weergegeven in deze privacyverklaring.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"fontSize":"large"} -->
-<h2 class="wp-block-heading has-large-font-size">Wie is verantwoordelijk?</h2>
+<h2 class="wp-block-heading has-large-font-size">Contactgegevens</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Ron Werkhoven Bouwkundig Ontwerp- en Tekenbureau, Hofstedering 65, 3763 XB Soest, is verantwoordelijk voor de verwerking van persoonsgegevens zoals beschreven in deze verklaring. Voor vragen over privacy kunt u terecht bij Ron Werkhoven: <a href="mailto:info@rwerkhoven.nl">info@rwerkhoven.nl</a> of <a href="tel:0613645507">06-13645507</a>.</p>
+<p><a href="https://rwerkhoven.nl">https://rwerkhoven.nl</a><br>Hofstedering 65, 3763 XB Soest<br><a href="tel:0613645507">06-13645507</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Ron Werkhoven is het aanspreekpunt voor privacyvragen bij Ron Werkhoven Bouwkundig Ontwerp- en Tekenbureau. Hij is te bereiken via <a href="mailto:info@rwerkhoven.nl">info@rwerkhoven.nl</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"fontSize":"large"} -->
-<h2 class="wp-block-heading has-large-font-size">Welke persoonsgegevens worden verwerkt?</h2>
+<h2 class="wp-block-heading has-large-font-size">Persoonsgegevens die wij verwerken</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Persoonsgegevens worden verwerkt doordat u contact opneemt, een offerte aanvraagt of een opdracht geeft. Het gaat om gegevens die u zelf verstrekt:</p>
+<p>Ron Werkhoven Bouwkundig Ontwerp- en Tekenbureau verwerkt uw persoonsgegevens doordat u gebruikmaakt van onze diensten en/of omdat u deze zelf aan ons verstrekt. Hieronder vindt u een overzicht van de persoonsgegevens die wij verwerken:</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 <ul class="wp-block-list">
 	<!-- wp:list-item -->
-	<li>naam;</li>
+	<li>Voor- en achternaam</li>
 	<!-- /wp:list-item -->
 
 	<!-- wp:list-item -->
-	<li>e-mailadres en telefoonnummer;</li>
+	<li>Telefoonnummer</li>
 	<!-- /wp:list-item -->
 
 	<!-- wp:list-item -->
-	<li>uw adres en het adres van het project;</li>
-	<!-- /wp:list-item -->
-
-	<!-- wp:list-item -->
-	<li>gegevens over uw woning of pand die nodig zijn voor ontwerp, tekenwerk of vergunningaanvraag, zoals bestaande tekeningen, maten en foto's;</li>
-	<!-- /wp:list-item -->
-
-	<!-- wp:list-item -->
-	<li>bij zakelijke opdrachtgevers: bedrijfsnaam, contactpersoon en KvK-nummer;</li>
-	<!-- /wp:list-item -->
-
-	<!-- wp:list-item -->
-	<li>factuur- en betalingsgegevens;</li>
-	<!-- /wp:list-item -->
-
-	<!-- wp:list-item -->
-	<li>de inhoud van uw berichten, per e-mail, telefoon of het contactformulier.</li>
-	<!-- /wp:list-item -->
-</ul>
-<!-- /wp:list -->
-
-<!-- wp:paragraph -->
-<p>Er worden geen bijzondere persoonsgegevens verwerkt, zoals gegevens over gezondheid, en ook geen burgerservicenummer (BSN). De dienstverlening is niet gericht op personen jonger dan 16 jaar. Denkt u dat er zonder toestemming van een ouder of voogd gegevens van een minderjarige zijn verwerkt? Neem dan contact op; de gegevens worden dan verwijderd.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":2,"fontSize":"large"} -->
-<h2 class="wp-block-heading has-large-font-size">Waarvoor en op welke grondslag?</h2>
-<!-- /wp:heading -->
-
-<!-- wp:list -->
-<ul class="wp-block-list">
-	<!-- wp:list-item -->
-	<li><strong>Uw vraag of offerteaanvraag beantwoorden.</strong> Grondslag: uw verzoek, voorafgaand aan een mogelijke overeenkomst.</li>
-	<!-- /wp:list-item -->
-
-	<!-- wp:list-item -->
-	<li><strong>De opdracht uitvoeren:</strong> ontwerp, tekenwerk, inmeten en het voorbereiden en indienen van vergunningaanvragen en meldingen. Grondslag: uitvoering van de overeenkomst.</li>
-	<!-- /wp:list-item -->
-
-	<!-- wp:list-item -->
-	<li><strong>Facturen versturen en de administratie bijhouden.</strong> Grondslag: wettelijke verplichting, waaronder de fiscale bewaarplicht.</li>
-	<!-- /wp:list-item -->
-</ul>
-<!-- /wp:list -->
-
-<!-- wp:paragraph -->
-<p>Er worden geen besluiten genomen die uitsluitend gebaseerd zijn op geautomatiseerde verwerking, zoals profilering.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":2,"fontSize":"large"} -->
-<h2 class="wp-block-heading has-large-font-size">Hoe lang worden gegevens bewaard?</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Gegevens worden niet langer bewaard dan nodig is voor het doel waarvoor ze zijn verzameld:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul class="wp-block-list">
-	<!-- wp:list-item -->
-	<li><strong>Vragen en offerteaanvragen</strong> die niet tot een opdracht leiden: tot één jaar na het laatste contact.</li>
-	<!-- /wp:list-item -->
-
-	<!-- wp:list-item -->
-	<li><strong>Projectdossiers</strong> (tekeningen en correspondentie): tot zeven jaar na afronding van de opdracht, zodat vervolgvragen over het ontwerp of de vergunning beantwoord kunnen worden.</li>
-	<!-- /wp:list-item -->
-
-	<!-- wp:list-item -->
-	<li><strong>Facturen en administratie:</strong> zeven jaar, op grond van de wettelijke bewaarplicht.</li>
+	<li>E-mailadres</li>
 	<!-- /wp:list-item -->
 </ul>
 <!-- /wp:list -->
 
 <!-- wp:heading {"level":2,"fontSize":"large"} -->
-<h2 class="wp-block-heading has-large-font-size">Met wie worden gegevens gedeeld?</h2>
+<h2 class="wp-block-heading has-large-font-size">Bijzondere en/of gevoelige persoonsgegevens die wij verwerken</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Uw gegevens worden niet verkocht. Ze worden alleen gedeeld als dat nodig is voor de uitvoering van de opdracht of om aan een wettelijke verplichting te voldoen:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul class="wp-block-list">
-	<!-- wp:list-item -->
-	<li>met de gemeente of een ander bevoegd gezag, bij het indienen van een aanvraag of melding via het Omgevingsloket;</li>
-	<!-- /wp:list-item -->
-
-	<!-- wp:list-item -->
-	<li>met externe adviseurs, zoals een constructeur of energieadviseur, als hun inbreng voor uw project nodig is en na overleg met u;</li>
-	<!-- /wp:list-item -->
-
-	<!-- wp:list-item -->
-	<li>met dienstverleners die het bureau ondersteunen, zoals de hosting van de website en e-mail en de boekhouding. Zij verwerken de gegevens alleen in opdracht en volgens afspraken in een verwerkersovereenkomst.</li>
-	<!-- /wp:list-item -->
-</ul>
-<!-- /wp:list -->
-
-<!-- wp:heading {"level":2,"fontSize":"large"} -->
-<h2 class="wp-block-heading has-large-font-size">Website, cookies en contactformulier</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Deze website gebruikt geen cookies, geen analyse- of advertentiediensten en geen andere trackingtechnieken. Lettertypen en afbeeldingen worden vanaf de eigen server geladen, zodat bij een bezoek geen gegevens naar andere partijen gaan.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Wat u via het contactformulier verstuurt, gaat per e-mail naar <a href="mailto:info@rwerkhoven.nl">info@rwerkhoven.nl</a> en wordt niet op de website opgeslagen. Zoals bij elke website kan de hostingpartij technische gegevens, zoals uw IP-adres, korte tijd in serverlogboeken bewaren om storingen en misbruik te kunnen onderzoeken.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>De website bevat links naar LinkedIn en Google. Als u die volgt, gelden de privacyregels van die partijen.</p>
+<p>Onze website en/of dienst heeft niet de intentie gegevens te verzamelen over websitebezoekers die jonger zijn dan 16 jaar, tenzij ze toestemming hebben van ouders of voogd. We kunnen echter niet controleren of een bezoeker ouder dan 16 is. Wij raden ouders dan ook aan betrokken te zijn bij de online activiteiten van hun kinderen, om zo te voorkomen dat er gegevens over kinderen verzameld worden zonder ouderlijke toestemming. Als u ervan overtuigd bent dat wij zonder die toestemming persoonlijke gegevens hebben verzameld over een minderjarige, neem dan contact met ons op via <a href="mailto:info@rwerkhoven.nl">info@rwerkhoven.nl</a>, dan verwijderen wij deze informatie.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"fontSize":"large"} -->
-<h2 class="wp-block-heading has-large-font-size">Uw rechten</h2>
+<h2 class="wp-block-heading has-large-font-size">Met welk doel en op basis van welke grondslag wij persoonsgegevens verwerken</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>U heeft het recht om uw persoonsgegevens in te zien, te laten corrigeren of te laten verwijderen. Ook kunt u vragen de verwerking te beperken, bezwaar maken tegen de verwerking, een gegeven toestemming intrekken en vragen om uw gegevens in een computerbestand aan u of een andere organisatie over te dragen.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Stuur uw verzoek naar <a href="mailto:info@rwerkhoven.nl">info@rwerkhoven.nl</a>. U ontvangt binnen een maand een reactie. Als het nodig is om vast te stellen dat het verzoek echt van u komt, wordt u om aanvullende informatie gevraagd; stuur niet uit uzelf een kopie van uw identiteitsbewijs mee.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Bent u niet tevreden over de manier waarop met uw gegevens wordt omgegaan? Laat het weten, dan wordt er samen naar een oplossing gezocht. U heeft daarnaast altijd het recht een klacht in te dienen bij de <a href="https://www.autoriteitpersoonsgegevens.nl/een-tip-of-klacht-indienen-bij-de-ap" rel="noopener" target="_blank">Autoriteit Persoonsgegevens</a>.</p>
+<p>Ron Werkhoven Bouwkundig Ontwerp- en Tekenbureau verwerkt uw persoonsgegevens om u te kunnen bellen of e-mailen indien dit nodig is om onze dienstverlening uit te kunnen voeren. De grondslag hiervoor is de uitvoering van de overeenkomst met u, of uw verzoek om contact voorafgaand aan een overeenkomst.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"fontSize":"large"} -->
-<h2 class="wp-block-heading has-large-font-size">Beveiliging</h2>
+<h2 class="wp-block-heading has-large-font-size">Geautomatiseerde besluitvorming</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Er worden passende technische en organisatorische maatregelen genomen om misbruik, verlies, onbevoegde toegang, ongewenste openbaarmaking en ongeoorloofde wijziging van uw gegevens te voorkomen. De website gebruikt een beveiligde verbinding (https). Heeft u de indruk dat uw gegevens niet goed beveiligd zijn of dat er sprake is van misbruik? Neem dan direct contact op via <a href="mailto:info@rwerkhoven.nl">info@rwerkhoven.nl</a>.</p>
+<p>Ron Werkhoven Bouwkundig Ontwerp- en Tekenbureau neemt geen besluiten op basis van geautomatiseerde verwerkingen over zaken die (aanzienlijke) gevolgen kunnen hebben voor personen. Het gaat hier om besluiten die worden genomen door computerprogramma's of -systemen, zonder dat daar een mens tussen zit.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"fontSize":"large"} -->
-<h2 class="wp-block-heading has-large-font-size">Wijzigingen</h2>
+<h2 class="wp-block-heading has-large-font-size">Hoe lang we persoonsgegevens bewaren</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Deze privacyverklaring kan worden aangepast, bijvoorbeeld als de dienstverlening of de wet verandert. De datum bovenaan laat zien wanneer de verklaring voor het laatst is bijgewerkt.</p>
+<p>Ron Werkhoven Bouwkundig Ontwerp- en Tekenbureau bewaart uw persoonsgegevens niet langer dan strikt nodig is om de doelen te realiseren waarvoor uw gegevens worden verzameld.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2,"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Delen van persoonsgegevens met derden</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Ron Werkhoven Bouwkundig Ontwerp- en Tekenbureau verstrekt uw gegevens uitsluitend aan derden als dit nodig is voor de uitvoering van onze overeenkomst met u of om te voldoen aan een wettelijke verplichting.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2,"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Cookies, of vergelijkbare technieken, die wij gebruiken</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Ron Werkhoven Bouwkundig Ontwerp- en Tekenbureau gebruikt geen cookies of vergelijkbare technieken.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2,"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Gegevens inzien, aanpassen of verwijderen</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>U heeft het recht om uw persoonsgegevens in te zien, te corrigeren of te verwijderen. Daarnaast heeft u het recht om uw eventuele toestemming voor de gegevensverwerking in te trekken of bezwaar te maken tegen de verwerking van uw persoonsgegevens door Ron Werkhoven Bouwkundig Ontwerp- en Tekenbureau en heeft u het recht op gegevensoverdraagbaarheid. Dat betekent dat u bij ons een verzoek kunt indienen om de persoonsgegevens die wij van u hebben in een computerbestand naar u of een andere, door u genoemde organisatie te sturen.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>U kunt een verzoek tot inzage, correctie, verwijdering of gegevensoverdracht van uw persoonsgegevens, of een verzoek tot intrekking van uw toestemming of bezwaar tegen de verwerking van uw persoonsgegevens, sturen naar <a href="mailto:info@rwerkhoven.nl">info@rwerkhoven.nl</a>. Om er zeker van te zijn dat het verzoek tot inzage door u is gedaan, vragen wij u een kopie van uw identiteitsbewijs met het verzoek mee te sturen. Maak in deze kopie uw pasfoto, MRZ (machine readable zone, de strook met nummers onderaan het paspoort), paspoortnummer en burgerservicenummer (BSN) zwart. Dit ter bescherming van uw privacy. We reageren zo snel mogelijk, maar binnen vier weken, op uw verzoek.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Ron Werkhoven Bouwkundig Ontwerp- en Tekenbureau wil u er tevens op wijzen dat u de mogelijkheid heeft om een klacht in te dienen bij de nationale toezichthouder, de <a href="https://www.autoriteitpersoonsgegevens.nl/een-tip-of-klacht-indienen-bij-de-ap" rel="noopener" target="_blank">Autoriteit Persoonsgegevens</a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2,"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Hoe wij persoonsgegevens beveiligen</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Ron Werkhoven Bouwkundig Ontwerp- en Tekenbureau neemt de bescherming van uw gegevens serieus en neemt passende maatregelen om misbruik, verlies, onbevoegde toegang, ongewenste openbaarmaking en ongeoorloofde wijziging tegen te gaan. Als u de indruk heeft dat uw gegevens niet goed beveiligd zijn of er aanwijzingen zijn van misbruik, neem dan contact op via <a href="mailto:info@rwerkhoven.nl">info@rwerkhoven.nl</a>.</p>
 <!-- /wp:paragraph -->
 HTML;
 
