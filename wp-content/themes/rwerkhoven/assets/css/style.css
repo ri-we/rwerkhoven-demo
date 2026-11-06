@@ -389,12 +389,12 @@ html {
 	scroll-margin-top: var(--wp--preset--spacing--40);
 }
 
-/* Lead-in above a service list ("Onder andere voor:") */
-.rwerkhoven-service-section > p.rwerkhoven-list-label {
+/* Lead-in above a list ("Onder andere voor:", "Particulieren") */
+p.rwerkhoven-list-label {
 	margin-bottom: 0.25rem;
 }
 
-.rwerkhoven-service-section > p.rwerkhoven-list-label + .wp-block-list {
+p.rwerkhoven-list-label + .wp-block-list {
 	margin-top: 0;
 }
 

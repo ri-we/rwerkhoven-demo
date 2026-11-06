@@ -1,6 +1,6 @@
 <?php
 /**
- * Creates (or updates) the site's pages: Contact, Bedankt, Diensten, Het bureau
+ * Creates (or updates) the site's pages: Contact, Bedankt, Diensten, Over Ron Werkhoven
  * and Privacy - including per-page SEO meta (rwerkhoven_seo_title /
  * rwerkhoven_seo_description, see inc/seo.php).
  *
@@ -135,8 +135,7 @@ function rwerkhoven_paragraph_block( $text, $label = false ) {
 /**
  * The six services, in the order of patterns/service-list.php. The key is the
  * section anchor the home page's service list links to (/diensten/#anchor).
- * Text supplied by the owner (2026-10-23), supplemented with details from the
- * service descriptions on the original rwerkhoven.nl.
+ * Text as supplied by the owner in "Ik zou.docx" (2026-11-06).
  */
 $services = array(
 	'bouwkundig-ontwerp'     => array(
@@ -150,18 +149,17 @@ $services = array(
 	'bouwkundige-tekeningen' => array(
 		'Bouwkundige tekeningen',
 		array(
-			rwerkhoven_paragraph_block( 'Duidelijke en nauwkeurige tekeningen vormen de basis van ieder bouwproject. Ze zijn geschikt voor de vergunningaanvraag, de uitvoering en de technische uitwerking.' ),
+			rwerkhoven_paragraph_block( 'Duidelijke en nauwkeurige tekeningen vormen de basis van ieder bouwproject. Geschikt voor vergunningaanvragen, uitvoering en technische uitwerking.' ),
 			rwerkhoven_paragraph_block( 'Mogelijkheden:', true ),
-			rwerkhoven_list_block( array( 'Vergunningstekeningen', 'Werk- en bestektekeningen', 'Splitsingstekeningen', 'Ontruimingsplattegronden en vluchtplannen', 'Inmeten en digitaliseren van bestaande gebouwen' ) ),
-			rwerkhoven_paragraph_block( 'Zijn er alleen oude, papieren tekeningen van een gebouw? Die worden digitaal nagetekend, zodat ze weer bruikbaar zijn voor een verbouwing of aanvraag.' ),
+			rwerkhoven_list_block( array( 'Vergunningstekeningen', 'Werk- en bestektekeningen', 'Splitsingstekeningen', 'Inmeten en digitaliseren van bestaande gebouwen' ) ),
 		),
 	),
 	'verbouwing-renovatie'   => array(
 		'Verbouwing &amp; renovatie',
 		array(
-			rwerkhoven_paragraph_block( 'Van een nieuwe indeling tot een complete renovatie. Het hele traject wordt verzorgd, van de opname van de bestaande situatie tot de technische uitwerking.' ),
+			rwerkhoven_paragraph_block( 'Van een nieuwe indeling tot een complete renovatie. Het gehele traject wordt verzorgd, van opname van de bestaande situatie tot de technische uitwerking.' ),
 			rwerkhoven_paragraph_block( 'Werkwijze:', true ),
-			rwerkhoven_list_block( array( 'Opnemen van de bestaande situatie', 'Ontwerp uitwerken', 'Technische tekeningen opstellen', 'Vergunning aanvragen, indien nodig' ), true ),
+			rwerkhoven_list_block( array( 'Opnemen bestaande situatie', 'Ontwerp uitwerken', 'Technische tekeningen opstellen', 'Vergunning aanvragen indien nodig' ) ),
 		),
 	),
 	'aanbouw-uitbouw'        => array(
@@ -170,7 +168,7 @@ $services = array(
 			rwerkhoven_paragraph_block( 'Meer ruimte zonder te verhuizen. Van dakkapel en erker tot een complete aanbouw of uitbouw.' ),
 			rwerkhoven_paragraph_block( 'Voorbeelden:', true ),
 			rwerkhoven_list_block( array( 'Aanbouw', 'Uitbouw', 'Dakkapel', 'Garage', 'Carport', 'Erker' ) ),
-			rwerkhoven_paragraph_block( 'Vooraf wordt beoordeeld of er een vergunning nodig is en welke mogelijkheden er zijn.' ),
+			rwerkhoven_paragraph_block( 'Vooraf wordt beoordeeld of een vergunning nodig is en welke mogelijkheden er zijn.' ),
 		),
 	),
 	'omgevingsvergunning'    => array(
@@ -179,7 +177,6 @@ $services = array(
 			rwerkhoven_paragraph_block( 'Geen zorgen over procedures en regelgeving. De complete vergunningaanvraag wordt verzorgd, inclusief tekenwerk, benodigde documenten en indiening via het Omgevingsloket.' ),
 			rwerkhoven_paragraph_block( 'Begeleiding bij:', true ),
 			rwerkhoven_list_block( array( 'Vergunningaanvragen', 'Vooroverleg met gemeenten', 'Brandveiligheidsaanvragen', 'Gebruiksmeldingen', 'Afstemming met adviseurs' ) ),
-			rwerkhoven_paragraph_block( 'Voor constructie- en energieprestatieberekeningen wordt samengewerkt met vaste externe adviseurs. Hun offertes worden voor u opgevraagd, zodat u ook daarvoor één aanspreekpunt houdt.' ),
 		),
 	),
 	'bedrijfspanden'         => array(
@@ -188,7 +185,6 @@ $services = array(
 			rwerkhoven_paragraph_block( 'Voor winkels, kantoren, horeca en bedrijfsruimten. Praktische oplossingen waarbij snelheid, continuïteit en regelgeving centraal staan.' ),
 			rwerkhoven_paragraph_block( 'Diensten voor bedrijven:', true ),
 			rwerkhoven_list_block( array( 'Verbouwingen en herindelingen', 'Herbestemmingen', 'Vergunningaanvragen', 'Gevelreclame', 'Brandveiligheidsdocumentatie', 'Inmeten en digitaliseren' ) ),
-			rwerkhoven_paragraph_block( 'Voorbeelden staan bij de <a href="/projecten/">projecten</a>: van winkelketens tot de herbestemming van een bankgebouw.' ),
 		),
 	),
 );
@@ -244,37 +240,113 @@ HTML;
 
 $bureau_content = <<<'HTML'
 <!-- wp:paragraph {"fontSize":"large"} -->
-<p class="has-large-font-size">Achter het bureau staat één man: Ron Werkhoven. Sinds 2010 verzorgt hij vanuit Soest bouwkundig ontwerp, tekenwerk en vergunningaanvragen - voor particulieren die willen verbouwen én voor aannemers, vastgoedbeheerders en architectenbureaus die op zijn tekenwerk bouwen.</p>
+<p class="has-large-font-size">Achter het bureau staat Ron Werkhoven. Sinds 2010 help ik particulieren en zakelijke opdrachtgevers met bouwkundig ontwerp, tekenwerk en vergunningaanvragen. Van een eenvoudige aanbouw tot een complete verbouwing of herontwikkeling van een bedrijfspand: ieder project begint met goed luisteren, meedenken en een plan dat uitvoerbaar is.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"fontSize":"large"} -->
-<h2 class="wp-block-heading has-large-font-size">Eén aanspreekpunt, van schets tot oplevering</h2>
+<h2 class="wp-block-heading has-large-font-size">Eén aanspreekpunt van begin tot eind</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Bij veel bouwtrajecten raken opdrachtgevers verstrikt tussen ontwerper, tekenaar, adviseurs en gemeente. Hier niet: u heeft van begin tot eind met dezelfde persoon te maken. Dat betekent korte lijnen, geen informatie die tussen partijen verloren gaat, en iemand die het hele plan kent - van het eerste schetsje tot het laatste detail op de werktekening.</p>
+<p>Een bouwproject is vaak ingewikkeld genoeg. Daarom vindt u bij mij geen verschillende contactpersonen voor ontwerp, tekenwerk en vergunningen. U heeft tijdens het hele traject met één persoon te maken.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Dat zorgt voor korte lijnen, heldere communicatie en een efficiënt proces. Ik ken het project van het eerste gesprek tot de laatste tekening en kan daardoor snel schakelen wanneer er vragen of wijzigingen zijn.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"fontSize":"large"} -->
-<h2 class="wp-block-heading has-large-font-size">Creatief, snel en betrouwbaar</h2>
+<h2 class="wp-block-heading has-large-font-size">Praktisch, duidelijk en betrouwbaar</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>De werkzaamheden worden in nauw overleg met u uitgevoerd en afgestemd op uw wensen. De dienstverlening kenmerkt zich door creativiteit, snelheid en betrouwbaarheid: afspraken worden nagekomen en tekenwerk wordt op tijd geleverd.</p>
+<p>Ik geloof dat een goed ontwerp niet alleen mooi moet zijn, maar ook technisch haalbaar, betaalbaar en passend binnen de regels. Daarom zoek ik altijd naar oplossingen die werken in de praktijk.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":2,"fontSize":"large"} -->
-<h2 class="wp-block-heading has-large-font-size">Voor wie</h2>
-<!-- /wp:heading -->
+<!-- wp:paragraph {"className":"rwerkhoven-list-label"} -->
+<p class="rwerkhoven-list-label">Opdrachtgevers waarderen vooral:</p>
+<!-- /wp:paragraph -->
 
-<!-- wp:list {"className":"rwerkhoven-plain-list"} -->
-<ul class="wp-block-list rwerkhoven-plain-list">
+<!-- wp:list -->
+<ul class="wp-block-list">
 	<!-- wp:list-item -->
-	<li>Particulieren - aanbouw, uitbouw, dakkapel, complete woningverbouwing of nieuwbouw</li>
+	<li>Persoonlijke begeleiding</li>
 	<!-- /wp:list-item -->
 
 	<!-- wp:list-item -->
-	<li>Zakelijke opdrachtgevers - aannemers, vastgoedbeheerders, winkelketens en architecten- en adviesbureaus die technisch tekenwerk uitbesteden</li>
+	<li>Korte communicatielijnen</li>
+	<!-- /wp:list-item -->
+
+	<!-- wp:list-item -->
+	<li>Creatieve en praktische oplossingen</li>
+	<!-- /wp:list-item -->
+
+	<!-- wp:list-item -->
+	<li>Duidelijke afspraken</li>
+	<!-- /wp:list-item -->
+
+	<!-- wp:list-item -->
+	<li>Snelle en betrouwbare levering van tekenwerk</li>
+	<!-- /wp:list-item -->
+
+	<!-- wp:list-item -->
+	<li>Kennis van vergunningen en regelgeving</li>
+	<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {"level":2,"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Voor wie ik werk</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"rwerkhoven-list-label"} -->
+<p class="rwerkhoven-list-label">Particulieren</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list">
+	<!-- wp:list-item -->
+	<li>Aanbouwen en uitbouwen</li>
+	<!-- /wp:list-item -->
+
+	<!-- wp:list-item -->
+	<li>Dakkapellen</li>
+	<!-- /wp:list-item -->
+
+	<!-- wp:list-item -->
+	<li>Woningverbouwingen</li>
+	<!-- /wp:list-item -->
+
+	<!-- wp:list-item -->
+	<li>Nieuwbouwplannen</li>
+	<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph {"className":"rwerkhoven-list-label"} -->
+<p class="rwerkhoven-list-label">Zakelijke opdrachtgevers</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list">
+	<!-- wp:list-item -->
+	<li>Aannemers</li>
+	<!-- /wp:list-item -->
+
+	<!-- wp:list-item -->
+	<li>Vastgoedbeheerders</li>
+	<!-- /wp:list-item -->
+
+	<!-- wp:list-item -->
+	<li>Winkelketens</li>
+	<!-- /wp:list-item -->
+
+	<!-- wp:list-item -->
+	<li>Architecten- en adviesbureaus</li>
+	<!-- /wp:list-item -->
+
+	<!-- wp:list-item -->
+	<li>Horeca en bedrijfspanden</li>
 	<!-- /wp:list-item -->
 </ul>
 <!-- /wp:list -->
@@ -332,7 +404,7 @@ $bureau_content = <<<'HTML'
 <!-- /wp:quote -->
 
 <!-- wp:paragraph -->
-<p>Meer ervaringen leest u bij de <a href="https://www.linkedin.com/in/ron-werkhoven-2594881a" rel="noopener" target="_blank">aanbevelingen op LinkedIn</a> en de <a href="https://g.page/r/Cf3-IzqPxu_8EAc" rel="noopener" target="_blank">reviews op Google</a>.</p>
+<p>Meer ervaringen leest u op <a href="https://www.linkedin.com/in/ron-werkhoven-2594881a" rel="noopener" target="_blank">LinkedIn</a> en in de <a href="https://g.page/r/Cf3-IzqPxu_8EAc" rel="noopener" target="_blank">Google Reviews</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"openInNewTab":true,"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
@@ -341,6 +413,14 @@ $bureau_content = <<<'HTML'
 	<!-- wp:social-link {"url":"https://g.page/r/Cf3-IzqPxu_8EAc","service":"google","label":"Reviews op Google"} /-->
 </ul>
 <!-- /wp:social-links -->
+
+<!-- wp:heading {"level":2,"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Kennismaken?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Heeft u plannen voor een verbouwing, uitbreiding of nieuw project? Ik denk graag met u mee. <a href="/contact/">Neem gerust contact op</a> voor een vrijblijvende kennismaking of offerte.</p>
+<!-- /wp:paragraph -->
 HTML;
 
 $privacy_content = <<<'HTML'
@@ -549,10 +629,10 @@ $pages = array(
 		'seo_d'    => 'Bouwkundig ontwerp, bouwtekeningen en omgevingsvergunningen - voor particulieren en bedrijven in Soest en regio Utrecht. Eén aanspreekpunt, van schets tot realisatie.',
 	),
 	'het-bureau'                     => array(
-		'title'    => 'Het bureau',
+		'title'    => 'Over Ron Werkhoven',
 		'content'  => $bureau_content,
-		'cta'      => true,
-		'seo_t'    => 'Het bureau: één aanspreekpunt voor uw bouwplan | Ron Werkhoven',
+		'cta'      => false,
+		'seo_t'    => 'Over Ron Werkhoven: één aanspreekpunt voor uw bouwplan',
 		'seo_d'    => 'Ron Werkhoven Bouwkundig Ontwerp- en Tekenbureau, sinds 2010 in Soest. Creatief, snel en betrouwbaar - met één aanspreekpunt van schets tot oplevering.',
 	),
 	'privacy'                        => array(
