@@ -7,8 +7,9 @@
  *
  * Renames the main file and every generated size on disk, updates the
  * attachment metadata, and rewrites the image URLs and alt attributes in all
- * post content. Images whose name already starts with their project's base
- * name are left alone, so the script can run again safely.
+ * post content. Only images in 2024/01 (imported from the old site) whose
+ * name does not yet start with their project's base are renamed, so the
+ * script can run again safely.
  *
  * Run inside the wpcli container:
  *   docker compose cp scripts/rename-media.php wpcli:/tmp/rename-media.php
@@ -96,8 +97,10 @@ foreach ( $bases as $slug => $base ) {
 		$ext      = strtolower( pathinfo( $old_main, PATHINFO_EXTENSION ) );
 		$old_stem = pathinfo( $old_main, PATHINFO_FILENAME );
 
-		if ( 0 === strpos( $old_stem, $base ) ) {
-			continue; // Already descriptive.
+		// Only the images imported from the old site (2024/01) need new names;
+		// later uploads were named descriptively when they were added.
+		if ( 0 === strpos( $old_stem, $base ) || '2024/01' !== $dir ) {
+			continue;
 		}
 
 		// Strip WordPress' "-scaled" and "-e<timestamp>" edit suffixes before matching.

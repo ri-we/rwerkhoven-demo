@@ -1,5 +1,5 @@
 {
-    "generated": "2026-11-06T15:10:08+00:00",
+    "generated": "2026-11-08T13:45:54+00:00",
     "site": {
         "home_url": "http://localhost:8080",
         "blogname": "Ron Werkhoven Bouwkundig Ontwerp- en Tekenbureau",
@@ -104,7 +104,7 @@
             "type": "project",
             "slug": "diverse-projecten-2",
             "title": "Diverse projecten",
-            "content": "<!-- wp:gallery {\"linkTo\":\"none\",\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\"><!-- wp:image {\"id\":37,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/aanbouw-woning-diverse-projecten-1-1024x682.jpg\" alt=\"Diverse projecten, foto 1\" class=\"wp-image-31\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":38,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/aanbouw-woning-diverse-projecten-2-1024x682.jpg\" alt=\"Diverse projecten, foto 2\" class=\"wp-image-32\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":39,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/aanbouw-woning-diverse-projecten-3-1024x683.jpg\" alt=\"Diverse projecten, foto 3\" class=\"wp-image-33\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":40,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/aanbouw-woning-diverse-projecten-4.jpg\" alt=\"Diverse projecten, foto 4\" class=\"wp-image-34\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":113,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/aanbouw-woning-diverse-projecten-6.jpg\" alt=\"Diverse projecten, foto 6\" class=\"wp-image-107\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":41,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/aanbouw-woning-diverse-projecten-5-1024x682.jpg\" alt=\"Diverse projecten, foto 5\" class=\"wp-image-35\"/></figure>\n<!-- /wp:image -->\n</figure>\n<!-- /wp:gallery -->\n\n<!-- wp:paragraph -->\n<p>Diverse projecten voor particulieren opdrachtgevers waarvoor Ron Werkhoven de bouwkundige tekeningen en de aanvraag omgevingsvergunning voor heeft verzorgd.</p>\n<!-- /wp:paragraph -->\n",
+            "content": "<!-- wp:gallery {\"linkTo\":\"none\",\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\"><!-- wp:image {\"id\":37,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/aanbouw-woning-diverse-projecten-1-1024x682.jpg\" alt=\"Diverse projecten, foto 1\" class=\"wp-image-31\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":38,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/aanbouw-woning-diverse-projecten-2-1024x682.jpg\" alt=\"Diverse projecten, foto 2\" class=\"wp-image-32\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":39,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/aanbouw-woning-diverse-projecten-3-1024x683.jpg\" alt=\"Diverse projecten, foto 3\" class=\"wp-image-33\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":40,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/aanbouw-woning-diverse-projecten-4.jpg\" alt=\"Diverse projecten, foto 4\" class=\"wp-image-34\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":113,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/aanbouw-woning-diverse-projecten-6.jpg\" alt=\"Diverse projecten, foto 6\" class=\"wp-image-107\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":41,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2024/01/aanbouw-woning-diverse-projecten-5-1024x682.jpg\" alt=\"Diverse projecten, foto 5\" class=\"wp-image-35\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":134,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2026/10/nieuwbouw-bedrijfshal-1-1024x683.jpg\" alt=\"Nieuwbouw bedrijfshal met donkere gevelbeplating en gemetselde plint\" class=\"wp-image-134\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":135,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2026/10/nieuwbouw-bedrijfshal-2-1024x683.jpg\" alt=\"Zijgevel van de nieuwe bedrijfshal\" class=\"wp-image-135\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":136,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2026/10/nieuwbouw-bedrijfshal-interieur-1024x683.jpg\" alt=\"Interieur van de nieuwe bedrijfshal met stalen spanten\" class=\"wp-image-136\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":137,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2026/10/woning-soest-uitbouw-1024x683.jpg\" alt=\"Woning in Soest met uitbouw aan de achtergevel\" class=\"wp-image-137\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":138,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2026/10/woning-utrecht-interieur-1-1024x682.jpg\" alt=\"Interieur van een verbouwde woning in Utrecht\" class=\"wp-image-138\"/></figure>\n<!-- /wp:image -->\n<!-- wp:image {\"id\":139,\"sizeSlug\":\"large\",\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"http://localhost:8080/wp-content/uploads/2026/10/woning-utrecht-interieur-2-1024x682.jpg\" alt=\"Woonkeuken met tuindeuren in een woning in Utrecht\" class=\"wp-image-139\"/></figure>\n<!-- /wp:image -->\n</figure>\n<!-- /wp:gallery -->\n\n<!-- wp:paragraph -->\n<p>Diverse projecten voor particuliere en zakelijke opdrachtgevers, waarvoor Ron Werkhoven de bouwkundige tekeningen en de aanvraag omgevingsvergunning heeft verzorgd.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Een van deze projecten is een nieuwe bedrijfshal. Ron Werkhoven verzorgde hiervoor het bouwkundig tekenwerk, van ontwerp tot vergunning. Het resultaat is een ruime, moderne en functionele bedrijfsruimte met een hoogwaardige uitstraling.</p>\n<!-- /wp:paragraph -->\n",
             "excerpt": "",
             "status": "publish",
             "menu_order": 0,
@@ -6308,6 +6308,384 @@
                         "height": 512,
                         "mime-type": "image/jpeg",
                         "filesize": 104536
+                    }
+                },
+                "image_meta": {
+                    "aperture": "0",
+                    "credit": "",
+                    "camera": "",
+                    "caption": "",
+                    "created_timestamp": "0",
+                    "copyright": "",
+                    "focal_length": "0",
+                    "iso": "0",
+                    "shutter_speed": "0",
+                    "title": "",
+                    "orientation": "0",
+                    "keywords": [],
+                    "alt": ""
+                }
+            }
+        },
+        {
+            "old_id": 134,
+            "file": "2026/10/nieuwbouw-bedrijfshal-1.jpg",
+            "title": "Nieuwbouw bedrijfshal met donkere gevelbeplating en gemetselde plint",
+            "slug": "nieuwbouw-bedrijfshal-met-donkere-gevelbeplating-en-gemetselde-plint",
+            "caption": "",
+            "description": "",
+            "mime": "image/jpeg",
+            "alt": "Nieuwbouw bedrijfshal met donkere gevelbeplating en gemetselde plint",
+            "parent_slug": "diverse-projecten-2",
+            "source_url": "",
+            "metadata": {
+                "width": 1200,
+                "height": 800,
+                "file": "2026/10/nieuwbouw-bedrijfshal-1.jpg",
+                "filesize": 154880,
+                "sizes": {
+                    "medium": {
+                        "file": "nieuwbouw-bedrijfshal-1-300x200.jpg",
+                        "width": 300,
+                        "height": 200,
+                        "mime-type": "image/jpeg",
+                        "filesize": 12178
+                    },
+                    "large": {
+                        "file": "nieuwbouw-bedrijfshal-1-1024x683.jpg",
+                        "width": 1024,
+                        "height": 683,
+                        "mime-type": "image/jpeg",
+                        "filesize": 103891
+                    },
+                    "thumbnail": {
+                        "file": "nieuwbouw-bedrijfshal-1-150x150.jpg",
+                        "width": 150,
+                        "height": 150,
+                        "mime-type": "image/jpeg",
+                        "filesize": 5163
+                    },
+                    "medium_large": {
+                        "file": "nieuwbouw-bedrijfshal-1-768x512.jpg",
+                        "width": 768,
+                        "height": 512,
+                        "mime-type": "image/jpeg",
+                        "filesize": 61639
+                    }
+                },
+                "image_meta": {
+                    "aperture": "0",
+                    "credit": "",
+                    "camera": "",
+                    "caption": "",
+                    "created_timestamp": "0",
+                    "copyright": "",
+                    "focal_length": "0",
+                    "iso": "0",
+                    "shutter_speed": "0",
+                    "title": "",
+                    "orientation": "0",
+                    "keywords": [],
+                    "alt": ""
+                }
+            }
+        },
+        {
+            "old_id": 135,
+            "file": "2026/10/nieuwbouw-bedrijfshal-2.jpg",
+            "title": "Zijgevel van de nieuwe bedrijfshal",
+            "slug": "zijgevel-van-de-nieuwe-bedrijfshal",
+            "caption": "",
+            "description": "",
+            "mime": "image/jpeg",
+            "alt": "Zijgevel van de nieuwe bedrijfshal",
+            "parent_slug": "diverse-projecten-2",
+            "source_url": "",
+            "metadata": {
+                "width": 1200,
+                "height": 800,
+                "file": "2026/10/nieuwbouw-bedrijfshal-2.jpg",
+                "filesize": 210702,
+                "sizes": {
+                    "medium": {
+                        "file": "nieuwbouw-bedrijfshal-2-300x200.jpg",
+                        "width": 300,
+                        "height": 200,
+                        "mime-type": "image/jpeg",
+                        "filesize": 13912
+                    },
+                    "large": {
+                        "file": "nieuwbouw-bedrijfshal-2-1024x683.jpg",
+                        "width": 1024,
+                        "height": 683,
+                        "mime-type": "image/jpeg",
+                        "filesize": 136662
+                    },
+                    "thumbnail": {
+                        "file": "nieuwbouw-bedrijfshal-2-150x150.jpg",
+                        "width": 150,
+                        "height": 150,
+                        "mime-type": "image/jpeg",
+                        "filesize": 5128
+                    },
+                    "medium_large": {
+                        "file": "nieuwbouw-bedrijfshal-2-768x512.jpg",
+                        "width": 768,
+                        "height": 512,
+                        "mime-type": "image/jpeg",
+                        "filesize": 79028
+                    }
+                },
+                "image_meta": {
+                    "aperture": "0",
+                    "credit": "",
+                    "camera": "",
+                    "caption": "",
+                    "created_timestamp": "0",
+                    "copyright": "",
+                    "focal_length": "0",
+                    "iso": "0",
+                    "shutter_speed": "0",
+                    "title": "",
+                    "orientation": "0",
+                    "keywords": [],
+                    "alt": ""
+                }
+            }
+        },
+        {
+            "old_id": 136,
+            "file": "2026/10/nieuwbouw-bedrijfshal-interieur.jpg",
+            "title": "Interieur van de nieuwe bedrijfshal met stalen spanten",
+            "slug": "interieur-van-de-nieuwe-bedrijfshal-met-stalen-spanten",
+            "caption": "",
+            "description": "",
+            "mime": "image/jpeg",
+            "alt": "Interieur van de nieuwe bedrijfshal met stalen spanten",
+            "parent_slug": "diverse-projecten-2",
+            "source_url": "",
+            "metadata": {
+                "width": 1200,
+                "height": 800,
+                "file": "2026/10/nieuwbouw-bedrijfshal-interieur.jpg",
+                "filesize": 179012,
+                "sizes": {
+                    "medium": {
+                        "file": "nieuwbouw-bedrijfshal-interieur-300x200.jpg",
+                        "width": 300,
+                        "height": 200,
+                        "mime-type": "image/jpeg",
+                        "filesize": 17046
+                    },
+                    "large": {
+                        "file": "nieuwbouw-bedrijfshal-interieur-1024x683.jpg",
+                        "width": 1024,
+                        "height": 683,
+                        "mime-type": "image/jpeg",
+                        "filesize": 123998
+                    },
+                    "thumbnail": {
+                        "file": "nieuwbouw-bedrijfshal-interieur-150x150.jpg",
+                        "width": 150,
+                        "height": 150,
+                        "mime-type": "image/jpeg",
+                        "filesize": 7585
+                    },
+                    "medium_large": {
+                        "file": "nieuwbouw-bedrijfshal-interieur-768x512.jpg",
+                        "width": 768,
+                        "height": 512,
+                        "mime-type": "image/jpeg",
+                        "filesize": 77105
+                    }
+                },
+                "image_meta": {
+                    "aperture": "0",
+                    "credit": "",
+                    "camera": "",
+                    "caption": "",
+                    "created_timestamp": "0",
+                    "copyright": "",
+                    "focal_length": "0",
+                    "iso": "0",
+                    "shutter_speed": "0",
+                    "title": "",
+                    "orientation": "0",
+                    "keywords": [],
+                    "alt": ""
+                }
+            }
+        },
+        {
+            "old_id": 137,
+            "file": "2026/10/woning-soest-uitbouw.jpg",
+            "title": "Woning in Soest met uitbouw aan de achtergevel",
+            "slug": "woning-in-soest-met-uitbouw-aan-de-achtergevel",
+            "caption": "",
+            "description": "",
+            "mime": "image/jpeg",
+            "alt": "Woning in Soest met uitbouw aan de achtergevel",
+            "parent_slug": "diverse-projecten-2",
+            "source_url": "",
+            "metadata": {
+                "width": 1200,
+                "height": 800,
+                "file": "2026/10/woning-soest-uitbouw.jpg",
+                "filesize": 196756,
+                "sizes": {
+                    "medium": {
+                        "file": "woning-soest-uitbouw-300x200.jpg",
+                        "width": 300,
+                        "height": 200,
+                        "mime-type": "image/jpeg",
+                        "filesize": 20361
+                    },
+                    "large": {
+                        "file": "woning-soest-uitbouw-1024x683.jpg",
+                        "width": 1024,
+                        "height": 683,
+                        "mime-type": "image/jpeg",
+                        "filesize": 149293
+                    },
+                    "thumbnail": {
+                        "file": "woning-soest-uitbouw-150x150.jpg",
+                        "width": 150,
+                        "height": 150,
+                        "mime-type": "image/jpeg",
+                        "filesize": 8158
+                    },
+                    "medium_large": {
+                        "file": "woning-soest-uitbouw-768x512.jpg",
+                        "width": 768,
+                        "height": 512,
+                        "mime-type": "image/jpeg",
+                        "filesize": 97225
+                    }
+                },
+                "image_meta": {
+                    "aperture": "0",
+                    "credit": "",
+                    "camera": "",
+                    "caption": "",
+                    "created_timestamp": "0",
+                    "copyright": "",
+                    "focal_length": "0",
+                    "iso": "0",
+                    "shutter_speed": "0",
+                    "title": "",
+                    "orientation": "0",
+                    "keywords": [],
+                    "alt": ""
+                }
+            }
+        },
+        {
+            "old_id": 138,
+            "file": "2026/10/woning-utrecht-interieur-1.jpg",
+            "title": "Interieur van een verbouwde woning in Utrecht",
+            "slug": "interieur-van-een-verbouwde-woning-in-utrecht",
+            "caption": "",
+            "description": "",
+            "mime": "image/jpeg",
+            "alt": "Interieur van een verbouwde woning in Utrecht",
+            "parent_slug": "diverse-projecten-2",
+            "source_url": "",
+            "metadata": {
+                "width": 1200,
+                "height": 799,
+                "file": "2026/10/woning-utrecht-interieur-1.jpg",
+                "filesize": 63565,
+                "sizes": {
+                    "medium": {
+                        "file": "woning-utrecht-interieur-1-300x200.jpg",
+                        "width": 300,
+                        "height": 200,
+                        "mime-type": "image/jpeg",
+                        "filesize": 7497
+                    },
+                    "large": {
+                        "file": "woning-utrecht-interieur-1-1024x682.jpg",
+                        "width": 1024,
+                        "height": 682,
+                        "mime-type": "image/jpeg",
+                        "filesize": 48529
+                    },
+                    "thumbnail": {
+                        "file": "woning-utrecht-interieur-1-150x150.jpg",
+                        "width": 150,
+                        "height": 150,
+                        "mime-type": "image/jpeg",
+                        "filesize": 3998
+                    },
+                    "medium_large": {
+                        "file": "woning-utrecht-interieur-1-768x511.jpg",
+                        "width": 768,
+                        "height": 511,
+                        "mime-type": "image/jpeg",
+                        "filesize": 31060
+                    }
+                },
+                "image_meta": {
+                    "aperture": "0",
+                    "credit": "",
+                    "camera": "",
+                    "caption": "",
+                    "created_timestamp": "0",
+                    "copyright": "",
+                    "focal_length": "0",
+                    "iso": "0",
+                    "shutter_speed": "0",
+                    "title": "",
+                    "orientation": "0",
+                    "keywords": [],
+                    "alt": ""
+                }
+            }
+        },
+        {
+            "old_id": 139,
+            "file": "2026/10/woning-utrecht-interieur-2.jpg",
+            "title": "Woonkeuken met tuindeuren in een woning in Utrecht",
+            "slug": "woonkeuken-met-tuindeuren-in-een-woning-in-utrecht",
+            "caption": "",
+            "description": "",
+            "mime": "image/jpeg",
+            "alt": "Woonkeuken met tuindeuren in een woning in Utrecht",
+            "parent_slug": "diverse-projecten-2",
+            "source_url": "",
+            "metadata": {
+                "width": 1200,
+                "height": 799,
+                "file": "2026/10/woning-utrecht-interieur-2.jpg",
+                "filesize": 85317,
+                "sizes": {
+                    "medium": {
+                        "file": "woning-utrecht-interieur-2-300x200.jpg",
+                        "width": 300,
+                        "height": 200,
+                        "mime-type": "image/jpeg",
+                        "filesize": 9378
+                    },
+                    "large": {
+                        "file": "woning-utrecht-interieur-2-1024x682.jpg",
+                        "width": 1024,
+                        "height": 682,
+                        "mime-type": "image/jpeg",
+                        "filesize": 64111
+                    },
+                    "thumbnail": {
+                        "file": "woning-utrecht-interieur-2-150x150.jpg",
+                        "width": 150,
+                        "height": 150,
+                        "mime-type": "image/jpeg",
+                        "filesize": 4368
+                    },
+                    "medium_large": {
+                        "file": "woning-utrecht-interieur-2-768x511.jpg",
+                        "width": 768,
+                        "height": 511,
+                        "mime-type": "image/jpeg",
+                        "filesize": 40374
                     }
                 },
                 "image_meta": {
