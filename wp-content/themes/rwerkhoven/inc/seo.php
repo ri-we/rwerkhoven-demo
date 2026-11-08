@@ -8,7 +8,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-const RWERKHOVEN_HOME_DESCRIPTION = 'Bouwkundig ontwerp- en tekenbureau in Soest: ontwerp, bouwtekeningen en omgevingsvergunningen voor particulieren en bedrijven. Eén aanspreekpunt, vrijblijvende offerte.';
+const RWERKHOVEN_HOME_DESCRIPTION = 'Bouwkundig ontwerp- en tekenbureau in Soest: ontwerp, bouwtekeningen en omgevingsvergunningen voor particulieren en bedrijven. Vraag een offerte aan.';
 
 add_action(
 	'init',
@@ -44,11 +44,23 @@ add_filter(
 			return 'Bouwkundig Ontwerp- en Tekenbureau Soest | Ron Werkhoven';
 		}
 
+		if ( is_post_type_archive( 'project' ) ) {
+			return 'Projecten: verbouw, aanbouw en herbestemming | Ron Werkhoven';
+		}
+
 		if ( is_singular() ) {
 			$custom = get_post_meta( get_queried_object_id(), 'rwerkhoven_seo_title', true );
 			if ( $custom ) {
 				return $custom;
 			}
+		}
+
+		// Projects: say what Ron did, when it still fits the ~60 characters
+		// search results show.
+		if ( is_singular( 'project' ) ) {
+			$name = wp_strip_all_tags( get_the_title( get_queried_object_id() ) );
+			$long = $name . ' | Bouwtekeningen Ron Werkhoven';
+			return mb_strlen( $long ) <= 60 ? $long : $name . ' | Ron Werkhoven';
 		}
 
 		return $title;
@@ -66,7 +78,7 @@ add_action(
 		if ( is_front_page() ) {
 			$description = RWERKHOVEN_HOME_DESCRIPTION;
 		} elseif ( is_post_type_archive( 'project' ) ) {
-			$description = 'Gerealiseerde projecten van Ron Werkhoven: aanbouwen, verbouwingen en nieuwbouw voor particulieren, en winkels, herbestemmingen en bedrijfsruimten voor zakelijke opdrachtgevers.';
+			$description = 'Projecten van Ron Werkhoven: aanbouwen, verbouwingen en nieuwbouw voor particulieren, en winkels, herbestemmingen en bedrijfspanden voor bedrijven.';
 		} elseif ( is_singular() ) {
 			$description = get_post_meta( get_queried_object_id(), 'rwerkhoven_seo_description', true );
 

@@ -3,15 +3,19 @@
  * Native contact form: a dynamic block, a submission handler and a
  * local-development mail transport.
  *
- * Privacy by design (brief §27): nothing is stored in the database — a
- * submission is validated, mailed to the studio and forgotten. Spam is kept
- * out with a nonce, a honeypot field and a minimum-fill-time check, so no
- * third-party captcha service sees visitor data.
+ * Privacy by design (brief §27): the message itself is not stored in the
+ * database — a submission is validated, mailed to Ron and forgotten. Spam is
+ * kept out with a nonce, a honeypot field, a minimum fill time and an hourly
+ * limit per visitor (a salted IP hash kept for one hour), so no third-party
+ * captcha service sees visitor data.
  */
 
 defined( 'ABSPATH' ) || exit;
 
-const RWERKHOVEN_CONTACT_RECIPIENT = 'info@rwerkhoven.nl';
+const RWERKHOVEN_CONTACT_RECIPIENT = 'ron@rwerkhoven.nl';
+
+// At most this many messages per visitor per hour; stops bursts of spam.
+const RWERKHOVEN_CONTACT_HOURLY_LIMIT = 5;
 
 add_action(
 	'init',
@@ -36,6 +40,8 @@ function rwerkhoven_render_contact_form() {
 	<div class="rwerkhoven-contact-form">
 		<?php if ( 'invalid' === $status ) : ?>
 			<p class="rwerkhoven-form-error" role="alert">Er ging iets mis. Controleer of naam, e-mailadres, bericht en de toestemmings-checkbox zijn ingevuld en probeer het opnieuw.</p>
+		<?php elseif ( 'limit' === $status ) : ?>
+			<p class="rwerkhoven-form-error" role="alert">U heeft het afgelopen uur al meerdere berichten verstuurd. Probeer het later opnieuw of mail direct naar <a href="mailto:ron@rwerkhoven.nl">ron@rwerkhoven.nl</a>.</p>
 		<?php elseif ( 'failed' === $status ) : ?>
 			<p class="rwerkhoven-form-error" role="alert">Het bericht kon niet worden verzonden. Probeer het later opnieuw of mail direct naar <a href="mailto:info@rwerkhoven.nl">info@rwerkhoven.nl</a>.</p>
 		<?php endif; ?>
@@ -100,6 +106,17 @@ function rwerkhoven_handle_contact() {
 		wp_safe_redirect( home_url( '/bedankt/' ) );
 		exit;
 	}
+
+	// Rate limit per visitor. Only a salted hash of the IP address is kept,
+	// and only for an hour, so no readable personal data is stored.
+	$ip       = isset( $_SERVER['REMOTE_ADDR'] ) ? sanitize_text_field( wp_unslash( $_SERVER['REMOTE_ADDR'] ) ) : '';
+	$rate_key = 'rw_contact_' . md5( $ip . wp_salt( 'nonce' ) );
+	$sent_now = (int) get_transient( $rate_key );
+	if ( $sent_now >= RWERKHOVEN_CONTACT_HOURLY_LIMIT ) {
+		wp_safe_redirect( add_query_arg( 'contact', 'limit', $back ) );
+		exit;
+	}
+	set_transient( $rate_key, $sent_now + 1, HOUR_IN_SECONDS );
 
 	$name    = isset( $_POST['rw_name'] ) ? sanitize_text_field( wp_unslash( $_POST['rw_name'] ) ) : '';
 	$email   = isset( $_POST['rw_email'] ) ? sanitize_email( wp_unslash( $_POST['rw_email'] ) ) : '';

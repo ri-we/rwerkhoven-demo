@@ -75,6 +75,23 @@ add_action(
 	}
 );
 
+/**
+ * Preload the two font files every page needs above the fold (body text and
+ * headings), so text renders in its final font without a visible swap.
+ */
+add_action(
+	'wp_head',
+	function () {
+		foreach ( array( 'ibm-plex-sans-400-latin.woff2', 'archivo-narrow-700-latin.woff2' ) as $font ) {
+			printf(
+				'<link rel="preload" href="%s" as="font" type="font/woff2" crossorigin />' . "\n",
+				esc_url( RWERKHOVEN_URI . '/assets/fonts/' . $font )
+			);
+		}
+	},
+	2
+);
+
 // WordPress' emoji fallback loads images from s.w.org; current browsers draw
 // emoji themselves, so drop it and keep every request on this domain.
 remove_action( 'wp_head', 'print_emoji_detection_script', 7 );

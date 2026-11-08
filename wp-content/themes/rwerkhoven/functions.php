@@ -19,4 +19,5 @@ require RWERKHOVEN_DIR . '/inc/blocks.php';
 require RWERKHOVEN_DIR . '/inc/hero-carousel.php';
 require RWERKHOVEN_DIR . '/inc/contact-form.php';
 require RWERKHOVEN_DIR . '/inc/seo.php';
+require RWERKHOVEN_DIR . '/inc/security.php';
 require RWERKHOVEN_DIR . '/inc/patterns.php';

@@ -544,7 +544,7 @@ $pages = array(
 		'content'  => $contact_content,
 		'cta'      => false,
 		'seo_t'    => 'Contact & vrijblijvende offerte | Ron Werkhoven Soest',
-		'seo_d'    => 'Neem contact op met Ron Werkhoven Bouwkundig Ontwerp- en Tekenbureau in Soest. Vraag een vrijblijvende offerte aan voor ontwerp, tekenwerk of een omgevingsvergunning.',
+		'seo_d'    => 'Neem contact op met Ron Werkhoven, bouwkundig ontwerp- en tekenbureau in Soest. Vraag een vrijblijvende offerte aan voor ontwerp, tekenwerk of vergunning.',
 	),
 	'bedankt'                        => array(
 		'title'    => 'Bedankt',
@@ -558,7 +558,7 @@ $pages = array(
 		'content'  => $diensten_content,
 		'cta'      => false,
 		'seo_t'    => 'Diensten: ontwerp, bouwtekeningen & vergunning | Ron Werkhoven',
-		'seo_d'    => 'Bouwkundig ontwerp, bouwtekeningen en omgevingsvergunningen - voor particulieren en bedrijven in Soest en regio Utrecht. Eén aanspreekpunt, van schets tot realisatie.',
+		'seo_d'    => 'Bouwkundig ontwerp, bouwtekeningen en omgevingsvergunningen voor particulieren en bedrijven in Soest en regio Utrecht. Eén vast aanspreekpunt.',
 	),
 	'het-bureau'                     => array(
 		'title'    => 'Over Ron Werkhoven',
