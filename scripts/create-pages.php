@@ -240,7 +240,7 @@ HTML;
 
 $bureau_content = <<<'HTML'
 <!-- wp:paragraph {"fontSize":"large"} -->
-<p class="has-large-font-size">Achter het bureau staat Ron Werkhoven. Sinds 2010 help ik particulieren en zakelijke opdrachtgevers met bouwkundig ontwerp, tekenwerk en vergunningaanvragen. Van een eenvoudige aanbouw tot een complete verbouwing of herontwikkeling van een bedrijfspand: ieder project begint met goed luisteren, meedenken en een plan dat uitvoerbaar is.</p>
+<p class="has-large-font-size">Achter het bureau staat Ron Werkhoven. Met ruim 30 jaar ervaring help ik sinds 2010 particulieren en zakelijke opdrachtgevers met bouwkundig ontwerp, tekenwerk en vergunningaanvragen. Van een eenvoudige aanbouw tot een complete verbouwing of herontwikkeling van een bedrijfspand: ieder project begint met goed luisteren, meedenken en een plan dat uitvoerbaar is.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"fontSize":"large"} -->
