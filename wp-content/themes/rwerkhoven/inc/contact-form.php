@@ -157,11 +157,18 @@ function rwerkhoven_handle_contact() {
 	exit;
 }
 
+// Envelope sender (Return-Path) on the site's own domain: receiving servers
+// check SPF against this address, and DMARC needs it to match the From
+// domain. Without it the server's system user address is used.
 // Local development only: route mail through the Mailpit container so
-// delivery is testable end to end. Production SMTP is a deployment concern.
+// delivery is testable end to end.
 add_action(
 	'phpmailer_init',
 	function ( $phpmailer ) {
+		if ( 'info@rwerkhoven.nl' === $phpmailer->From ) {
+			$phpmailer->Sender = 'info@rwerkhoven.nl';
+		}
+
 		if ( 'local' !== wp_get_environment_type() ) {
 			return;
 		}
