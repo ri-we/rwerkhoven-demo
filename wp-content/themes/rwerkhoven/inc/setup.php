@@ -23,7 +23,7 @@ add_action(
 );
 
 /**
- * The old thank-you URL of the live site redirects to the new one
+ * Old URLs of the live site redirect to their replacements
  * (docs/site-architecture.md).
  */
 add_action(
@@ -36,6 +36,13 @@ add_action(
 		$path = isset( $_SERVER['REQUEST_URI'] ) ? wp_parse_url( wp_unslash( $_SERVER['REQUEST_URI'] ), PHP_URL_PATH ) : ''; // phpcs:ignore WordPress.Security.ValidatedSanitizedInput
 		if ( '/bedankt-voor-je-contact-bericht/' === trailingslashit( $path ) ) {
 			wp_safe_redirect( home_url( '/bedankt/' ), 301 );
+			exit;
+		}
+
+		// The 2019 privacy statement PDF was replaced by the /privacy/ page.
+		// This only fires once the PDF file itself is gone from uploads.
+		if ( '/wp-content/uploads/2019/12/Privacy-Statement.pdf' === $path ) {
+			wp_safe_redirect( home_url( '/privacy/' ), 301 );
 			exit;
 		}
 	}
