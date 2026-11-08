@@ -274,6 +274,15 @@ add_filter(
 	2
 );
 
+// The site has no blog, so category and tag archives are empty pages.
+add_filter(
+	'wp_sitemaps_taxonomies',
+	function ( $taxonomies ) {
+		unset( $taxonomies['category'], $taxonomies['post_tag'] );
+		return $taxonomies;
+	}
+);
+
 add_filter(
 	'wp_sitemaps_posts_query_args',
 	function ( $args, $post_type ) {
