@@ -92,7 +92,7 @@ HTML;
 
 $diensten_intro = <<<'HTML'
 <!-- wp:paragraph {"fontSize":"large"} -->
-<p class="has-large-font-size">Van eerste idee tot vergunning en uitvoering. Werkhoven Bouwkundig Ontwerp verzorgt ontwerp, tekenwerk en vergunningaanvragen voor particulieren en zakelijke opdrachtgevers. Altijd met één vast aanspreekpunt.</p>
+<p class="has-large-font-size">Van eerste idee tot vergunning en uitvoering. Ron Werkhoven Bouwkundig Ontwerp verzorgt ontwerp, tekenwerk en vergunningaanvragen voor particulieren en zakelijke opdrachtgevers. Altijd met één vast aanspreekpunt.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"rwerkhoven-service-index","textColor":"muted","fontSize":"small"} -->
@@ -214,7 +214,7 @@ HTML;
 }
 
 $diensten_why = rwerkhoven_list_block(
-	array( 'Eén vast aanspreekpunt', 'Ruim 15 jaar ervaring', 'Ontwerp, tekenwerk en vergunningen onder één dak', 'Korte lijnen en heldere communicatie', 'Voor particulieren én zakelijke opdrachtgevers' ),
+	array( 'Eén vast aanspreekpunt', 'Ruim 30 jaar ervaring', 'Ontwerp, tekenwerk en vergunningen onder één dak', 'Korte lijnen en heldere communicatie', 'Voor particulieren én zakelijke opdrachtgevers' ),
 	false,
 	'rwerkhoven-checklist'
 );
@@ -226,7 +226,7 @@ $diensten_content .= <<<HTML
 <!-- wp:group {"className":"rwerkhoven-service-section","layout":{"type":"constrained"}} -->
 <div class="wp-block-group rwerkhoven-service-section">
 	<!-- wp:heading {"level":2,"anchor":"waarom"} -->
-	<h2 class="wp-block-heading" id="waarom">Waarom kiezen voor Werkhoven Bouwkundig Ontwerp?</h2>
+	<h2 class="wp-block-heading" id="waarom">Waarom kiezen voor Ron Werkhoven Bouwkundig Ontwerp?</h2>
 	<!-- /wp:heading -->
 
 {$diensten_why}
