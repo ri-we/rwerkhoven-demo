@@ -20,7 +20,7 @@ add_action(
 		header( 'Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()' );
 
 		if ( is_ssl() && 'local' !== wp_get_environment_type() ) {
-			header( 'Strict-Transport-Security: max-age=31536000; includeSubDomains' );
+			header( 'Strict-Transport-Security: max-age=31536000' );
 		}
 	}
 );
