@@ -67,3 +67,16 @@ add_action(
  * and straight quotes into curly ones; the owner wants plain hyphens.
  */
 add_filter( 'run_wptexturize', '__return_false' );
+
+/**
+ * Save the resized copies of uploaded JPEGs as WebP: noticeably smaller files
+ * for the same quality. The original upload stays a JPEG. Existing images get
+ * WebP sizes after "wp media regenerate".
+ */
+add_filter(
+	'image_editor_output_format',
+	function ( $formats ) {
+		$formats['image/jpeg'] = 'image/webp';
+		return $formats;
+	}
+);

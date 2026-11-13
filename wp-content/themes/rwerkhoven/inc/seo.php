@@ -199,6 +199,16 @@ function rwerkhoven_print_structured_data() {
 			'telephone'    => '+31613645507',
 			'email'        => 'info@rwerkhoven.nl',
 			'foundingDate' => '2010',
+			'areaServed'   => array(
+				array(
+					'@type' => 'City',
+					'name'  => 'Soest',
+				),
+				array(
+					'@type' => 'AdministrativeArea',
+					'name'  => 'Provincie Utrecht',
+				),
+			),
 			'founder'      => array(
 				'@type' => 'Person',
 				'name'  => 'Ron Werkhoven',

@@ -42,3 +42,25 @@ add_filter(
 // No discovery links that only matter to blogs and API clients.
 remove_action( 'wp_head', 'rsd_link' );
 remove_action( 'wp_head', 'wlwmanifest_link' );
+
+/**
+ * Encode e-mail addresses in the rendered page (footer, contact page, CTA),
+ * so simple harvesters that scan for "name@domain" don't pick them up.
+ * Browsers decode the entities, so links and text look and work the same.
+ */
+add_filter(
+	'render_block',
+	function ( $content ) {
+		if ( is_admin() || false === strpos( $content, '@' ) ) {
+			return $content;
+		}
+
+		return preg_replace_callback(
+			'/(mailto:)?[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/',
+			function ( $match ) {
+				return antispambot( $match[0] );
+			},
+			$content
+		);
+	}
+);
